@@ -11,8 +11,7 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
 </div>
 
 
-<details><summary> <h3>Recursos do IAM</h3></summary>
-
+<details><summary> <h3>Recursos</h3></summary>
 <ul>
     <li><b>Acesso compartilhado a contas da AWS:</b> Fornece permissões de acesso a outros usuários</li>
     <li><b>Permissões granulares:</b> Usuários podem ter níveis de acessos diferentes de acordo com suas funções (papéis) em uma consta AWS</li>
@@ -20,8 +19,38 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
     <li><b>Integração com serviços AWS:</b>Estabelece níveis de permissões de acesso aos serviços AWS</li>
     <li><b>Gratuito:</b> O IAM não possui custos ou limites de uso</li>
 </ul> 
-
-
-
 </details>
 
+
+<details><summary> <h3>Termos e conceitos</h3></summary>
+<ul>
+<li><b>Identity:</b> Fornece acesso a uma conta na AWS</li>
+<li><b>IAM Users:</b> Representa uma pessoa ou serviço que utiliza serviços AWS</li>
+<li><b>IAM Groups:</b> Coleção de usuários IAM
+<li><b>IAM Roles:</b> Conjunto de permissões que determinam o nível de acesso de uma identidade aos serviços da AWS
+
+<div align="center">
+<img src="https://cloudiofy.com/wp-content/uploads/2022/08/iam-entities.png" width="70%">
+</div>  
+  
+</li>
+  
+<li><b>IAM Policies:</b> Define permissões de acesso a serviços AWS
+  
+<ul>
+<li><b>Inline policy:</b> permissões atreladas diretamente a uma identidades (não são reaproveitáveis)
+  
+<div align="center">
+<img src="https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/images/policies-inline-policies.diagram.png" width="70%">
+</div>
+
+</li>
+<li><b>Managed policy:</b> Conjunto de permissões disponível para várias identidades</li>
+<div align="center">
+<img src="https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/images/policies-aws-managed-policies.diagram.png" width="70%">
+</div>
+</ul>   
+</li>
+<li><b>IAM Permissions:</b> Nível mais baixo da hierarquia, determina se uma identidade pode ou não tomar uma ação sobre um recurso na AWS (Allow/Deny)</li>
+</ul>
+</details>
