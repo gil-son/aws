@@ -38,7 +38,7 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
 <li><b>IAM Policies:</b> Define permissões de acesso a serviços AWS
   
 <ul>
-<li><b>Inline policy:</b> permissões atreladas diretamente a uma identidades (não são reaproveitáveis)
+<li><b>Inline policy:</b> permissões atreladas diretamente a uma identidade (não são reaproveitáveis)
   
 <div align="center">
 <img src="https://docs.aws.amazon.com/pt_br/IAM/latest/UserGuide/images/policies-inline-policies.diagram.png" width="70%">
@@ -53,4 +53,28 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
 </li>
 <li><b>IAM Permissions:</b> Nível mais baixo da hierarquia, determina se uma identidade pode ou não tomar uma ação sobre um recurso na AWS (Allow/Deny)</li>
 </ul>
+</details>
+
+
+<details><summary> <h3>Boas práticas</h3></summary>
+
+ <p>
+    A AWS tem uma lista de melhores práticas para ajudar desenvolvedores e profissionais de TI a gerenciar o acesso aos recursos da AWS.  
+ </p>
+
+<ul>
+    <li><b>Conta raiz:</b> não utilizá-la em tarefas diárias de desenvolvimento. É mais voltada para gerenciar:
+    <ul>
+      <li>Painel de contas</li>
+      <li>Definir quem são os administradores</li>
+      <li>Planos e/ou serviços da AWS</li>
+    </ul>
+    </li>
+    <li><b>Usários:</b> Crie usuários individuais e se necessário defina grupo para esses usuários</li>
+    <li><b>Privilégios mínimos:</b> Prover apenas o nível de acesso necessário</li>
+    <li><b>Permissões:</b> Utilizar grupos de usuários com permissões</li>
+    <li><b>Auditoria:</b> Ativar o AWS CloudTrail</li>
+    <li><b>Senhas:</b> Sempre use senhas fortes</li>
+    <li><b>MFA:</b> Ativar para usuários privilegiados</li>
+</ul> 
 </details>
