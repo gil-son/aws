@@ -15,7 +15,7 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
 <ul>
     <li><b>Acesso compartilhado a contas da AWS:</b> Fornece permissões de acesso a outros usuários</li>
     <li><b>Permissões granulares:</b> Usuários podem ter níveis de acessos diferentes de acordo com suas funções (papéis) em uma consta AWS</li>
-    <li><b>MFA:</b> Autenticaçãi de múltiplos fatores</li>
+    <li><b>MFA:</b> Autenticação de múltiplos fatores</li>
     <li><b>Integração com serviços AWS:</b>Estabelece níveis de permissões de acesso aos serviços AWS</li>
     <li><b>Gratuito:</b> O IAM não possui custos ou limites de uso</li>
 </ul> 
