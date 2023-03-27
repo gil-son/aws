@@ -25,8 +25,8 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
 <details><summary> <h3>Termos e conceitos</h3></summary>
 <ul>
 <li><b>Identity:</b> Fornece acesso a uma conta na AWS</li>
-<li><b>IAM Users:</b> Representa uma pessoa ou serviço que utiliza serviços AWS</li>
-<li><b>IAM Groups:</b> Coleção de usuários IAM
+<li><b>IAM Users:</b> Representa uma pessoa/entidade ou serviço que utiliza serviços AWS</li>
+<li><b>IAM Groups:</b> Coleção de entidades/usuários IAM
 <li><b>IAM Roles:</b> Conjunto de permissões que determinam o nível de acesso de uma identidade aos serviços da AWS
 
 <div align="center">
@@ -35,7 +35,7 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
   
 </li>
   
-<li><b>IAM Policies:</b> Define permissões de acesso a serviços AWS
+<li><b>IAM Policies:</b> Define permissões de acesso a serviços AWS (é um objeto) que, quando associada a um grupo e/ou a um usuário, define suas permissões. O IAM Roles (papel/função) tem em si polices. Formas de utilizar a police: 
   
 <ul>
 <li><b>Inline policy:</b> permissões atreladas diretamente a uma identidade (não são reaproveitáveis)
