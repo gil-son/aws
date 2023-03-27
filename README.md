@@ -34,7 +34,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
  </tr>
   <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">IAM</a></td>
-     <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>O IAM da AWS é um serviço de gerenciamento de identidades e acessos que permite controlar o acesso aos recursos da AWS por usuários e aplicativos.</td>
  </tr>
 
@@ -70,7 +70,7 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
  </tr>
   <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md">IAM</a></td>
-     <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>AWS IAM is an identity and access management service that enables control of access to AWS resources by users and applications.</td>
  </tr>
 
