@@ -38,6 +38,12 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
      <td>O IAM da AWS é um serviço de gerenciamento de identidades e acessos que permite controlar o acesso aos recursos da AWS por usuários e aplicativos.</td>
  </tr>
 
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md">S3</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
+     <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
+ </tr>
+
 </table>
 </details>
 </details>
@@ -72,6 +78,12 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md">IAM</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>AWS IAM is an identity and access management service that enables control of access to AWS resources by users and applications.</td>
+ </tr>
+
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
+     <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
  </tr>
 
 </table>
