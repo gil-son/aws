@@ -26,7 +26,7 @@ AWS <b>Identity and Access Management (IAM)</b> is one of the main resources bec
 <img src="https://cloudiofy.com/wp-content/uploads/2022/08/iam-entities.png" width="70%">
 </div>  
 </li>
-<li><b>IAM Policies:</b> Defines access permissions to AWS services
+<li><b>IAM Policies:</b> Define access permissions to AWS services (an object), when associated with a group and/or user, define their permissions. IAM Roles (role/function) have policies within them. Ways to use the policy:
 <ul>
 <li><b>Inline policy:</b> Permissions attached directly to an identity (not reusable)
 <div align="center">
