@@ -43,6 +43,12 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
  </tr>
+ 
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md">EC2</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
+     <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
+ </tr>
 
 </table>
 </details>
@@ -84,6 +90,12 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
+ </tr>
+
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
+     <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
  </tr>
 
 </table>
