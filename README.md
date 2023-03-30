@@ -50,6 +50,13 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
      <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
  </tr>
 
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md">Lambda</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
+     <td>AWS Lambda é um serviço serverless que permite a execução de código em resposta a eventos, sem a necessidade de gerenciamento de servidores.</td>
+ </tr>
+
+
 </table>
 </details>
 </details>
@@ -96,6 +103,12 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
+ </tr>
+
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md">Lambda</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
+     <td>AWS Lambda is a serverless service that allows for code execution in response to events, without the need for server management.</td>
  </tr>
 
 </table>
