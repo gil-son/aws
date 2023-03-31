@@ -27,6 +27,7 @@ O Amazon API Gateway é um serviço de gerenciamento de API totalmente gerenciad
 </details>
 
 <details><summary><h3>Boas práticas</h3></summary>
+  
 
 Algumas boas práticas para o uso do Amazon API Gateway incluem:
 <ul>
