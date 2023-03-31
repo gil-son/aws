@@ -56,6 +56,11 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
      <td>AWS Lambda é um serviço serverless que permite a execução de código em resposta a eventos, sem a necessidade de gerenciamento de servidores.</td>
  </tr>
 
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
+     <td>O Amazon API Gateway é uma poderosa ferramenta da AWS que permite aos desenvolvedores criar, publicar, monitorar e gerenciar APIs de forma segura e escalável, facilitando a integração entre diferentes serviços e aplicações.</td>
+ </tr>
 
 </table>
 </details>
@@ -109,6 +114,12 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md">Lambda</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
      <td>AWS Lambda is a serverless service that allows for code execution in response to events, without the need for server management.</td>
+ </tr>
+
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
+     <td>Amazon API Gateway is a powerful AWS tool that enables developers to securely and scalably create, publish, monitor, and manage APIs, facilitating integration between different services and applications.</td>
  </tr>
 
 </table>
