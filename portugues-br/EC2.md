@@ -19,7 +19,46 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
 <ul>
 <li><b>Instâncias:</b> As instâncias EC2 são servidores virtuais configuráveis que você pode iniciar na nuvem da Amazon.</li>
 <li><b>Imagens de AMI:</b> As imagens de AMI (Amazon Machine Image) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, o software necessário e as configurações da aplicação.</li>
-<li><b>Tipos de instância:</b> O EC2 oferece uma ampla seleção de tipos de instância, cada um com diferentes capacidades de CPU, memória, armazenamento e rede.</li>
+<li><b>Tipos de instância:</b> O EC2 oferece uma ampla seleção de tipos de instância, cada um com diferentes capacidades de CPU, memória, armazenamento e rede.
+  
+<ul>
+<li><b>Uso geral:</b> 
+  
+  <ul>
+    <li>Equilíbrio de recursos de computação, memória e rede.</li> 
+    <li>Indicado para servidores de aplicativo, jogos, backend, banco de dados pequenos.</li>
+  </ul>
+ </li>
+<li><b>Otimizadas para computação:</b>  
+  <ul>
+    <li>Ideal para cargas de trabalho que exigem processadores de alto desempenho.</li> 
+    <li>Pode ser usado para os mesmos casos de uso da categoria de uso geral mas quando se deseja um melhor desempenho.</li>
+    <li>Ideal também para processamento em lote.</li>
+  </ul>
+ </li>
+</li>
+<li><b>Otimizadas para memória:</b> 
+    <ul>
+    <li>Projeto para alto desempenho no processamento de grandes quantidades de informações na memória.</li> 
+    <li>Por exemplo, banco de dados de alto desempenho, processamento em tempo real de dados.</li>
+  </ul>
+</li>
+<li><b>Computação acelerada:</b> 
+  <ul>
+    <li>Usa acelaração de hardware ou coprocessadores para executar algumas funções mais eficiente do que em um software executado direto na CPU.</li> 
+    <li>Muito usado em Cálculo de ponto flutuante, processamento de gráficos e correspondência de padrões de dados.</li>
+  </ul>
+</li>
+<li><b>Otimizadas para armazenamento:</b> 
+  <ul>
+    <li>Ideal para cargas de trabalho que exigem acesso de leitura e gravação com grande volume de dados.</li> 
+    <li>Muito usado em Sistema de arquivos distribuídos, Data warehouse, sistema de processamento de transações on-line.</li>
+  </ul>
+</li>  
+
+ </ul>
+  
+  
 <li><b>Regiões:</b> O EC2 está disponível em várias regiões ao redor do mundo. Cada região é uma área geográfica independente, com várias zonas de disponibilidade para aumentar a resiliência e a disponibilidade.</li>
 <li><b>Zonas de disponibilidade:</b> Cada região do EC2 tem várias zonas de disponibilidade, que são data centers separados fisicamente, mas conectados por uma rede de baixa latência e alta largura de banda.</li>
 <li><b>Elastic IP:</b> Um Elastic IP é um endereço IP estático que você pode associar a uma instância EC2. Ele permite que você mantenha o mesmo endereço IP mesmo se a instância for interrompida ou reiniciada.</li>
