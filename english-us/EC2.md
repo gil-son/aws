@@ -19,19 +19,27 @@ Amazon EC2 (Elastic Compute Cloud) is a cloud computing service that provides sc
 <li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 instances. They contain the operating system, necessary software, and application settings.</li>
 
 <li>
-  <b>Instance Types:</b> EC2 offers a wide selection of instance types, each with different CPU, memory, storage, and networking capabilities.
+<b>Instance Types:</b> EC2 offers a wide selection of instance types, each with different CPU, memory, storage, and networking capabilities.
+<div align="center"> 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
+</div>
 <ul>
-<li><b>General Purpose:</b> 
+<li><b>General Purpose:</b>
   <ul>
     <li>Balances compute, memory, and networking resources.</li> 
     <li>Recommended for application servers, gaming, backend, small databases.</li>
   </ul>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/ac/37/XseN96S8_t.png">  
+</div>  
  </li>
 <li><b>Compute Optimized:</b>  
   <ul>
     <li>Ideal for workloads that require high-performance processors.</li> 
     <li>Can be used for the same use cases as general purpose but when higher performance is desired.</li>
     <li>Also ideal for batch processing.</li>
+<div align="center"> 
+<img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Evaluating-Performance_0.jpg?itok=qVXPQAya" width="50%">  
   </ul>
  </li>
 </li>
@@ -39,18 +47,27 @@ Amazon EC2 (Elastic Compute Cloud) is a cloud computing service that provides sc
     <ul>
     <li>Designed for high performance in processing large amounts of in-memory data.</li> 
     <li>For example, high-performance databases, real-time data processing.</li>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/85/bb/AEbPZHGd_t.png">  
+</div>      
   </ul>
 </li>
 <li><b>Accelerated Computing:</b> 
   <ul>
     <li>Uses hardware acceleration or coprocessors to perform certain functions more efficiently than in software running directly on the CPU.</li> 
     <li>Commonly used for floating-point calculations, graphics processing, and data pattern matching.</li>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/33/18/Sg9mLdO3_t.png">  
+</div>
   </ul>
 </li>
 <li><b>Storage Optimized:</b> 
   <ul>
     <li>Ideal for workloads that require high read and write access to large volumes of data.</li> 
     <li>Commonly used in distributed file systems, data warehouses, online transaction processing systems.</li>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
+</div>
   </ul>
 </li>  
 </ul>
