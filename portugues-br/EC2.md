@@ -20,20 +20,27 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
 <li><b>Instâncias:</b> As instâncias EC2 são servidores virtuais configuráveis que você pode iniciar na nuvem da Amazon.</li>
 <li><b>Imagens de AMI:</b> As imagens de AMI (Amazon Machine Image) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, o software necessário e as configurações da aplicação.</li>
 <li><b>Tipos de instância:</b> O EC2 oferece uma ampla seleção de tipos de instância, cada um com diferentes capacidades de CPU, memória, armazenamento e rede.
-  
+<div align="center"> 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
+</div>
 <ul>
 <li><b>Uso geral:</b> 
-  
   <ul>
     <li>Equilíbrio de recursos de computação, memória e rede.</li> 
     <li>Indicado para servidores de aplicativo, jogos, backend, banco de dados pequenos.</li>
   </ul>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/ac/37/XseN96S8_t.png">  
+</div>
  </li>
 <li><b>Otimizadas para computação:</b>  
   <ul>
     <li>Ideal para cargas de trabalho que exigem processadores de alto desempenho.</li> 
     <li>Pode ser usado para os mesmos casos de uso da categoria de uso geral mas quando se deseja um melhor desempenho.</li>
     <li>Ideal também para processamento em lote.</li>
+<div align="center"> 
+<img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Evaluating-Performance_0.jpg?itok=qVXPQAya" width="50%">  
+</div>
   </ul>
  </li>
 </li>
@@ -41,6 +48,9 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
     <ul>
     <li>Projeto para alto desempenho no processamento de grandes quantidades de informações na memória.</li> 
     <li>Por exemplo, banco de dados de alto desempenho, processamento em tempo real de dados.</li>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/85/bb/AEbPZHGd_t.png">  
+</div>
   </ul>
 </li>
 <li><b>Computação acelerada:</b> 
@@ -48,11 +58,17 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
     <li>Usa acelaração de hardware ou coprocessadores para executar algumas funções mais eficiente do que em um software executado direto na CPU.</li> 
     <li>Muito usado em Cálculo de ponto flutuante, processamento de gráficos e correspondência de padrões de dados.</li>
   </ul>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/33/18/Sg9mLdO3_t.png">  
+</div>
 </li>
 <li><b>Otimizadas para armazenamento:</b> 
   <ul>
     <li>Ideal para cargas de trabalho que exigem acesso de leitura e gravação com grande volume de dados.</li> 
     <li>Muito usado em Sistema de arquivos distribuídos, Data warehouse, sistema de processamento de transações on-line.</li>
+<div align="center"> 
+<img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
+</div>
   </ul>
 </li>  
 
