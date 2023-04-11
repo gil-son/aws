@@ -6,10 +6,25 @@ O Amazon EC2 Auto Scaling é um serviço que permite ajustar automaticamente o n
 <details><summary> <h3>Recursos</h3></summary>
 <ul>
     <li><b>Elasticidade:</b> O EC2 Auto Scaling ajusta automaticamente o número de instâncias em execução de acordo com a demanda da aplicação.</li>
-    <li><b>Escalabilidade:</b> O EC2 Auto Scaling ajuda a garantir que a sua aplicação tenha a capacidade necessária para lidar com a demanda atual e futura.</li>
-    <li><b>Balanceamento de carga:</b> O EC2 Auto Scaling trabalha em conjunto com o Elastic Load Balancing (ELB) para distribuir o tráfego entre as instâncias EC2.</li>
-    <li><b>Alta disponibilidade:</b> O EC2 Auto Scaling ajuda a garantir que a sua aplicação esteja sempre disponível, mesmo durante picos de tráfego.</li>
-    <li><b>Integração com outros serviços AWS:</b> O EC2 Auto Scaling pode ser facilmente integrado com outros serviços AWS, como o Amazon CloudWatch e o Amazon SNS.</li>
+<div align="center">
+<img src="https://100daysofdevops.com/wp-content/uploads/2019/11/auto-scaling.png" width="50%">
+</div>
+  
+<li><b>Escalabilidade:</b> O EC2 Auto Scaling ajuda a garantir que a sua aplicação tenha a capacidade necessária para lidar com a demanda atual e futura.</li>
+  
+<div align="center">
+<img src="https://docs.amazonaws.cn/en_us/autoscaling/ec2/userguide/images/capacity-example-with-as-diagram.png" width="50%">
+</div>  
+  
+  
+<li><b>Balanceamento de carga:</b> O EC2 Auto Scaling trabalha em conjunto com o Elastic Load Balancing (ELB) para distribuir o tráfego entre as instâncias EC2.</li>
+  
+<div align="center">
+<img src="https://media.amazonwebservices.com/blog/2014/elb_auto_scale_instances_2.png" width="50%">
+</div>   
+  
+<li><b>Alta disponibilidade:</b> O EC2 Auto Scaling ajuda a garantir que a sua aplicação esteja sempre disponível, mesmo durante picos de tráfego.</li>
+<li><b>Integração com outros serviços AWS:</b> O EC2 Auto Scaling pode ser facilmente integrado com outros serviços AWS, como o Amazon CloudWatch e o Amazon SNS.</li>
 </ul> 
 </details>
 <details><summary> <h3>Termos e conceitos</h3></summary>
