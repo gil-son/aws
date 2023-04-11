@@ -6,8 +6,17 @@ Amazon EC2 Auto Scaling is a service that allows you to automatically adjust the
 <details><summary><h3>Resources</h3></summary>
 <ul>
   <li><b>Elasticity:</b> EC2 Auto Scaling automatically adjusts the number of running instances based on application demand.</li>
+<div align="center">
+<img src="https://100daysofdevops.com/wp-content/uploads/2019/11/auto-scaling.png" width="50%">
+</div>
   <li><b>Scalability:</b> EC2 Auto Scaling helps ensure your application has the necessary capacity to handle both current and future demand.</li>
+<div align="center">
+<img src="https://docs.amazonaws.cn/en_us/autoscaling/ec2/userguide/images/capacity-example-with-as-diagram.png" width="50%">
+</div>
   <li><b>Load balancing:</b> EC2 Auto Scaling works in conjunction with Elastic Load Balancing (ELB) to distribute traffic across EC2 instances.</li>
+<div align="center">
+<img src="https://media.amazonwebservices.com/blog/2014/elb_auto_scale_instances_2.png" width="50%">
+</div>
   <li><b>High availability:</b> EC2 Auto Scaling helps ensure your application is always available, even during traffic spikes.</li>
   <li><b>Integration with other AWS services:</b> EC2 Auto Scaling can easily be integrated with other AWS services, such as Amazon CloudWatch and Amazon SNS.</li>
 </ul>
