@@ -79,13 +79,14 @@ Amazon EC2 (Elastic Compute Cloud) is a cloud computing service that provides sc
 </ul>
 </details>
 <details><summary> <h3>Best Practices</h3></summary>
-
-Some best practices for using EC2 include:
 <ul>
-  <li>Configuring appropriate access control policies to limit access to stored objects</li>
-  <li>Using S3 encryption options to protect sensitive data</li>
-  <li>Setting up lifecycle policies for old and unused objects to reduce costs</li>
-  <li>Using versioning and access control options to track and manage changes to stored objects</li>
-  <li>Monitoring S3 usage and setting alerts for anomalies or security issues</li>
+  <li>Choose the appropriate instance type based on the computing resource needs and expected workload</li>
+  <li>Configure security groups to restrict access to the instance</li>
+  <li>Use SSH keys to authenticate access to the instance</li>
+  <li>Implement regular backups of the instance to protect critical data</li>
+  <li>Monitor the usage of the instance and set alerts for anomalies or performance issues</li>
+  <li>Use Elastic Load Balancing to distribute workload across multiple instances and improve availability</li>
+  <li>Use Auto Scaling to increase or decrease instance capacity based on workload demand, allowing the infrastructure to adjust automatically to user demand</li>
+  <li>Configure security options such as CloudTrail and CloudWatch to monitor and audit access to the instance and protect against security threats</li>
 </ul>
 </details>
