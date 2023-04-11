@@ -49,6 +49,12 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
  </tr>
+ 
+  <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md">EC2AutoScaling</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="50%"/></a></td>
+     <td>O Amazon Auto Scaling é um serviço que ajusta automaticamente a capacidade de computação de um grupo de instâncias do Amazon EC2 para atender às demandas da aplicação.</td>
+ </tr>
 
  <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md">Lambda</a></td>
@@ -108,6 +114,12 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
+ </tr>
+
+  <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md">EC2AutoScaling</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="50%"/></a></td>
+     <td>Amazon Auto Scaling is a service that automatically adjusts the computing capacity of a group of Amazon EC2 instances to meet the demands of the application.</td>
  </tr>
 
  <tr align="center">
