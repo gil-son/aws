@@ -83,14 +83,14 @@ O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que
 </details>
 
 <details><summary> <h3>Boas práticas</h3></summary>
-
-Algumas boas práticas para o uso do S3 incluem:
-  
 <ul>
-  <li>Configurar políticas de controle de acesso apropriadas para limitar o acesso aos objetos armazenados</li>
-  <li>Usar as opções de criptografia do S3 para proteger dados confidenciais</li>
-  <li>Configurar ciclos de vida para objetos antigos e não utilizados, a fim de reduzir custos</li>
-  <li>Usar as opções de versionamento e controle de acesso para rastrear e gerenciar alterações em objetos armazenados</li>
-  <li>Monitorar o uso do S3 e definir alertas para anomalias ou problemas de segurança</li>
+  <li>Escolher o tipo de instância apropriado com base nas necessidades de recursos de computação e na carga de trabalho prevista</li>
+  <li>Configurar grupos de segurança para restringir o acesso à instância</li>
+  <li>Usar chaves SSH para autenticar o acesso à instância</li>
+  <li>Implementar backups regulares da instância para proteger dados críticos</li>
+  <li>Monitorar o uso da instância e definir alertas para anomalias ou problemas de desempenho</li>
+  <li>Usar o Elastic Load Balancing para distribuir a carga de trabalho entre várias instâncias e melhorar a disponibilidade</li>
+  <li>Usar o Auto Scaling para aumentar ou diminuir a capacidade de instância com base na demanda de carga de trabalho, permitindo que a infraestrutura se ajuste automaticamente à demanda dos usuários</li>
+  <li>Configurar as opções de segurança, como o CloudTrail e o CloudWatch, para monitorar e auditar o acesso à instância e proteger contra ameaças de segurança</li>
 </ul>
 </details>
