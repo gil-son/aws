@@ -68,6 +68,12 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
      <td>O Amazon API Gateway é uma poderosa ferramenta da AWS que permite aos desenvolvedores criar, publicar, monitorar e gerenciar APIs de forma segura e escalável, facilitando a integração entre diferentes serviços e aplicações.</td>
  </tr>
 
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md">DynamoDB</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
+     <td>DynamoDB é um serviço de banco de dados NoSQL, totalmente gerenciado, altamente escalável, flexível e com alta performance</td>
+ </tr>
+
 </table>
 </details>
 </details>
@@ -134,6 +140,12 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td>Amazon API Gateway is a powerful AWS tool that enables developers to securely and scalably create, publish, monitor, and manage APIs, facilitating integration between different services and applications.</td>
  </tr>
 
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md">DynamoDB</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
+     <td>DynamoDB is a fully managed, highly scalable, flexible, and high-performance NoSQL database service.</td>
+ </tr>
+ 
 </table>
 </details>
 </details>
