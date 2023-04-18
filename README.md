@@ -9,7 +9,7 @@
 <details><summary> <h3>Ler em Português - BR</h3></summary>
 <hr/>
 
-<details><summary>Introdução</summary>
+<details><summary><h4>Introdução</h4></summary>
 <br>
 A AWS (Amazon Web Services) é uma plataforma na nuvem da Amazon que oferece diversos serviços para empresas e desenvolvedores. Para entender melhor, imagine que a AWS é como uma grande loja de ferramentas, onde você pode alugar tudo o que precisa para construir sua casa (ou no caso, sua aplicação na nuvem).
 
@@ -23,8 +23,19 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
 
 </details>
 
+<details><summary><h4>Por onde começar?</h4></summary>
+<br>
 
-<details><summary>Sumário</summary>
+O IAM é recomendado para iniciantes porque permite que você comece a usar a AWS com segurança desde o início, evitando erros comuns que podem levar a violações de segurança. Além disso, o IAM é um serviço gratuito da AWS e fácil de usar. Na seção de Sumário pode ver esse e outros recursos, se preferir pode clicar <a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">aqui</a>.
+
+<div align="center">
+<img src="https://thumbs2.imgbox.com/0a/27/EsIpVA0r_t.png" width="60%"/>
+</div>
+</details>
+
+
+
+<details><summary><h4>Sumário</h4></summary>
 <br>
 <table>
  <tr align="center">
@@ -81,7 +92,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
 <details><summary> <h3>Read in English - US</h3></summary>
 <hr/>
 
-<details><summary>Introduction</summary>
+<details><summary><h4>Introduction</h4></summary>
 <br>
 
 AWS (Amazon Web Services) is a cloud platform from Amazon that offers various services for businesses and developers. To better understand, imagine that AWS is like a large tool store, where you can rent everything you need to build your house (or in this case, your application in the cloud).
@@ -96,7 +107,16 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 
 </details>
 
-<details><summary>Summary</summary>
+<details><summary><h4>Where to start?</h4></summary>
+<br>
+
+IAM is recommended for beginners because it allows you to start using AWS securely from the beginning, avoiding common errors that can lead to security violations. Additionally, IAM is a free and easy-to-use AWS service. You can check this and other resources in the Summary section, or click <a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md">here</a> to learn more.
+<div align="center">
+<img src="https://thumbs2.imgbox.com/86/c5/m19pgi9I_t.png" width="60%"/>
+</div>
+</details>
+
+<details><summary><h4>Summary</h4></summary>
 <br>
  <table>
  <tr align="center">
