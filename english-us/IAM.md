@@ -5,7 +5,7 @@ IAM
 
 AWS <b>Identity and Access Management (IAM)</b> is one of the main resources because it allows for secure management of access to AWS services and other resources by creating user groups, users, and permissions.
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/72712095/227651287-bb0f47cf-106b-4b27-be56-f954afef6bbb.png" width="50%">
+  <img src="https://user-images.githubusercontent.com/72712095/227651287-bb0f47cf-106b-4b27-be56-f954afef6bbb.png">
 </div>
 <details><summary> <h3>Resources</h3></summary>
 <ul>
