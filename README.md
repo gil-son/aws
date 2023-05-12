@@ -1,7 +1,7 @@
 # AWS
 
 <div align="center">
-  <img src="https://lh3.googleusercontent.com/pw/AJFCJaXR0jE-yYrtSMoQWSl99LWnVLadC_8b7t5RkP1QebLqF83H1thBYVcDXSDDBYO9gccLPPwlRre7C6w2Soqh8qeHf_jkAGii3VRdJT2H8EZruIZzPER1CkQJCFGDshtna568-ErSUuKKJaRWy_mFGu3KC3PXm-E2qhzG-gGAW27Z7EhiVL9oogaUxqXsEJdi0FXlemOSAdlvUcDmZ5OUZCCnr0l0CRiZ86Wnq2Xit46l6qbYahbv0X1MC_IsKdDIoYoo6l20udZUUf97Ih7dgsUkGCtw2zfqjec-A6HnKr2mYTyDgKaU8yBWcPaa7Ng2GpFhn6-zPkG3v7LvsQ-xAVHz_s_QvotEACW5g3vgIT6WymIQZnvy6moxP9xSzdezaBmVPpA-ZcIkC5Kwa-JNUBns5ieAn-d0uB-JdaKgJFX1YGRhdZ6xoPqhWtRKsitKZsCuLF_9qh-RAm3Bav1cBx59xvwcMPPOo34OIT5xu2ndRG0XRchWRs7d86XyI80jJ_7OncKCED4Y3GVgWpQSB3TEwrMIwrEj85eOCWy2XmEFCHFch576plEYQsggXZj0S0brNrQ8SaXMnT1WkBWkG7bRLCsfP846zK0DRYXg97SCu7z0lnJ40WaLwXCs7Q_24amHgu6bPB_x1hh2rrPmBDRFXZ6ZB0NWcinZHwdbtzUM-gvCbnwqDTGnndBgZ-9WbPxkeJNUSn58jqMntd_oKjhZHk8EOOfkz-2AIFgufO_dZgtQvqv_BitzcgoZ-eDfURsr3BpHuYCCMQKbXxmuWrMJYq602SvH89_61bNTlsqFajqrWJuf4KvPljDfAPRNZ0pe2d8nN23Vsmrh9P0QiUqUZwFvL01NHjHwOF_-j5THvs9ETbim3CfPQ84YOnGZvpE31BzmRwvAw6N6O4YQwd0ImnvJB8DosNuvekjSB-4hFZlD9T1Yyr8x7YltiRTs6iHaCiU1bWGMFFQADgf24XKW97Tm2XjuTqvnl8VGoZYyUXhRAzVYb9L9L0tFUJZe8zQ1skvOStk09B4Rero6M5cQOPTQXm-07TxLAT2JyrCyCrQN3ePkE09xkfzYvFwlxx0-9t1NkHT-7X0o16f0empq8AWjEXIM73Ed-Z8fl_-Z7hNJvW-YuhryPrZUhqvQla1VytqEvmpuIIWn=w642-h800-s-no?authuser=0" width="40%">
+  <img src="https://i.ibb.co/6PMkBpW/AWS-Services-Shelf.png" width="40%">
 </div>
 
 
@@ -84,7 +84,14 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB é um serviço de banco de dados NoSQL, totalmente gerenciado, altamente escalável, flexível e com alta performance</td>
  </tr>
-
+  
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/RDS.md">RDS</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/RDS.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg" /></a></td>
+     <td>O Amazon RDS é um serviço de banco de dados gerenciado na nuvem que facilita a configuração, operação e escalabilidade de bancos de dados relacionais, como MySQL, PostgreSQL, Oracle, SQL Server e outros.</td>
+ </tr>
+  
+  
 </table>
 </details>
 </details>
@@ -166,6 +173,12 @@ IAM is recommended for beginners because it allows you to start using AWS secure
      <td>DynamoDB is a fully managed, highly scalable, flexible, and high-performance NoSQL database service.</td>
  </tr>
  
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/RDS.md">RDS</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/RDS.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg" /></a></td>
+     <td>Amazon RDS is a managed cloud database service that makes it easy to set up, operate, and scale relational databases such as MySQL, PostgreSQL, Oracle, SQL Server, and others.</td>
+ </tr>
+   
 </table>
 </details>
 </details>
