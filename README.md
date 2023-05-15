@@ -62,7 +62,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
  </tr>
  
   <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md">EC2AutoScaling</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md">EC2 Auto Scaling</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="50%"/></a></td>
      <td>O Amazon Auto Scaling é um serviço que ajusta automaticamente a capacidade de computação de um grupo de instâncias do Amazon EC2 para atender às demandas da aplicação.</td>
  </tr>
@@ -90,7 +90,12 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/RDS.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg" /></a></td>
      <td>O Amazon RDS é um serviço de banco de dados gerenciado na nuvem que facilita a configuração, operação e escalabilidade de bancos de dados relacionais, como MySQL, PostgreSQL, Oracle, SQL Server e outros.</td>
  </tr>
-  
+ 
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudWatch.md">CloudWatch</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
+     <td>O CloudWatch é um serviço de monitoramento e observabilidade da AWS que permite coletar, armazenar, visualizar e alertar sobre dados de logs e métricas em tempo real para recursos em nuvem.</td>
+ </tr>
   
 </table>
 </details>
@@ -150,7 +155,7 @@ IAM is recommended for beginners because it allows you to start using AWS secure
  </tr>
 
   <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md">EC2AutoScaling</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md">EC2 Auto Scaling</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="50%"/></a></td>
      <td>Amazon Auto Scaling is a service that automatically adjusts the computing capacity of a group of Amazon EC2 instances to meet the demands of the application.</td>
  </tr>
@@ -178,7 +183,12 @@ IAM is recommended for beginners because it allows you to start using AWS secure
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/RDS.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg" /></a></td>
      <td>Amazon RDS is a managed cloud database service that makes it easy to set up, operate, and scale relational databases such as MySQL, PostgreSQL, Oracle, SQL Server, and others.</td>
  </tr>
-   
+ 
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md">CloudWatch</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
+     <td>CloudWatch is an AWS monitoring and observability service that allows you to collect, store, visualize, and alert on real-time log and metric data for cloud resources.</td>
+ </tr>
 </table>
 </details>
 </details>
