@@ -1,3 +1,5 @@
+EC2 Auto Scaling
+
 <div align="center">
   <img src="https://miro.medium.com/v2/resize:fit:1200/1*Xd6ZqCDKUo5Cb79c2jdUxg.png" width="50%">
 </div>
