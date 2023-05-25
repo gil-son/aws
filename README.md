@@ -97,6 +97,12 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
      <td>O CloudWatch é um serviço de monitoramento e observabilidade da AWS que permite coletar, armazenar, visualizar e alertar sobre dados de logs e métricas em tempo real para recursos em nuvem.</td>
  </tr>
   
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AutoScaling.md">AutoScaling</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AutoScaling.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8c4ff0bc6eb31f0dcf6f6765b4259429-8b46577d889db4c0abac90ec6961f188.svg" /></a></td>
+     <td>O Auto Scaling da AWS é um serviço que ajusta automaticamente a capacidade de recursos computacionais para atender à demanda em tempo real, garantindo eficiência e alta disponibilidade.</td>
+ </tr> 
+  
 </table>
 </details>
 </details>
@@ -189,6 +195,14 @@ IAM is recommended for beginners because it allows you to start using AWS secure
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
      <td>CloudWatch is an AWS monitoring and observability service that allows you to collect, store, visualize, and alert on real-time log and metric data for cloud resources.</td>
  </tr>
+   
+ <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AutoScaling.md">AutoScaling</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AutoScaling.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8c4ff0bc6eb31f0dcf6f6765b4259429-8b46577d889db4c0abac90ec6961f188.svg" /></a></td>
+     <td>AWS Auto Scaling is a service that automatically adjusts the capacity of computational resources to meet real-time demand, ensuring efficiency and high availability.</td>
+ </tr>    
+   
+   
 </table>
 </details>
 </details>
