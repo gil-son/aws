@@ -55,6 +55,12 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
      <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
  </tr>
  
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
+     <td>O Elastic Beanstalk é um serviço gerenciado pela AWS que facilita o deploy e a escalabilidade de aplicações web de forma rápida e simples.</td>
+ </tr> 
+  
  <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
@@ -154,6 +160,12 @@ IAM is recommended for beginners because it allows you to start using AWS secure
      <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
  </tr>
 
+<tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
+     <td>Elastic Beanstalk is an AWS-managed service that simplifies the deployment and scalability of web applications quickly and easily..</td>
+ </tr>    
+   
  <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
