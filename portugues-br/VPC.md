@@ -2,12 +2,49 @@
   <img src="https://miro.medium.com/v2/resize:fit:2570/1*YcNHxdrbPlV-lWjN_0Ek3g.png" width="50%">
 </div>
 <br/>
-A Amazon Virtual Private Cloud (Amazon VPC) é um serviço de rede que permite que você crie uma rede virtual isolada na nuvem da Amazon. Com a Amazon VPC, você pode criar uma rede personalizada com sub-redes, roteamento, tabelas de roteamento, gateways de Internet, entre outros recursos, proporcionando controle total sobre sua infraestrutura de rede na nuvem.
+
+   <h2>Como organizar os Recursos?</h2>
+<p>
+  <ul>
+   <li>
+     <b>Escritório:</b>
+       <img src="https://i.ytimg.com/vi/_x9gZt2Lw9Y/maxresdefault.jpg" /> 
+   </li>
+    <li>
+     <b>Nuvem:</b>
+       <img src="https://docs.aws.amazon.com/pt_br/AmazonRDS/latest/UserGuide/images/con-VPC-sec-grp.png" /> 
+   </li>
+  </ul>
+</p>
+
+<p>A Amazon Virtual Private Cloud (Amazon VPC) é um serviço de rede que permite que você crie uma rede virtual isolada na nuvem da Amazon. Com a Amazon VPC, você pode criar uma rede personalizada com sub-redes, roteamento, tabelas de roteamento, gateways de Internet, entre outros recursos, proporcionando controle total sobre sua infraestrutura de rede na nuvem.
+</p>
+
 <details><summary> <h3>Recursos</h3></summary>
 <ul>
+   <li>
+     <b>Sub-rede privada:</b>
+       <p>Imagine que existe uma instância EC2 no qual acessa o banco de dados, onde devolve alguma informação para outra instÂncia EC2, não faz sentido estar exposto na internet, logo está em uma sub-rede  privada.</p>
+   </li>
+    <li>
+     <b>Sub-rede pública:</b>
+       <p>A instância de sub-rede pública é conectada com a internet, pode receber tanto dados de entrada quanto de saída. É uma instância de um servidor HTTP que pode receber ou fazer requisições, normalmente feitas via Gateway</p>
+        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gLjFa2Xt--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nti327hmr7a642l03njz.png" />
+    </li>
+    <li><b>Conectividade:</b> 
+        <ul>
+          <li>
+            <p>A VPC permite estabelecer conexões VPN (Virtual Private Network) para conectar em sub-rede privada à sua infraestrutura na nuvem:</p>
+        <img src="https://uploads-ssl.webflow.com/611b82111c177de53409c4b5/624465dfe2552c5f29e83625_iE6_z3bFB8uMSnfUz8R2uHqvlYh0E7_mAi7odxPszG5GeA4OXTwp6s8GYKf1N8AFS6OcYCDrHBpouNps1VohYqXTvlV_ZmLCG0xKogzjPjRTT8txNbOqv9oh64W-rqJJ2WqrQgG_.png" />
+          </li>
+           <li>
+            <p>Caso seja necessário mais segurança e velocidade na interação dos recursos, sem ser pela internet em si, ou seja, uma conexão dedicada, é possível pela AWS Direct Connect::</p>
+    <img src="https://www.w3schools.com/aws/images/directconnect.png" />
+          </li>
+        </ul>
+    </li>
     <li><b>Isolamento:</b> A Amazon VPC permite a criação de redes virtuais isoladas para separar sua infraestrutura na nuvem em ambientes distintos.</li>
     <li><b>Personalização:</b> Você pode personalizar sua VPC definindo sub-redes, tabelas de roteamento, gateways de Internet e outros recursos de rede de acordo com suas necessidades.</li>
-    <li><b>Conectividade:</b> A VPC permite estabelecer conexões VPN (Virtual Private Network) para conectar sua rede local à sua infraestrutura na nuvem.</li>
     <li><b>Segurança:</b> Com recursos como grupos de segurança e listas de controle de acesso de rede (Network ACLs), você pode controlar o tráfego de rede para manter sua infraestrutura segura.</li>
     <li><b>Elasticidade:</b> A Amazon VPC é altamente escalável, permitindo a adição de recursos de rede conforme sua infraestrutura cresce.</li>
 </ul> 
