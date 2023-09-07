@@ -39,23 +39,28 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
 <br>
 <table>
  <tr align="center">
+     <td>Categoria</td>
      <td>Recursos AWS</td>
      <td>img</td>
      <td>Info</td>
  </tr>
+  
   <tr align="center">
+     <td>Segurança, Indentidade e conformidade</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">IAM</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>O IAM da AWS é um serviço de gerenciamento de identidades e acessos que permite controlar o acesso aos recursos da AWS por usuários e aplicativos.</td>
  </tr>
 
 <tr align="center">
+     <td>Armazenar</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
  </tr>
  
 <tr align="center">
+     <td rowspan="4">Computação</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
      <td>O Elastic Beanstalk é um serviço gerenciado pela AWS que facilita o deploy e a escalabilidade de aplicações web de forma rápida e simples.</td>
@@ -80,12 +85,14 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
  </tr>
 
 <tr align="center">
+     <td>Rede e Entrega de Conteúdo</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>O Amazon API Gateway é uma poderosa ferramenta da AWS que permite aos desenvolvedores criar, publicar, monitorar e gerenciar APIs de forma segura e escalável, facilitando a integração entre diferentes serviços e aplicações.</td>
  </tr>
 
 <tr align="center">
+     <td rowspan="2">Database</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB é um serviço de banco de dados NoSQL, totalmente gerenciado, altamente escalável, flexível e com alta performance</td>
@@ -98,6 +105,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
  </tr>
  
 <tr align="center">
+     <td rowspan="2">Gerenciamento e Governança</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudWatch.md">CloudWatch</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
      <td>O CloudWatch é um serviço de monitoramento e observabilidade da AWS que permite coletar, armazenar, visualizar e alertar sobre dados de logs e métricas em tempo real para recursos em nuvem.</td>
