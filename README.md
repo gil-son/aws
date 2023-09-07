@@ -40,7 +40,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
 <table>
  <tr align="center">
      <td>Categoria</td>
-     <td>Recursos AWS</td>
+     <td>Recurso</td>
      <td>img</td>
      <td>Info</td>
  </tr>
@@ -92,7 +92,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
  </tr>
 
 <tr align="center">
-     <td rowspan="2">Database</td>
+     <td rowspan="2">Banco de Dados</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB é um serviço de banco de dados NoSQL, totalmente gerenciado, altamente escalável, flexível e com alta performance</td>
@@ -152,23 +152,27 @@ IAM is recommended for beginners because it allows you to start using AWS secure
 <br>
  <table>
  <tr align="center">
-     <td>AWS Resource</td>
+     <td>Category</td>
+     <td>Resource</td>
      <td>img</td>
      <td>Info</td>
  </tr>
   <tr align="center">
+     <td>Security, Identity and Compliance</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md">IAM</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>AWS IAM is an identity and access management service that enables control of access to AWS resources by users and applications.</td>
  </tr>
 
 <tr align="center">
+     <td>Storage</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
  </tr>
 
 <tr align="center">
+     <td rowspan="4">Compute</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
      <td>Elastic Beanstalk is an AWS-managed service that simplifies the deployment and scalability of web applications quickly and easily..</td>
@@ -193,12 +197,14 @@ IAM is recommended for beginners because it allows you to start using AWS secure
  </tr>
 
  <tr align="center">
+     <td>Networking and Delivery</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>Amazon API Gateway is a powerful AWS tool that enables developers to securely and scalably create, publish, monitor, and manage APIs, facilitating integration between different services and applications.</td>
  </tr>
 
 <tr align="center">
+     <td rowspan="2">Database</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB is a fully managed, highly scalable, flexible, and high-performance NoSQL database service.</td>
@@ -211,6 +217,7 @@ IAM is recommended for beginners because it allows you to start using AWS secure
  </tr>
  
  <tr align="center">
+     <td rowspan="2">Management and Governance</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md">CloudWatch</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
      <td>CloudWatch is an AWS monitoring and observability service that allows you to collect, store, visualize, and alert on real-time log and metric data for cloud resources.</td>
