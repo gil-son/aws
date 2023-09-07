@@ -31,21 +31,28 @@
        <p>A instância de sub-rede pública é conectada com a internet, pode receber tanto dados de entrada quanto de saída. É uma instância de um servidor HTTP que pode receber ou fazer requisições, normalmente feitas via Gateway</p>
         <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--gLjFa2Xt--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nti327hmr7a642l03njz.png" />
     </li>
-    <li><b>Conectividade:</b> 
+    <li><b>Conectividade e Segurança:</b> 
         <ul>
           <li>
-            <p>A VPC permite estabelecer conexões VPN (Virtual Private Network) para conectar em sub-rede privada à sua infraestrutura na nuvem:</p>
+            <p>VPC permite estabelecer conexões VPN (Virtual Private Network) para conectar em sub-rede privada à sua infraestrutura na nuvem:</p>
         <img src="https://uploads-ssl.webflow.com/611b82111c177de53409c4b5/624465dfe2552c5f29e83625_iE6_z3bFB8uMSnfUz8R2uHqvlYh0E7_mAi7odxPszG5GeA4OXTwp6s8GYKf1N8AFS6OcYCDrHBpouNps1VohYqXTvlV_ZmLCG0xKogzjPjRTT8txNbOqv9oh64W-rqJJ2WqrQgG_.png" />
           </li>
            <li>
-            <p>Caso seja necessário mais segurança e velocidade na interação dos recursos, sem ser pela internet em si, ou seja, uma conexão dedicada, é possível pela AWS Direct Connect::</p>
+            <p>Caso seja necessário mais segurança e velocidade na interação dos recursos, sem ser pela internet em si, ou seja, uma conexão dedicada, com redes isoladas, é possível pela AWS Direct Connect:</p>
     <img src="https://www.w3schools.com/aws/images/directconnect.png" />
           </li>
         </ul>
     </li>
-    <li><b>Isolamento:</b> A Amazon VPC permite a criação de redes virtuais isoladas para separar sua infraestrutura na nuvem em ambientes distintos.</li>
+    <li><b>Listas de controle de acesso:</b><p>A nível de sub-rede, para que os dados trafeguem em uma VPC de forma segura, é bacana utilizar uma configuração que é chamado de Network ACLs (Access Control List). O Network ACL é uma lista de controle de acesso que age como um firewall a nível de sub-rede da VPC (Virtual Private Cloud):</p>
+    <img src="https://docs.aws.amazon.com/images/vpc/latest/userguide/images/security-diagram_updated.png" />
+    <p>
+      O Network ACLs possui comportamento Stateless, logo não armazena estado, ele tem regras para entradas e saídas de dados. Por exemplo: entrou um pacote dados para um banco, foi verificado e dentro das configurações foi permitida tal entrada, mas isso não significa que a saída vai ser permitida, também será verificada dentro do que foi permitido (pode ser configurada).
+    </p>
+    </li>
+    <li><b> Grupos de Segurança:</b><p>A nível de EC2, com recursos como grupos de segurança, o comportamento muda para Stateful, então tudo que pôde entrar, pode sair. Logo só será barrada a entrada, se passou, então a saída não será verificada. Essa é a configuração padrão (pode ser ajusta):</p>
+    <img src="https://uploads-ssl.webflow.com/611b82111c177de53409c4b5/624465dfa8356e5ee15fe3ce_A0pF_xA7TfbCk8yMYt3AmKtVWL7f0_3yZvrYulgIxW_Gt4H6Q-vfqeqCnjrM03SktstA1IUZS-GmsM3xbumitDsTXSM-FI87Lb00dedOS_C1pTi7ZXd9q0kF4h8a4h4ytP94j4eN.png" />
+    </li>
     <li><b>Personalização:</b> Você pode personalizar sua VPC definindo sub-redes, tabelas de roteamento, gateways de Internet e outros recursos de rede de acordo com suas necessidades.</li>
-    <li><b>Segurança:</b> Com recursos como grupos de segurança e listas de controle de acesso de rede (Network ACLs), você pode controlar o tráfego de rede para manter sua infraestrutura segura.</li>
     <li><b>Elasticidade:</b> A Amazon VPC é altamente escalável, permitindo a adição de recursos de rede conforme sua infraestrutura cresce.</li>
 </ul> 
 </details>
