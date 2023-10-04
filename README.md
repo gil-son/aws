@@ -160,19 +160,21 @@ IAM is recommended for beginners because it allows you to start using AWS secure
  <table>
  <tr align="center">
      <td>Category</td>
+     <td>Service Model</td>
      <td>Resource</td>
      <td>img</td>
      <td>Info</td>
  </tr>
   <tr align="center">
      <td>Security, Identity and Compliance</td>
+     <td>Integrate with any service model</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md">IAM</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>AWS IAM is an identity and access management service that enables control of access to AWS resources by users and applications.</td>
  </tr>
 
 <tr align="center">
-     <td>Storage</td>
+     <td colspan="2">Storage</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
@@ -180,12 +182,14 @@ IAM is recommended for beginners because it allows you to start using AWS secure
 
 <tr align="center">
      <td rowspan="4">Compute</td>
+     <td>PaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
      <td>Elastic Beanstalk is an AWS-managed service that simplifies the deployment and scalability of web applications quickly and easily..</td>
  </tr>    
    
  <tr align="center">
+     <td rowspan="2">IaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
@@ -198,6 +202,7 @@ IAM is recommended for beginners because it allows you to start using AWS secure
  </tr>
 
  <tr align="center">
+     <td>FaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md">Lambda</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
      <td>AWS Lambda is a serverless service that allows for code execution in response to events, without the need for server management.</td>
@@ -205,6 +210,7 @@ IAM is recommended for beginners because it allows you to start using AWS secure
 
  <tr align="center">
      <td>Networking and Delivery</td>
+     <td>API Management</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>Amazon API Gateway is a powerful AWS tool that enables developers to securely and scalably create, publish, monitor, and manage APIs, facilitating integration between different services and applications.</td>
@@ -212,6 +218,7 @@ IAM is recommended for beginners because it allows you to start using AWS secure
 
 <tr align="center">
      <td rowspan="2">Database</td>
+     <td rowspan="4">Integrate with any service model</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB is a fully managed, highly scalable, flexible, and high-performance NoSQL database service.</td>
