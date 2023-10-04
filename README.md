@@ -40,6 +40,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
 <table>
  <tr align="center">
      <td>Categoria</td>
+     <td>Modelo de Serviço</td>
      <td>Recurso</td>
      <td>img</td>
      <td>Info</td>
@@ -47,13 +48,14 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
   
   <tr align="center">
      <td>Segurança, Indentidade e conformidade</td>
+     <td>Integra com qualquer modelo de serviço</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">IAM</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
      <td>O IAM da AWS é um serviço de gerenciamento de identidades e acessos que permite controlar o acesso aos recursos da AWS por usuários e aplicativos.</td>
  </tr>
 
 <tr align="center">
-     <td>Armazenar</td>
+     <td colspan="2">Armazenar</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
@@ -61,12 +63,14 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
  
 <tr align="center">
      <td rowspan="4">Computação</td>
+     <td>PaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
      <td>O Elastic Beanstalk é um serviço gerenciado pela AWS que facilita o deploy e a escalabilidade de aplicações web de forma rápida e simples.</td>
  </tr> 
   
  <tr align="center">
+     <td rowspan="2">IaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
@@ -79,6 +83,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
  </tr>
 
  <tr align="center">
+     <td>FaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md">Lambda</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
      <td>AWS Lambda é um serviço serverless que permite a execução de código em resposta a eventos, sem a necessidade de gerenciamento de servidores.</td>
@@ -86,6 +91,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
 
 <tr align="center">
      <td>Rede e Entrega de Conteúdo</td>
+     <td>API Management</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>O Amazon API Gateway é uma poderosa ferramenta da AWS que permite aos desenvolvedores criar, publicar, monitorar e gerenciar APIs de forma segura e escalável, facilitando a integração entre diferentes serviços e aplicações.</td>
@@ -93,6 +99,7 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
 
 <tr align="center">
      <td rowspan="2">Banco de Dados</td>
+     <td rowspan="4">Integra com qualquer modelo de serviço</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB é um serviço de banco de dados NoSQL, totalmente gerenciado, altamente escalável, flexível e com alta performance</td>
