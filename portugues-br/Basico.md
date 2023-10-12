@@ -1,38 +1,37 @@
-
-<details><summary><h4>What is a server composed of?</h4></summary>
+<details><summary><h4>Do que é composto um servidor?</h4></summary>
   
 <br>
 
-##### A server is composed by:
+##### Um servidor é composto por:
 
-- Compute: CPU 
-- Memory: RAM 
-- Storage: Data
-- Database: Store data in a structured way
-- Network: Routers, switch, DNS server
-  - Network: cables, routers and servers connected with each other
-  - Router: a networking device that forwards data packets between computer networks. They know where to send your packets on the internet!
-  - Switch: takes a packet and send it to the correct server / client on your network
+- Computação: CPU 
+- Memória: RAM 
+- Armazenamento: Dados
+- Banco de Dados: Armazena dados de forma estruturada
+- Rede: Roteadores, switches, servidor DNS
+  - Rede: cabos, roteadores e servidores conectados entre si
+  - Roteador: um dispositivo de rede que encaminha pacotes de dados entre redes de computadores. Eles sabem para onde enviar seus pacotes na internet!
+  - Switch: pega um pacote e o envia para o servidor/cliente correto na sua rede
 
  <div alignr="center">
 <img src="https://thumbs2.imgbox.com/c6/e8/H9K98LHQ_t.png" />
  </div>
 
 
-##### Not a long time ago, that was the way to build an infrastructure (traditional IT approach):
+##### Não faz muito tempo, essa era a maneira de construir uma infraestrutura (abordagem tradicional de TI):
  <div alignr="center">
 <img src="https://thumbs2.imgbox.com/4b/02/AKnOfE3s_t.png" />
  </div>
 
-##### Problems with traditional IT approach
+##### Problemas com a abordagem tradicional de TI
 
-- Pay for the rent for the data center
-- Pay for powe supply, cooling, maintenance
-- Adding and replacing hardware takes time
-- Scaling is limited
-- Hire 24/7 team to monitor the infrastructure
-- How to deal with disasters? (easthquake, power shutdown, fire...)
+- Pagar pelo aluguel do data center
+- Pagar pelo fornecimento de energia, refrigeração, manutenção
+- Adicionar e substituir hardware leva tempo
+- A escalabilidade é limitada
+- Contratar uma equipe 24/7 para monitorar a infraestrutura
+- Como lidar com desastres? (terremotos, desligamentos de energia, incêndios...)
 
-Can all this be externalized?
+Tudo isso pode ser externalizado?
 
 </details>
