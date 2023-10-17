@@ -74,8 +74,8 @@ Tudo isso pode ser externalizado?
       <td>- Muitos Serviços da AWS (ex: Rekognition para Aprendizado de Máquina) </td>
       <td><img width="15%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWPOov6TZhY9Lso6rbo4_iFQ7OfEgWgy_Fk_INpumtuiPGjltSfJPYyzlbaIbmAtcbSOQ&usqp=CAU" /></td>
    </table>
-  
+ <hr/>
  <div align="center">
-   <img src="https://thumbs2.imgbox.com/f0/5b/sI1W8WD7_t.png" />
+   <img src="https://thumbs2.imgbox.com/c6/71/c5rgRvNJ_t.png" />
  </div>
 </details>
