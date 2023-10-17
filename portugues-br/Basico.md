@@ -53,8 +53,10 @@ Tudo isso pode ser externalizado?
 - Fácil paralelo com a TI tradicional no local
  - Exemplo
    <table cellspacing="0" cellpadding="0">
-     <td> - Amazon EC2</td>
-     <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></td>
+     <tr>
+       <td> - Amazon EC2</td>
+       <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></td>
+     </tr>
    </table>
 
 ##### Plataforma como Serviço (PaaS)
@@ -63,19 +65,75 @@ Tudo isso pode ser externalizado?
 - Concentra-se na implantação e gerenciamento de suas aplicações
 - Exemplo
    <table cellspacing="0" cellpadding="0">
-     <td>- Elastic Beanstalk</td>
-     <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></td>
+     <tr>
+       <td>- Elastic Beanstalk</td>
+       <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></td>
+     </tr> 
    </table>
   
  ##### Software como Serviço (SaaS)  
  - Produto completo que é executado e gerenciado pelo provedor de serviços
  - Exemplo   
    <table cellspacing="0" cellpadding="0">
-      <td>- Muitos Serviços da AWS (ex: Rekognition para Aprendizado de Máquina) </td>
-      <td><img width="15%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWPOov6TZhY9Lso6rbo4_iFQ7OfEgWgy_Fk_INpumtuiPGjltSfJPYyzlbaIbmAtcbSOQ&usqp=CAU" /></td>
+     <tr> 
+       <td>- Muitos Serviços da AWS (ex: Rekognition para Aprendizado de Máquina) </td>
+        <td><img width="15%" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWPOov6TZhY9Lso6rbo4_iFQ7OfEgWgy_Fk_INpumtuiPGjltSfJPYyzlbaIbmAtcbSOQ&usqp=CAU" /></td>
+     </tr>
    </table>
  <hr/>
  <div align="center">
    <img src="https://thumbs2.imgbox.com/c6/71/c5rgRvNJ_t.png" />
  </div>
+</details>
+
+<details>
+  <summary><h4>Preços da Nuvem - Visão Geral Rápida</h4></summary>
+  <br>
+
+  A AWS possui 3 fundamentos de preços, seguindo o modelo de pagamento conforme o uso:
+
+  - Computação:
+    - Pague pelo tempo de computação
+      <table>
+          <tr>
+            <td rowspan="4"><img width="30%" src="https://thumbs2.imgbox.com/65/c8/IMPrp1MZ_t.png" /></td>
+          </tr>
+          <tr>
+          <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /> </td>
+          </tr>
+          <tr>
+          <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /> </td>
+          </tr>
+          <tr>
+          <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /> </td>
+          </tr>
+      </table>
+
+  - Armazenamento:
+    - Pague pelos dados armazenados na Nuvem
+      <table>
+        <tr>
+          <td rowspan="4"><img width="30%" src="https://thumbs2.imgbox.com/57/8c/zH60PUMU_t.png" /></td>
+        </tr>
+        <tr>
+        <td><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /> </td>
+        </tr>
+        <tr>
+        <td><img width="8%" src="https://seeklogo.com/images/A/amazon-elastic-file-system-logo-E7053CDC9F-seeklogo.com.png" /> </td>
+        </tr>
+        <tr>
+        <td><img width="8%" src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/aws-storage/choose-the-right-storage-service/images/75c6bec122ddc0a1a76b0bf99a89cae0_2-c-235-e-2-f-2448-40-c-3-8-c-7-b-e-9753-d-6-b-0-df-5.png" /> </td>
+        </tr>
+      </table>
+
+  - Transferência de dados PARA FORA da Nuvem:
+    - A transferência de dados PARA DENTRO é gratuita
+
+    <table>
+        <tr>
+          <td><img width="25%" src="https://hotmart.s3.amazonaws.com/product_pictures/2b279618-20d6-4514-b9e4-d5feb84bc025/aws.png" /></td>
+        </tr>
+    </table>
+
+  - Resolve o problema caro da TI tradicional
 </details>
