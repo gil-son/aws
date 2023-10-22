@@ -162,5 +162,20 @@ AWS has 3 princing fundamentals, following the pay-as-you-go pricing model:
 
 </details>
 
+<details><summary><h4>AWS Availability Zones</h4></summary>
+<br>
 
+- Each region has many availability zones (usually 3, min is 3, max is 6). Example:
+  - ap-southeast-2a 
+  - ap-southeast-2b
+  - ap-southeast-2c
+- Each availability zone (AZ) is one or more discrete data centers with redundant power, networking, and connectivity
+- They're separete from each other, so that, they're isolated from disasters
+- They're connected with high bandwidth, ultra-low latency networking
+
+ <div alignr="center">
+  <img src="https://thumbs2.imgbox.com/d8/f4/VNzQ8gbj_t.png" />
+ </div>
+
+</details>
 
