@@ -137,3 +137,45 @@ Tudo isso pode ser externalizado?
 
   - Resolve o problema caro da TI tradicional
 </details>
+
+<details><summary><h4>Como escolher uma Região da AWS?</h4></summary>
+<br>
+
+- Conformidade:
+  - <b>com requisitos de governança de dados e legais:</b> os dados nunca saem de uma região sem a sua permissão explícita.
+- Proximidade:
+  - <b>para os clientes:</b> reduza a latência.
+- Serviços disponíveis:
+  - <b>dentro de uma Região:</b> novos serviços e recursos nem sempre estão disponíveis em todas as Regiões.
+- Preços:
+  - <b>avalie:</b> os preços variam de região para região e são transparentes na página de preços do serviço.
+
+ <div alignr="center">
+<img src="https://www.awsgeek.com/AWS-Regions/AWS-Regions.jpg" />
+ </div>
+
+</details>
+
+<details><summary><h4>Zonas de Disponibilidade da AWS</h4></summary>
+<br>
+
+- Cada região tem muitas zonas de disponibilidade (geralmente 3, mínimo 3, máximo 6). Exemplo:
+  - ap-southeast-2a 
+  - ap-southeast-2b
+  - ap-southeast-2c
+- Cada zona de disponibilidade (AZ) é um ou mais centros de dados discretos com energia, rede e conectividade redundantes.
+- Elas são separadas umas das outras para que estejam isoladas de desastres.
+- Elas são conectadas com uma rede de alta largura de banda e latência ultra baixa.
+
+ <div alignr="center">
+  <img src="https://thumbs2.imgbox.com/d8/f4/VNzQ8gbj_t.png" />
+ </div>
+
+</details>
+
+
+
+
+
+
+
