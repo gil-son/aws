@@ -142,3 +142,25 @@ AWS has 3 princing fundamentals, following the pay-as-you-go pricing model:
 
 
 </details>
+
+
+<details><summary><h4>How to choose an AWS Region?</h4></summary>
+<br>
+
+- Compliance:
+  - <b>with data governance and legal requirements:</b> data never leaves a region without your explicit permission 
+- Proximity: 
+  - <b>to customers:</b> reduce latency
+- Available services: 
+  - <b>within a Region:</b> new services and new features aren't available in every Region
+- Princing: 
+  - <b>Princing:</b> princing varies region to region and is transparent in the service princing page
+
+ <div alignr="center">
+<img src="https://www.awsgeek.com/AWS-Regions/AWS-Regions.jpg" />
+ </div>
+
+</details>
+
+
+
