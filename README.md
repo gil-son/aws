@@ -155,10 +155,16 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 <details><summary><h4>Where to start?</h4></summary>
 <br>
 
-IAM is recommended for beginners because it allows you to start using AWS securely from the beginning, avoiding common errors that can lead to security violations. Additionally, IAM is a free and easy-to-use AWS service. You can check this and other resources in the Summary section, or click <a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md">here</a> to learn more.
+The AWS Identity and Access Management (IAM) is highly recommended for beginners as it provides a secure way to start using AWS services from the outset. It helps prevent common errors that could lead to security breaches. Additionally, IAM is a free AWS service known for its user-friendly interface.
+
+If you wish to explore more about IAM and other related features, you can check the Summary section. To access it directly, <a href="https://github.com/gil-son/aws/blob/main/english-us/IAM.md"> click here</a>.
+
 <div align="center">
-<img src="https://thumbs2.imgbox.com/86/c5/m19pgi9I_t.png" width="60%"/>
+<img src="https://thumbs2.imgbox.com/0a/27/EsIpVA0r_t.png" width="60%"/>
 </div>
+
+Simultaneously, it is advisable to familiarize yourself with the fundamental concepts of cloud computing. This includes understanding the reasons behind the emergence of cloud computing, the changes in infrastructure before and after its introduction, various types of cloud computing, consumption strategies, region selection, among other aspects. For detailed information on these concepts, <a href="https://github.com/gil-son/aws/blob/main/english-us/Basic.md"> refer to this link.</a>
+
 </details>
 
 <details><summary><h4>Summary</h4></summary>
