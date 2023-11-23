@@ -31,6 +31,10 @@ O IAM é recomendado para iniciantes porque permite que você comece a usar a AW
 <div align="center">
 <img src="https://thumbs2.imgbox.com/0a/27/EsIpVA0r_t.png" width="60%"/>
 </div>
+
+
+Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de computação em nuvem. Isso inclui entender a razão por trás do surgimento da computação em nuvem, as mudanças na infraestrutura antes e depois de sua introdução, os diversos tipos de computação em nuvem, estratégias de consumo, escolha de regiões, entre outros. Para obter informações detalhadas sobre esses conceitos, <a href="https://github.com/gil-son/aws/blob/main/portugues-br/Basico.md">consulte</a> 
+
 </details>
 
 
