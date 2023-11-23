@@ -26,7 +26,9 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga s�
 <details><summary><h4>Por onde começar?</h4></summary>
 <br>
 
-O IAM é recomendado para iniciantes porque permite que você comece a usar a AWS com segurança desde o início, evitando erros comuns que podem levar a violações de segurança. Além disso, o IAM é um serviço gratuito da AWS e fácil de usar. Na seção de Sumário pode ver esse e outros recursos, se preferir pode clicar <a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">aqui</a>.
+O AWS Identity and Access Management (IAM) é altamente recomendado para iniciantes, pois oferece uma maneira segura de começar a utilizar os serviços da AWS desde o início. Ele ajuda a evitar erros comuns que poderiam resultar em violações de segurança. Além disso, o IAM é um serviço gratuito da AWS e é conhecido por sua facilidade de uso.
+
+Se desejar explorar mais sobre o IAM e outros recursos relacionados, você pode conferir a seção de Sumário. Para acessar diretamente, clique <a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">aqui</a>.
 
 <div align="center">
 <img src="https://thumbs2.imgbox.com/0a/27/EsIpVA0r_t.png" width="60%"/>
