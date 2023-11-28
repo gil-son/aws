@@ -84,7 +84,7 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
  
   <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md">EC2 Auto Scaling</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="50%"/></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="70%"/></a></td>
      <td>O Amazon Auto Scaling é um serviço que ajusta automaticamente a capacidade de computação de um grupo de instâncias do Amazon EC2 para atender às demandas da aplicação.</td>
  </tr>
 
@@ -96,13 +96,20 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
  </tr>
 
 <tr align="center">
-     <td>Rede e Entrega de Conteúdo</td>
-     <td>API Management</td>
+     <td rowspan="2">Rede e Entrega de Conteúdo</td>
+     <td>Gerenciamento de API</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>O Amazon API Gateway é uma poderosa ferramenta da AWS que permite aos desenvolvedores criar, publicar, monitorar e gerenciar APIs de forma segura e escalável, facilitando a integração entre diferentes serviços e aplicações.</td>
  </tr>
 
+ <tr align="center">
+     <td>Gerenciamento de DNS</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Route53.md">Route 53</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Route53.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg" /></a></td>
+     <td>O Amazon Route 53 é o serviço de sistema de nomes de domínio (DNS) e entrega de conteúdo (CDN) da AWS, oferecendo registro de domínio, resolução de DNS e direcionamento de tráfego para otimizar a disponibilidade e desempenho de aplicações na internet.</td>
+ </tr>
+ 
 <tr align="center">
      <td rowspan="2">Banco de Dados</td>
      <td rowspan="4">Integra com qualquer modelo de serviço</td>
@@ -209,7 +216,7 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
 
   <tr align="center">
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md">EC2 Auto Scaling</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="50%"/></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="70%"/></a></td>
      <td>Amazon Auto Scaling is a service that automatically adjusts the computing capacity of a group of Amazon EC2 instances to meet the demands of the application.</td>
  </tr>
 
@@ -221,13 +228,21 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
  </tr>
 
  <tr align="center">
-     <td>Networking and Delivery</td>
+     <td rowspan="2" >Networking and Delivery</td>
      <td>API Management</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>Amazon API Gateway is a powerful AWS tool that enables developers to securely and scalably create, publish, monitor, and manage APIs, facilitating integration between different services and applications.</td>
  </tr>
 
+ <tr align="center">
+     <td>DNS Management</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Route53.md">Route 53</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Route53.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg" /></a></td>
+     <td>The Amazon Route 53 is AWS's domain name system (DNS) and content delivery network (CDN) service, providing domain registration, DNS resolution, and traffic routing to optimize availability and performance for applications on the internet.
+</td>
+ </tr>
+ 
 <tr align="center">
      <td rowspan="2">Database</td>
      <td rowspan="4">Integrate with any service model</td>
