@@ -86,6 +86,28 @@ Tudo isso pode ser externalizado?
  </div>
 </details>
 
+<details><summary><h4>Cinco características essenciais</h4></summary>
+<br>
+
+Este modelo de nuvem é composto por cinco características essenciais:
+
+- <b>Serviço sob demanda:</b> Os usuários podem provisionar recursos de computação, como instâncias de servidor ou armazenamento, conforme necessário, sem exigir intervenção humana do provedor de serviços.
+
+- <b>Acesso amplo à rede:</b> Os serviços de nuvem são acessíveis pela rede por meio de mecanismos padrão, promovendo ampla disponibilidade. Os usuários podem acessar os serviços por meio de uma variedade de dispositivos, como laptops, smartphones e tablets.
+
+- <b>Agrupamento de recursos:</b> Os recursos de computação do provedor são agrupados para atender a vários clientes, com diferentes recursos físicos e virtuais atribuídos e reatribuídos dinamicamente de acordo com a demanda. Isso possibilita a utilização eficiente de recursos e escalabilidade.
+
+- <b>Elasticidade rápida:</b> Os recursos de computação podem ser dimensionados rapidamente para cima ou para baixo para acomodar cargas de trabalho em constante mudança. Isso garante que o ambiente de nuvem seja flexível e responsivo às demandas variáveis, proporcionando agilidade para empresas e usuários.
+
+- <b>Serviço medido:</b> Os sistemas de nuvem controlam e otimizam automaticamente o uso de recursos, aproveitando uma capacidade de medição em algum nível de abstração apropriado ao tipo de serviço (por exemplo, armazenamento, processamento, largura de banda e contas de usuário ativas). O uso de recursos pode ser monitorado, controlado e relatado, proporcionando transparência e permitindo que os usuários paguem apenas pelos recursos que consomem.
+
+</details><details><summary><h4>Três drivers fundamentais de custo com a AWS</h4></summary>
+<br>
+
+Existem três drivers fundamentais de custo com a AWS: computação, armazenamento e transferência de dados de saída. Essas características variam um pouco, dependendo do produto da AWS e do modelo de precificação escolhido.
+</details>
+
+
 <details>
   <summary><h4>Preços da Nuvem - Visão Geral Rápida</h4></summary>
   <br>
