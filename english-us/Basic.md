@@ -43,6 +43,32 @@ Can all this be externalized?
 
 </details>
 
+
+<details><summary><h4> Five essential characteristics</h4></summary>
+<br>
+
+This cloud model is composed of five essential characteristics:
+
+- <b>On-demand self-service:</b> Users can provision computing resources, such as server instances or storage, as needed without requiring human intervention from the service provider.
+
+- <b>Broad network access:</b> Cloud services are accessible over the network through standard mechanisms, promoting widespread availability. Users can access the services from a variety of devices, such as laptops, smartphones, and tablets.
+
+- <b>Resource pooling:</b> The provider's computing resources are pooled to serve multiple customers, with different physical and virtual resources dynamically assigned and reassigned according to demand. This enables efficient resource utilization and scalability.
+
+- <b>Rapid elasticity:</b> Computing resources can be quickly scaled up or down to accommodate changing workloads. This ensures that the cloud environment is flexible and responsive to varying demands, providing agility for businesses and users.
+
+- <b>Measured service:</b> Cloud systems automatically control and optimize resource usage by leveraging a metering capability at some level of abstraction appropriate to the type of service (e.g., storage, processing, bandwidth, and active user accounts). Resource usage can be monitored, controlled, and reported, providing transparency and allowing users to pay only for the resources they consume.
+</details>
+
+
+<details><summary><h4>Three fundamental drivers of cost with AWS</h4></summary>
+<br>
+
+There are three fundamental drivers of cost with AWS: compute, storage, and outbound data transfer. These characteristics vary somewhat, depending on the AWS product and pricing model you choose.
+</details>
+
+
+
 <details><summary><h4>Types of Cloud Computing</h4></summary>
 <br>
   
