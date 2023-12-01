@@ -138,6 +138,25 @@ Tudo isso pode ser externalizado?
   - Resolve o problema caro da TI tradicional
 </details>
 
+
+<details><summary><h4>Modelo de Responsabilidade Compartilhada</h4></summary>
+<br>
+
+- O Cliente é responsável pela segurança <b>NA</b> Nuvem
+
+- A AWS é responsável pela segurança <b>DA</b> Nuvem
+
+<div align="center">
+<img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" />
+</div>
+
+<a href="https://aws.amazon.com/compliance/shared-responsibility-model" >Mais</a>
+</details>
+
+
+
+
+
 <details><summary><h4>Como escolher uma Região da AWS?</h4></summary>
 <br>
 
