@@ -153,7 +153,22 @@ Tudo isso pode ser externalizado?
 <a href="https://aws.amazon.com/compliance/shared-responsibility-model" >Mais</a>
 </details>
 
+<details><summary><h4>Política de Uso Aceitável</h4></summary>
+<br>
 
+A AWS possui políticas sobre o uso da plataforma!
+
+Você não pode usar, facilitar ou permitir que outros usem os Serviços ou o Site da AWS:
+
+- para qualquer atividade ilegal ou fraudulenta;
+- para violar os direitos de terceiros;
+- para ameaçar, incitar, promover ou encorajar ativamente violência, terrorismo ou outros danos graves;
+- para qualquer conteúdo ou atividade que promova exploração ou abuso sexual infantil;
+- para violar a segurança, integridade ou disponibilidade de qualquer usuário, rede, computador ou sistema de comunicação, aplicativo de software ou dispositivo de rede ou computação;
+- para distribuir, publicar, enviar ou facilitar o envio de emails em massa não solicitados ou outras mensagens, promoções, publicidade ou solicitações (ou "spam").
+
+<a href="https://aws.amazon.com/aup/" >Mais</a>
+</details>
 
 
 
