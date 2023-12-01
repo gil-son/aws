@@ -19,9 +19,9 @@
 
 
 ##### Not a long time ago, that was the way to build an infrastructure (traditional IT approach):
- <div alignr="center">
+<div alignr="center">
 <img src="https://thumbs2.imgbox.com/4b/02/AKnOfE3s_t.png" />
- </div>
+</div>
 
 ##### Problems with traditional IT approach
 
@@ -35,6 +35,7 @@
 Can all this be externalized?
 
 </details>
+
 
 <details><summary><h4>Cloud Computing</h4></summary>
 <br>
@@ -142,6 +143,24 @@ AWS has 3 princing fundamentals, following the pay-as-you-go pricing model:
 
 
 </details>
+
+
+<details><summary><h4>Shared Responsability Model</h4></summary>
+<br>
+
+- Customer has responsibility for the security <b>IN</b> the Cloud
+
+- AWS has responsibility for the security <b>OF</b> the Cloud
+
+<div alignr="center">
+<img src="https://d1.awsstatic.com/security-center/Shared_Responsibility_Model_V2.59d1eccec334b366627e9295b304202faf7b899b.jpg" />
+</div>
+
+
+</details>
+
+
+
 
 
 <details><summary><h4>How to choose an AWS Region?</h4></summary>
