@@ -160,6 +160,27 @@ AWS has 3 princing fundamentals, following the pay-as-you-go pricing model:
 </details>
 
 
+<details><summary><h4>Acceptable Use Policy</h4></summary>
+<br>
+
+AWS has policies about the use of platform!
+
+You may not use, or facilitate or allow others to use, the Services or the AWS Site:
+
+- for any illegal or fraudulent activity;
+- to violate the rights of others;
+- to threaten, incite, promote, or actively encourage violence, terrorism, or other serious harm;
+- for any content or activity that promotes child sexual exploitation or abuse;
+- to violate the security, integrity, or availability of any user, network, computer or communications system, software application, or network or computing device;
+- to distribute, publish, send, or facilitate the sending of unsolicited mass email or other messages, promotions, advertising, or solicitations (or “spam”).
+
+
+
+<a href="https://aws.amazon.com/aup/" >More</a>
+
+
+
+</details>
 
 
 
