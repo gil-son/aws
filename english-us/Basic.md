@@ -157,6 +157,7 @@ AWS has 3 princing fundamentals, following the pay-as-you-go pricing model:
 </div>
 
 
+<a href="https://aws.amazon.com/compliance/shared-responsibility-model" >More</a>
 </details>
 
 
