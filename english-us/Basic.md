@@ -246,3 +246,48 @@ You may not use, or facilitate or allow others to use, the Services or the AWS S
 
 </details>
 
+<details><summary><h4>How can users access AWS?</h4></summary>
+<br>
+<ul>
+  <li>To access AWS, you have three options: 
+      <ul>
+        <li>AWS Mangement Console (protected by password + MFA)</li>
+        <li>AWS Command Line Interface (CLI): protected by access keys:
+          <ul>
+           <li>A tool that enables you tu interact with AWS services using commands in your command-line shell:
+            <div alignr="center">
+              <img src="https://i.ytimg.com/vi/FwbavIglhis/maxresdefault.jpg" />
+            </div>
+            (This is just an illustration. You must not share yourself informations to connect in AWS!)
+          </li>
+          <li>You can use different types of operating systems to connect to AWS
+          <div alignr="center">
+            <img src="https://www.thelambdablog.com/img/a-concise-guide-to-setting-up-the-aws-command-line-libraries-on-your-local-development-environment-850x446.png" />
+           </div>
+          </li>
+        </ul>
+      </li>
+      <li>AWS Software Developer Kit (SDK) - for code: protected by access keys:
+          <ul>
+            <li>AWS Software Development Kit (AWS SDK)</li>
+            <li>Language-specific APIs (set of libraries)</li>
+            <li>Enables you to access and manage AWS services programmatically</li>
+            <li>Embedded within your application</li>
+            <li>Supports
+                <ul>
+                  <li>SDKs (JavaScript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)</li>
+                  <li>Mobile SDKs (Android, iOS, ...)</li>
+                  <li>IoT Device SDKs (Embedded, C, Arduino, ...)</li>
+                </ul>
+            </li>
+          </ul>
+      </li> 
+    </ul>
+  </li>  
+  <li>Access Key are generated through the AWS Console</li>
+  <li>Users manage their own access keys</li>
+  <li>Access Keys are secret, just like a password. Don't share them</li>
+  <li>Access Key Id ~= username</li>
+  <li>Secret Access Key ~= password</li>
+</ul> 
+</details>
