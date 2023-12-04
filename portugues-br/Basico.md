@@ -230,7 +230,51 @@ Você não pode usar, facilitar ou permitir que outros usem os Serviços ou o Si
 </details>
 
 
-
+<details><summary><h4>Como os usuários podem acessar a AWS?</h4></summary>
+<br>
+<ul>
+  <li>Para acessar a AWS, você tem três opções:
+      <ul>
+        <li>Console de Gerenciamento da AWS (protegido por senha + MFA)</li>
+        <li>Interface de Linha de Comando da AWS (CLI): protegida por chaves de acesso:
+          <ul>
+           <li>Uma ferramenta que permite interagir com os serviços da AWS usando comandos no seu shell de linha de comando:
+            <div align="center">
+              <img src="https://i.ytimg.com/vi/FwbavIglhis/maxresdefault.jpg" />
+            </div>
+            (Isso é apenas uma ilustração. Não compartilhe suas informações de conexão da AWS!)
+          </li>
+          <li>Você pode usar diferentes tipos de sistemas operacionais para se conectar à AWS:
+          <div align="center">
+            <img src="https://www.thelambdablog.com/img/a-concise-guide-to-setting-up-the-aws-command-line-libraries-on-your-local-development-environment-850x446.png" />
+           </div>
+          </li>
+        </ul>
+      </li>
+      <li>Kit de Desenvolvimento de Software da AWS (SDK) - para código: protegido por chaves de acesso:
+          <ul>
+            <li>Kit de Desenvolvimento de Software da AWS (AWS SDK)</li>
+            <li>APIs específicas de linguagem (conjunto de bibliotecas)</li>
+            <li>Permite acessar e gerenciar serviços da AWS de forma programática</li>
+            <li>Incorporado dentro da sua aplicação</li>
+            <li>Suporta:
+                <ul>
+                  <li>SDKs (JavaScript, Python, PHP, .NET, Ruby, Java, Go, Node.js, C++)</li>
+                  <li>SDKs para dispositivos móveis (Android, iOS, ...)</li>
+                  <li>SDKs para dispositivos IoT (Embarcados, C, Arduino, ...)</li>
+                </ul>
+            </li>
+          </ul>
+      </li> 
+    </ul>
+  </li>  
+  <li>Chaves de acesso são geradas através do Console da AWS</li>
+  <li>Os usuários gerenciam suas próprias chaves de acesso</li>
+  <li>Chaves de acesso são secretas, assim como uma senha. Não as compartilhe</li>
+  <li>ID da Chave de Acesso ~= nome de usuário</li>
+  <li>Chave de Acesso Secreta ~= senha</li>
+</ul> 
+</details>
 
 
 
