@@ -52,6 +52,21 @@ O AWS <b>Identity and Access Management - IAM </b> é um dos principais recursos
 </ul>   
 </li>
 <li><b>IAM Permissions:</b> Nível mais baixo da hierarquia, determina se uma identidade pode ou não tomar uma ação sobre um recurso na AWS (Allow/Deny)</li>
+<li><b>Ferramentas de Segurança IAM:</b>
+<ul>
+  <li>Relatório de Credenciais IAM (nível de conta)
+      <ul>
+        <li>Um relatório que lista todos os usuários da sua conta e o status de suas diversas credenciais.</li>
+      </ul>
+  </li> 
+  <li>Orientador de Acesso IAM (nível de usuário)
+      <ul>
+        <li>O Orientador de Acesso mostra as permissões de serviço concedidas a um usuário e quando esses serviços foram acessados pela última vez.</li>
+        <li>Você pode usar essas informações para revisar suas políticas.</li>
+      </ul>
+  </li> 
+</ul>
+
 </ul>
 </details>
 
