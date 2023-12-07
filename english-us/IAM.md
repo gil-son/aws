@@ -40,6 +40,23 @@ AWS <b>Identity and Access Management (IAM)</b> is one of the main resources bec
 </ul>   
 </li>
 <li><b>IAM Permissions:</b> Lowest level of the hierarchy, determines whether an identity can or cannot take an action on an AWS resource (Allow/Deny)</li>
+<li><b>IAM Security Tools:</b>
+<ul>
+  <li>IAM Credentials Report (account-level)
+      <ul>
+        <li>a report that list all your account's users and the status of their various credential</li>
+      </ul>
+  </li> 
+  <li>IAM Access Advisor (user-level)
+      <ul>
+        <li>Access advisor shows the service permissions granted to a user and when those services were last accessed.</li>
+        <li>You can use this information to revise your policies.</li>
+      </ul>
+  </li> 
+</ul>
+
+</li>
+ 
 </ul>
 </details>
 <details><summary> <h3>Best Practices</h3></summary>
