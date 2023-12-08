@@ -28,7 +28,22 @@ Principalmente, consiste na capacidade de:
 
 <details><summary> <h3>Termos e conceitos</h3></summary>
 <ul>
-<li><b>Instâncias:</b> As instâncias EC2 são servidores virtuais configuráveis que você pode iniciar na nuvem da Amazon.</li>
+<li><b>Opções de Dimensionamento e Configurações:</b> As instâncias EC2 são servidores virtuais configuráveis que você pode iniciar na nuvem da Amazon:
+    <ul>
+        <li><b>Sistema Operacional (SO):</b> Linux, Windows ou Mac OS</li>
+        <li>Quantidade de poder computacional e núcleos (CPU).</li>
+        <li>Quantidade de memória de acesso aleatório (RAM).</li>
+        <li>Quantidade de espaço de armazenamento:
+            <ul>
+                <li>Anexado à rede (EBS & EFS)</li>
+                <li>Hardware (EC2 Instance Store)</li>
+            </ul>
+        </li>
+        <li><b>Placa de rede:</b> velocidade da placa, Endereço IP público</li>
+        <li><b>Regras de firewall:</b> grupo de segurança.</li>
+        <li><b>Script de inicialização (configurado no primeiro lançamento):</b> Dados do Usuário EC2.</li>
+    </ul> 
+</li>
 <li><b>Imagens de AMI:</b> As imagens de AMI (Amazon Machine Image) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, o software necessário e as configurações da aplicação.</li>
 <li><b>Tipos de instância:</b> O EC2 oferece uma ampla seleção de tipos de instância, cada um com diferentes capacidades de CPU, memória, armazenamento e rede.
 <div align="center"> 
