@@ -5,6 +5,17 @@ EC2
 </div>
 
 O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que fornece capacidade de computação escalável na nuvem da Amazon. Ele permite que você configure e execute facilmente servidores virtuais na nuvem da Amazon, chamados de instâncias EC2. Com o Amazon EC2, você pode dimensionar verticalmente ou horizontalmente sua capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.
+
+EC2 = Elastic Compute Cloud = Infraestrutura como Serviço
+
+Principalmente, consiste na capacidade de:
+<ul>
+    <li>Alugar máquinas virtuais (EC2).</li>
+    <li>Armazenar dados em discos virtuais (EBS).</li>
+    <li>Distribuir carga entre máquinas (ELB).</li>
+    <li>Escalonar os serviços usando um grupo de autoescalonamento (ASG).</li>
+</ul>
+
 <details><summary> <h3>Recursos</h3></summary>
 <ul>
     <li><b>Elasticidade:</b> O EC2 permite escalar verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação.</li>
