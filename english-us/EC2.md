@@ -28,7 +28,21 @@ It mainly consists in the capability of:
 </details>
 <details><summary> <h3>Terms and Concepts</h3></summary>
 <ul>
-<li><b>Instances:</b> EC2 instances are configurable virtual servers that you can launch on Amazon's cloud.</li>
+<li><b>Sizing and Configurations options:</b> EC2 instances are configurable virtual servers that you can launch on Amazon's cloud:
+    <ul>
+    <li><b>Operating System (OS):</b> Linux, Windows or Mac OS</li>
+    <li>How much compute power & cores (CPU).</li>
+    <li>How much random-access memory (RAM).</li>
+    <li>How much storage space:
+        <ul>
+          <li>Network-attached (EBS & EFS)</li>
+          <li>hardware (EC2 Instance Store)</li>
+        </ul>
+    <li><b>Network card:</b> speed of the card, Public IP address</li>
+    <li><b>Firewall rules:</b>security group.</li>
+    <li><b>Bootsrap script (configure at first launch):</b>EC2 User Data.</li>
+  </ul> 
+</li>
 <li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 instances. They contain the operating system, necessary software, and application settings.</li>
 
 <li>
