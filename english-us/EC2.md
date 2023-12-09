@@ -44,7 +44,14 @@ It mainly consists in the capability of:
   </ul> 
 </li>
 <li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 instances. They contain the operating system, necessary software, and application settings.</li>
-
+<li>
+<b>Convention:</b> AWS has the following naming convention:  <em>m</em><b>5</b>.2xlarge
+  <ul>
+    <li><em>m</em>: instance class</li>
+    <li><b>5</b>: generation (AWS improves them over time)</li>
+    <li>2xlarge: size within the instance class</li>
+  </ul>
+</li>
 <li>
 <b>Instance Types:</b> EC2 offers a wide selection of instance types, each with different CPU, memory, storage, and networking capabilities.
 <div align="center"> 
