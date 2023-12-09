@@ -95,8 +95,10 @@ It mainly consists in the capability of:
 <div align="center"> 
 <img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
 </div>
+
   </ul>
-</li>  
+</li>
+<a href="https://aws.amazon.com/ec2/instance-types/"/> More information</a>
 </ul>
 </li>
 <li><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</li>
