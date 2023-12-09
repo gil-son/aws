@@ -45,6 +45,14 @@ Principalmente, consiste na capacidade de:
     </ul> 
 </li>
 <li><b>Imagens de AMI:</b> As imagens de AMI (Amazon Machine Image) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, o software necessário e as configurações da aplicação.</li>
+<li>
+    <b>Convenção:</b> A AWS segue a seguinte convenção de nomenclatura: <em>m</em><b>5</b>.2xlarge
+    <ul>
+        <li><em>m</em>: classe da instância</li>
+        <li><b>5</b>: geração (a AWS as aprimora ao longo do tempo)</li>
+        <li>2xlarge: tamanho dentro da classe da instância</li>
+    </ul>
+</li>
 <li><b>Tipos de instância:</b> O EC2 oferece uma ampla seleção de tipos de instância, cada um com diferentes capacidades de CPU, memória, armazenamento e rede.
 <div align="center"> 
 <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
