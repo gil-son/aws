@@ -40,7 +40,33 @@ Principalmente, consiste na capacidade de:
             </ul>
         </li>
         <li><b>Placa de rede:</b> velocidade da placa, Endereço IP público</li>
-        <li><b>Regras de firewall:</b> grupo de segurança.</li>
+        <li><b>Grupo de Segurança (Regras de Firewall):</b>
+            <ul>
+                <li>Os Grupos de Segurança são fundamentais para a segurança de rede na AWS</li>
+                <li>Eles controlam como o tráfego é permitido para dentro ou fora da Instância EC2:
+                    <div align="center"> 
+                        <img src="https://thumbs2.imgbox.com/a8/54/cSs3kUS3_t.png" />  
+                    </div>
+                </li>
+                <li>Os Grupos de Segurança contêm <b>regras de permitir</b></li>
+                <li>As regras dos Grupos de Segurança podem fazer referência a IP ou a outro Grupo de Segurança</li>
+                <li>Os Grupos de Segurança atuam como um "firewall" nas instâncias EC2</li>
+                <li>Eles regulam:  
+                    <ul>
+                        <li>Acesso às Portas</li>
+                        <li>Faixas de IP autorizadas - IPv4 e IPv6</li>
+                        <li>Controle de rede de entrada (de outros para a instância)</li>
+                        <li>Controle de rede de saída (da instância para outros)</li>
+                        <div align="center"> 
+                            <img src="https://thumbs2.imgbox.com/9a/83/wrbTRumK_t.png" />  
+                            <hr/>
+                            Origem representa um intervalo de endereços IP e 0.0.0.0/0 significa que tudo pode acessar
+                            (Isso é uma ilustração. Não compartilhe suas informações específicas)
+                        </div>
+                    </ul>
+                </li>
+            </ul> 
+        </li>
         <li><b>Script de inicialização (configurado no primeiro lançamento):</b> Dados do Usuário EC2.</li>
     </ul> 
 </li>
