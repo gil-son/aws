@@ -62,6 +62,11 @@ Principalmente, consiste na capacidade de:
                             <hr/>
                             Origem representa um intervalo de endereços IP e 0.0.0.0/0 significa que tudo pode acessar
                             (Isso é uma ilustração. Não compartilhe suas informações específicas)
+                          <hr/>
+                          Então, temos nossa instância EC2 e ela tem um Grupo de Segurança permitir anexado a ela,
+                          que possui regras de entrada e regras de saída. Então, nosso computador será autorizado em, digamos, a                             porta 22. Assim, o tráfego pode passar do nosso computador para a instância EC2, mas o computador de                             outra pessoa, que não está usando meu endereço IP porque eles não moram onde eu moro (não possuem o                                mesmo IP), se tentarem acessar nossa instância EC2, eles não conseguirão, porque o firewall vai                                 bloquear e ocorrerá um timeout. Então, para as regras de saída, por padrão, nossa instância EC2 para                             qualquer Grupo de Segurança vai, por padrão, permitir qualquer tráfego saindo dela. Assim, se nossa                               instância EC2 tentar acessar um site e iniciar uma conexão, isso será permitido pelo Grupo de Segurança:
+                          <img src="https://thumbs2.imgbox.com/8b/ab/I2BjxQMv_t.png" /> 
+                          (Esses são os conceitos básicos de como o firewall funciona)
                         </div>
                     </ul>
                 </li>
