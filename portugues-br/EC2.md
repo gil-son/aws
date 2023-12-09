@@ -68,6 +68,14 @@ Principalmente, consiste na capacidade de:
                           <img src="https://thumbs2.imgbox.com/c2/8a/AZQDOhCd_t.png" /> 
                           (Esses são os conceitos básicos de como o firewall funciona)
                         </div>
+                      <li>Pode ser anexado a múltiplas instâncias</li>
+                      <li>Restrito a uma combinação de região / VPC</li>
+                      <li>Existe "fora" da EC2 - se o tráfego for bloqueado, a instância EC2 não o verá</li>
+                      <li>É recomendável manter um grupo de segurança separado para acesso SSH</li>
+                      <li>Se sua aplicação não estiver acessível (timeout), então é um problema no grupo de segurança</li>
+                      <li>Se sua aplicação apresentar um erro de "conexão recusada", então é um erro na aplicação ou ela não foi iniciada</li>
+                      <li>Todo o tráfego de entrada é bloqueado por padrão</li>
+                      <li>Todo o tráfego de saída é autorizado por padrão</li>
                     </ul>
                 </li>
             </ul> 
