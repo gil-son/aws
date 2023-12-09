@@ -61,6 +61,17 @@ It mainly consists in the capability of:
               <hr/>
               Source represents an IP address range and 0.0.0.0/0 means everything
               (That is an illustration. Then don't share your particular informations)
+              <hr/>
+              So we have our EC2 instance and it has one security group allow attached to it
+              that has inboud rules and outbound rules. So our computer is going to be authorized on say port 22.
+              So the traffic can go through from our computer to the EC2 instance, but someone else's computer, that's
+              not using my IP address beacause they don't live where I live, then if they're to access our EC2 instance
+              they will not get through it, because the firewall is going to block it and it will be a time out.
+              Then for the outbound rules by default, our EC2 instance for any security group is going to be by default allowing
+              any traffic out of it. So our EC2 instance, id tries to access a website and initiate a connection it is going to
+              be allowed by the security group:
+            <img src="https://thumbs2.imgbox.com/8b/ab/I2BjxQMv_t.png" /> 
+              (So this is the basics of how the firewall works)
             </div>
           </ul>
         </li>
