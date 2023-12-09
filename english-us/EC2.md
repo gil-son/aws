@@ -71,6 +71,14 @@ It mainly consists in the capability of:
             </div>
           </ul>
         </li>
+        <li>Can be attached to multiplies instances</li>
+        <li>Locked down to a region / VPC combination</li>
+        <li>Does live "outside" the EC2 - if traffic is blocked the EC2 instance won't see it</li>
+        <li>It's good to maintain one separete security group for SSH access</li>
+        <li>If your application is not accessible (time out), then it's a security group issue</li>
+        <li>If your application gives a "connection refused" error, then it's an application error or it's not launched</li>
+        <li>All inbound traffic is blocked by default</li>
+        <li>All outbound traffic is authorised by default</li>
       </ul> 
     </li>  
     <li><b>Bootsrap script (configure at first launch):</b>EC2 User Data.</li>
