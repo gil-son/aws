@@ -39,7 +39,33 @@ It mainly consists in the capability of:
           <li>hardware (EC2 Instance Store)</li>
         </ul>
     <li><b>Network card:</b> speed of the card, Public IP address</li>
-    <li><b>Firewall rules:</b>security group.</li>
+    <li><b>Security group (Firewall rules):</b>
+      <ul>
+        <li>Security Group are the fundamental of network security in AWS</li>
+        <li>They control how traffic is allowed into or out EC2 Instance:
+        <div align="center"> 
+        <img src="https://thumbs2.imgbox.com/71/d4/653laO96_t.png" />  
+        </div>
+        </li>
+        <li>Security groups contain <b>allow rules</b></li>
+        <li>Security groups rules can reference by IP or by security group</li>
+        <li>Security groups are acting as a "firewall" on EC2 instances</li>
+        <li>They regulate:  
+          <ul>
+            <li>Access to Ports</li>
+            <li>Authorised IP ranges - IPv4 and IPv6</li>
+            <li>Controll of inbound network (from other to the instance)</li>
+            <li>Controll of outbound network (from other to the instance)</li>
+            <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/9f/5d/nGp5IhhT_t.png" />  
+              <hr/>
+              Source represents an IP address range and 0.0.0.0/0 means everything
+              (That is an illustration. Then don't share your particular informations)
+            </div>
+          </ul>
+        </li>
+      </ul> 
+    </li>  
     <li><b>Bootsrap script (configure at first launch):</b>EC2 User Data.</li>
   </ul> 
 </li>
