@@ -97,10 +97,8 @@ Principalmente, consiste na capacidade de:
 </div>
   </ul>
 </li>  
-
+<a href="https://aws.amazon.com/ec2/instance-types/"/> Mais informações</a>
  </ul>
-  
-  
 <li><b>Regiões:</b> O EC2 está disponível em várias regiões ao redor do mundo. Cada região é uma área geográfica independente, com várias zonas de disponibilidade para aumentar a resiliência e a disponibilidade.</li>
 <li><b>Zonas de disponibilidade:</b> Cada região do EC2 tem várias zonas de disponibilidade, que são data centers separados fisicamente, mas conectados por uma rede de baixa latência e alta largura de banda.</li>
 <li><b>Elastic IP:</b> Um Elastic IP é um endereço IP estático que você pode associar a uma instância EC2. Ele permite que você mantenha o mesmo endereço IP mesmo se a instância for interrompida ou reiniciada.</li>
