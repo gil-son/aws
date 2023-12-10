@@ -97,6 +97,16 @@ It mainly consists in the capability of:
         <li>If your application gives a "connection refused" error, then it's an application error or it's not launched</li>
         <li>All inbound traffic is blocked by default</li>
         <li>All outbound traffic is authorised by default</li>
+        <li> Classic Ports to know
+          <ul>
+            <li>22 = SSH (Secure Shell) - log into a Linux instance.</li>
+            <li>21 = FTP (File Transfer Protocol) - upload files into a file share.</li>
+            <li>22 = SFTP (Secure File Transfer Protocol) - upload files using SSH.</li>
+            <li>80 = HTTP (Hypertext Transfer Protocol) - access unsecured websites.</li>
+            <li>443 = HTTPS (Hypertext transfer protocol secure) - access secured websites </li>
+            <li>3389 = RDP (Remote Desktop Protocol) - log into Windows instance</li>
+          </ul>
+        </li>
       </ul> 
     </li>  
     <li><b>Bootsrap script (configure at first launch):</b>EC2 User Data.</li>
