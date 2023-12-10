@@ -67,17 +67,33 @@ Principalmente, consiste na capacidade de:
                           que possui regras de entrada e regras de saída. Então, nosso computador será autorizado em, digamos, a                             porta 22. Assim, o tráfego pode passar do nosso computador para a instância EC2, mas o computador de                             outra pessoa, que não está usando meu endereço IP porque eles não moram onde eu moro (não possuem o                                mesmo IP), se tentarem acessar nossa instância EC2, eles não conseguirão, porque o firewall vai                                 bloquear e ocorrerá um timeout. Então, para as regras de saída, por padrão, nossa instância EC2 para                             qualquer Grupo de Segurança vai, por padrão, permitir qualquer tráfego saindo dela. Assim, se nossa                               instância EC2 tentar acessar um site e iniciar uma conexão, isso será permitido pelo Grupo de Segurança:
                           <img src="https://thumbs2.imgbox.com/c2/8a/AZQDOhCd_t.png" /> 
                           (Esses são os conceitos básicos de como o firewall funciona)
+                          <hr/>
+                          Sobre outros grupos de segurança. Então, temos uma instância EC2, e ela tem um grupo de segurança, que eu chamo de grupo número um, e as regras de entrada basicamente dizem que estou autorizando o grupo de segurança número um na entrada e o grupo de segurança número dois. Então, por que faríamos isso?
+                          Bem, se lançarmos outra instância EC2 e ela tiver o grupo de segurança dois anexado a ela, usando a regra de grupo de segurança, basicamente permitimos que nossa instância EC2 se conecte diretamente na porta que decidimos para nossa primeira instância EC2.
+                          Da mesma forma, se tivermos outra instância EC2 com o grupo de segurança um anexado, também autorizamos esta a se comunicar diretamente com nossas instâncias. E, independentemente do IP de nossas instâncias EC2, porque elas têm o grupo de segurança certo anexado a elas, podem se comunicar diretamente com outras instâncias. E isso é ótimo porque não faz você pensar em IPs o tempo todo. Assim como se tivermos outra instância EC2 talvez com o grupo de segurança número três anexado a ela, bem, como o grupo número três não foi autorizado nas regras de entrada do grupo de segurança número um, então está sendo negado e as coisas não funcionam. Isso é um recurso um pouco avançado, mas pode ser útil com balanceadores de carga:
+                          <br/>
+                          <img src="https://thumbs2.imgbox.com/c0/b8/HkkUiFUb_t.png" />  
+                          </div> 
+                          A notação "203.0.113.0/24" em CIDR representa um intervalo de endereços IP de 203.0.113.0 a 203.0.113.255. O "/24" indica que os primeiros 24 bits são a parte da rede, e os 8 bits restantes estão disponíveis para endereços de host.
+                          Portanto, quando você especifica "203.0.113.0/24" como a origem na regra do seu grupo de segurança, ela abrange todos os endereços IP de 203.0.113.0 a 203.0.113.255, inclusivamente. Portanto, tanto 203.0.113.001 quanto 203.0.113.002 fazem parte deste intervalo.
+                          <br/>
+                          <ul>
+                              Para esclarecer:
+                              <li>203.0.113.0 é o endereço de rede.</li>
+                              <li>203.0.113.255 é o endereço de transmissão.</li>
+                              <li>O intervalo de endereços IP utilizáveis vai de 203.0.113.1 a 203.0.113.254.</li>
+                              <li>Endereços IP fora desse intervalo, como 203.0.114.0, não são aceitáveis.</li>
+                          </ul>
                         </div>
-                      <li>Pode ser anexado a múltiplas instâncias</li>
-                      <li>Restrito a uma combinação de região / VPC</li>
-                      <li>Existe "fora" da EC2 - se o tráfego for bloqueado, a instância EC2 não o verá</li>
-                      <li>É recomendável manter um grupo de segurança separado para acesso SSH</li>
-                      <li>Se sua aplicação não estiver acessível (timeout), então é um problema no grupo de segurança</li>
-                      <li>Se sua aplicação apresentar um erro de "conexão recusada", então é um erro na aplicação ou ela não foi iniciada</li>
-                      <li>Todo o tráfego de entrada é bloqueado por padrão</li>
-                      <li>Todo o tráfego de saída é autorizado por padrão</li>
                     </ul>
                 </li>
+               <li>Restrito a uma combinação de região / VPC</li>
+               <li>Existe "fora" da EC2 - se o tráfego for bloqueado, a instância EC2 não o verá</li>
+               <li>É recomendável manter um grupo de segurança separado para acesso SSH</li>
+               <li>Se sua aplicação não estiver acessível (timeout), então é um problema no grupo de segurança</li>
+               <li>Se sua aplicação apresentar um erro de "conexão recusada", então é um erro na aplicação ou ela não foi iniciada</li>
+               <li>Todo o tráfego de entrada é bloqueado por padrão</li>
+               <li>Todo o tráfego de saída é autorizado por padrão</li>
             </ul> 
         </li>
         <li><b>Script de inicialização (configurado no primeiro lançamento):</b> Dados do Usuário EC2.</li>
