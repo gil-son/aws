@@ -67,8 +67,27 @@ It mainly consists in the capability of:
               So the traffic can go through from our computer to the EC2 instance, but someone else's computer, that's
               not using my IP address beacause they don't live where I live (They don't have the same IP), then if they're to                   access our EC2 instance they will not get through it, because the firewall is going to block it and it will be a                  time out. Then for the outbound rules by default, our EC2 instance for any security group is going to be by default               allowing any traffic out of it. So our EC2 instance, id tries to access a website and initiate a connection it is                 going to be allowed by the security group:
             <img src="https://thumbs2.imgbox.com/8b/ab/I2BjxQMv_t.png" /> 
-              (So this is the basics of how the firewall works)
-            </div>
+              <br/>
+              (So this is the basics of how the firewall works) 
+               <hr/>
+               About other securty groups. So we have an EC2 instance, and it has a security group, what I call group number one, and the inbound rules is basically saying, I'm authorizing security group number one inbound and security group number two. So, why would we even do this? 
+               Well, if we launch another EC2 instance and it has security group two attached to it, well, by using security group (instinct) rule we bassically allow our EC2 instance to go connect straight through on the port we decided onto our first EC2 instance.
+              Similarly, if we have another EC2 instance with a security group one attached, while we've also authorized this one to communicate straight back to our instances. And so regardless of the IP of our EC2 instances because they have the right security group
+              attached to them they're able to communicate straight through to other instances. And that's awesome because it doesn't make you think about IPs all the time. As well as if you have another EC2 instance maybe with security group number three attached to it, well,
+              because it group number three, was't authorized in the inbound rules of security group number one, then it's being denied and things don't work. So that's a bit of an advanced feature. Whereas it's can be usefull with load balancers:
+              <br/>
+              <img src="https://thumbs2.imgbox.com/26/2c/GV6J2skK_t.png" />  
+            </div> 
+              The notation "203.0.113.0/24" in CIDR represents a range of IP addresses from 203.0.113.0 to 203.0.113.255. The "/24" indicates that the first 24 bits are the network portion, and the remaining 8 bits are available for host addresses.
+              So, when you specify "203.0.113.0/24" as the source in your security group rule, it covers all IP addresses from 203.0.113.0 to 203.0.113.255, inclusive. Therefore, both 203.0.113.001 and 203.0.113.002 are part of this range.
+              <br/>
+                <ul>
+                  To clarify:
+                  <li>203.0.113.0 is the network address.</li>
+                  <li>203.0.113.255 is the broadcast address.</li>
+                  <li>The range of usable IP addresses is from 203.0.113.1 to 203.0.113.254.</li>
+                  <li>IP addresses outside of this range, such as 203.0.114.0 aren't acceptable.</li>
+                </ul>
           </ul>
         </li>
         <li>Can be attached to multiplies instances</li>
