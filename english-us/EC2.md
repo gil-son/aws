@@ -90,7 +90,6 @@ It mainly consists in the capability of:
                 </ul>
           </ul>
         </li>
-        <li>Can be attached to multiplies instances</li>
         <li>Locked down to a region / VPC combination</li>
         <li>Does live "outside" the EC2 - if traffic is blocked the EC2 instance won't see it</li>
         <li>It's good to maintain one separete security group for SSH access</li>
