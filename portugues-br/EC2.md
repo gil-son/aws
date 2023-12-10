@@ -94,6 +94,16 @@ Principalmente, consiste na capacidade de:
                <li>Se sua aplicação apresentar um erro de "conexão recusada", então é um erro na aplicação ou ela não foi iniciada</li>
                <li>Todo o tráfego de entrada é bloqueado por padrão</li>
                <li>Todo o tráfego de saída é autorizado por padrão</li>
+              <li>Portas Clássicas para Conhecer
+                  <ul>
+                      <li>22 = SSH (Secure Shell) - fazer login em uma instância Linux.</li>
+                      <li>21 = FTP (File Transfer Protocol) - enviar arquivos para um compartilhamento de arquivos.</li>
+                      <li>22 = SFTP (Secure File Transfer Protocol) - enviar arquivos usando SSH.</li>
+                      <li>80 = HTTP (Hypertext Transfer Protocol) - acessar sites não seguros.</li>
+                      <li>443 = HTTPS (Hypertext Transfer Protocol Secure) - acessar sites seguros.</li>
+                      <li>3389 = RDP (Remote Desktop Protocol) - fazer login em uma instância Windows.</li>
+                  </ul>
+              </li>
             </ul> 
         </li>
         <li><b>Script de inicialização (configurado no primeiro lançamento):</b> Dados do Usuário EC2.</li>
