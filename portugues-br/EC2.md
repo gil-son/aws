@@ -181,7 +181,22 @@ Principalmente, consiste na capacidade de:
 
 <details><summary> <h3>Boas práticas</h3></summary>
 <ul>
-  <li>Escolher o tipo de instância apropriado com base nas necessidades de recursos de computação e na carga de trabalho prevista</li>
+   <li>Escolha o tipo de instância apropriado com base nas necessidades de recursos computacionais e na carga de trabalho esperada:
+      <ul>
+          <li>Instâncias Sob Demanda - carga de trabalho curta, precificação previsível, pagamento por segundo</li>
+          <li>Reservadas (1 e 3 anos)
+              <ul>
+                  <li>Instâncias Reservadas - cargas de trabalho longas</li>
+                  <li>Instâncias Reservadas Conversíveis - cargas de trabalho longas com instâncias flexíveis</li>
+              </ul>
+          </li>
+          <li>Planos de Economia (1 e 3 anos) - compromisso com uma quantidade de uso, carga de trabalho longa</li>
+          <li>Instâncias Spot - cargas de trabalho curtas, econômicas, podem perder instâncias (menos confiáveis)</li>
+          <li>Hosts Dedicados - reserve um servidor físico inteiro, controle o posicionamento da instância</li>
+          <li>Instâncias Dedicadas - nenhum outro cliente compartilhará seu hardware</li>
+          <li>Reservas de Capacidade - reserve capacidade em uma Zona de Disponibilidade específica por qualquer duração</li>
+      </ul>
+  </li> 
   <li>Configurar grupos de segurança para restringir o acesso à instância</li>
   <li>Usar chaves SSH para autenticar o acesso à instância</li>
   <li>Implementar backups regulares da instância para proteger dados críticos</li>
