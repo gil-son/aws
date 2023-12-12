@@ -185,7 +185,22 @@ It mainly consists in the capability of:
 </details>
 <details><summary> <h3>Best Practices</h3></summary>
 <ul>
-  <li>Choose the appropriate instance type based on the computing resource needs and expected workload</li>
+  <li>Choose the appropriate instance type based on the computing resource needs and expected workload:
+    <ul>
+      <li>On-Demand Instances - short workload, predictable princing, pay by second</li>
+      <li>Reserved (1 & 3 years)
+        <ul>
+          <li>Reserved Instances - long workloads</li>
+          <li>Convertible Reserved Instances - long workloads with flexible instances</li>
+        </ul>
+      </li>
+      <li>Savings Plans (1 & 3 years) - commitment to an amount of usage, long workload</li>
+      <li>Spot Instances - short workloads, cheap, can lose instances (less reliable)</li>
+      <li>Dedicated Hosts - book an entire physical server, control instance placement</li>
+      <li>Dedicated Instances - no other customers will share you hardware</li>
+      <li>Capacity Reservations - reserve capacity in a specific AZ for any duration</li>
+    </ul>
+  </li>
   <li>Configure security groups to restrict access to the instance</li>
   <li>Use SSH keys to authenticate access to the instance</li>
   <li>Implement regular backups of the instance to protect critical data</li>
