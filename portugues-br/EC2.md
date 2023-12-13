@@ -206,3 +206,33 @@ Principalmente, consiste na capacidade de:
   <li>Configurar as opções de segurança, como o CloudTrail e o CloudWatch, para monitorar e auditar o acesso à instância e proteger contra ameaças de segurança</li>
 </ul>
 </details>
+
+<details><summary><h3>Modelo de Responsabilidade para EC2</h3></summary>
+
+<table>
+  <tr>
+    <th>AWS</th>
+    <th>USUÁRIO</th>
+  </tr>
+  <tr>
+    <td>
+        <ul>
+          <li>Infraestrutura (segurança de rede global)</li>
+          <li>Isolamento no host físico</li>
+          <li>Substituição de hardware com defeito</li>
+          <li>Validação de conformidade</li>
+        </ul>
+    </td>
+    <td>
+       <ul>
+          <li>Regras de Grupos de Segurança</li>
+          <li>Patches e atualizações do sistema operacional</li>
+          <li>Software e utilitários instalados na instância EC2</li>
+          <li>Funções IAM atribuídas à EC2 e gerenciamento de acesso do usuário IAM</li>
+          <li>Segurança de dados na sua instância</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+</details>
