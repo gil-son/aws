@@ -185,7 +185,7 @@ It mainly consists in the capability of:
 </details>
 <details><summary> <h3>Best Practices</h3></summary>
 <ul>
-  <li>Choose the appropriate instance type based on the computing resource needs and expected workload:
+  <li><b>Purchasing Option:</b> Choose the appropriate instance type based on the computing resource needs and expected workload:
     <ul>
       <li>On-Demand Instances - short workload, predictable princing, pay by second</li>
       <li>Reserved (1 & 3 years)
