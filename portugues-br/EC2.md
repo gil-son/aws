@@ -181,7 +181,7 @@ Principalmente, consiste na capacidade de:
 
 <details><summary> <h3>Boas práticas</h3></summary>
 <ul>
-   <li>Escolha o tipo de instância apropriado com base nas necessidades de recursos computacionais e na carga de trabalho esperada:
+   <li><b>Opção de Compra:</b> escolha o tipo de instância apropriado com base nas necessidades de recursos computacionais e na carga de trabalho esperada:
       <ul>
           <li>Instâncias Sob Demanda - carga de trabalho curta, precificação previsível, pagamento por segundo</li>
           <li>Reservadas (1 e 3 anos)
