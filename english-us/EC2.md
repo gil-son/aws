@@ -200,6 +200,44 @@ It mainly consists in the capability of:
       <li>Dedicated Instances - no other customers will share you hardware</li>
       <li>Capacity Reservations - reserve capacity in a specific AZ for any duration</li>
     </ul>
+      <hr/>
+      <table>
+        <tr>
+          <th>Purchasing Option</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>On-Demand Instances</td>
+          <td>Short workload, predictable pricing, pay by second</td>
+        </tr>
+        <tr>
+          <td>Reserved Instances (1 & 3 years)</td>
+          <td>
+            - Reserved Instances: Long workloads with a fixed term commitment<br>
+            - Convertible Reserved Instances: Long workloads with flexible instances
+          </td>
+        </tr>
+        <tr>
+          <td>Savings Plans (1 & 3 years)</td>
+          <td>Commitment to an amount of usage, suitable for long workloads</td>
+        </tr>
+        <tr>
+          <td>Spot Instances</td>
+          <td>Short workloads, cost-effective but less reliable</td>
+        </tr>
+        <tr>
+          <td>Dedicated Hosts</td>
+          <td>Book an entire physical server, control instance placement</td>
+        </tr>
+        <tr>
+          <td>Dedicated Instances</td>
+          <td>No other customers will share your hardware</td>
+        </tr>
+        <tr>
+          <td>Capacity Reservations</td>
+          <td>Reserve capacity in a specific AZ for any duration</td>
+        </tr>
+    </table>
   </li>
   <li>Configure security groups to restrict access to the instance</li>
   <li>Use SSH keys to authenticate access to the instance</li>
