@@ -73,7 +73,7 @@ so are the EBS Volumes
   <img src="https://thumbs2.imgbox.com/92/5b/3rMQjWcM_t.png">
 </div>
 
-Finally, its possibile to create EBS Volumes and leave them unattached they don't need to be necessarily attached to an ECS instance, they can be attached on demand
+Finally, its possibile to create EBS Volumes and leave them unattached they don't need to be necessarily attached to an EC2 instance, they can be attached on demand
 and that makes it very, very powerful
 
 <div align="center">
@@ -87,7 +87,7 @@ and that makes it very, very powerful
               <img src="https://thumbs2.imgbox.com/4f/e1/jcdePj9F_t.png">
             </div>
           </li>
-          <li>As well as exist a column in instance - storage to check about if you terminate the ECS, in consequence the EBS will be termitade too or not
+          <li>As well as exist a column in instance - storage to check about if you terminate the EC2, in consequence the EBS will be termitade too or not
             <div align="center">
               <img src="https://images2.imgbox.com/61/84/ch7cWPAA_o.png">
             </div>
