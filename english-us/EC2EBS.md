@@ -47,6 +47,41 @@ First of all, It is important you have knowlegde about <a href="https://github.c
       </ul>
    </li>
 </li>
+<li><b>EBS Volume - Example:</b> If exist a us-east-1 with one EC2 instance, it is possible to attach one EBS Volume to the EC2 instance
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/82/bf/uWxwk84p_t.png">
+</div>
+
+If a new instance is alocated, the EBS Volume can not be attached to two instances
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/5b/17/vMHtPcJ1_t.png">
+</div>
+
+then, this other EC2 instance needs to have its own EBS Volume attached to it as well as is very possible two EBS Volumes attached to one instance
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/f2/62/do8a2PME_t.png">
+</div>
+
+Now EBS Volume are liked to an avalability zone, in this case us-east-1a. So if you want to have other EBS Volumes in an other AZ, then you would
+need to create this separately in the other avaliability zone, in this case us-east-1b. So jut same way that's your EC2 instances are bound to an AZ,
+so are the EBS Volumes
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/92/5b/3rMQjWcM_t.png">
+</div>
+
+Finally, its possibile to create EBS Volumes and leave them unattached they don't need to be necessarily attached to an ECS instance, they can be attached on demand
+and that makes it very, very powerful
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/59/32/RuvDvoKI_t.png">
+</div>
+
+</li>
+  
 <li><b>Snapshot:</b> A snapshot is a point-in-time copy of an EBS volume, which can be used for backup and recovery.</li>
 <li><b>Volume Types:</b> EBS provides different volume types, including General Purpose, Provisioned IOPS, and Magnetic, each optimized for specific use cases.</li>
   <div align="center">
