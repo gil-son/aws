@@ -80,13 +80,23 @@ and that makes it very, very powerful
   <img src="https://thumbs2.imgbox.com/59/32/RuvDvoKI_t.png">
 </div>
 
+ <li><b>Delete on Termination attribute:</b> Finally, when a EBS is create through EC2 instances
+      <ul> Look
+          <li>there is this thing called a Deletes on Termination attribute
+            <div align="center">
+              <img src="https://thumbs2.imgbox.com/4f/e1/jcdePj9F_t.png">
+            </div>
+          </li>
+          <li>As well as exist a column in instance - storage to check about if you terminate the ECS, in consequence the EBS will be termitade too or not
+            <div align="center">
+              <img src="https://images2.imgbox.com/61/84/ch7cWPAA_o.png">
+            </div>
+          </li>
+        </ul>
 </li>
   
 <li><b>Snapshot:</b> A snapshot is a point-in-time copy of an EBS volume, which can be used for backup and recovery.</li>
 <li><b>Volume Types:</b> EBS provides different volume types, including General Purpose, Provisioned IOPS, and Magnetic, each optimized for specific use cases.</li>
-  <div align="center">
-    <img src="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/images/volume-types.png" width="50%">
-  </div>
 </ul>
 </details>
 
