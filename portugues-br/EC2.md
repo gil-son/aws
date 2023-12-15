@@ -186,8 +186,8 @@ Principalmente, consiste na capacidade de:
           <li>Instâncias Sob Demanda - carga de trabalho curta, precificação previsível, pagamento por segundo</li>
           <li>Reservadas (1 e 3 anos)
               <ul>
-                  <li>Instâncias Reservadas - cargas de trabalho longas</li>
-                  <li>Instâncias Reservadas Conversíveis - cargas de trabalho longas com instâncias flexíveis</li>
+                  <li>Instâncias Reservadas - longas cargas de trabalho</li>
+                  <li>Instâncias Reservadas Conversíveis - longas cargas de trabalho com instâncias flexíveis</li>
               </ul>
           </li>
           <li>Planos de Economia (1 e 3 anos) - compromisso com uma quantidade de uso, carga de trabalho longa</li>
@@ -195,6 +195,44 @@ Principalmente, consiste na capacidade de:
           <li>Hosts Dedicados - reserve um servidor físico inteiro, controle o posicionamento da instância</li>
           <li>Instâncias Dedicadas - nenhum outro cliente compartilhará seu hardware</li>
           <li>Reservas de Capacidade - reserve capacidade em uma Zona de Disponibilidade específica por qualquer duração</li>
+        <hr/>
+        <table>
+          <tr>
+            <th>Opção de Compra</th>
+            <th>Descrição</th>
+          </tr>
+          <tr>
+            <td>Instâncias Sob Demanda</td>
+            <td>Carga de trabalho curta, precificação previsível, pagamento por segundo</td>
+          </tr>
+          <tr>
+            <td>Instâncias Reservadas (1 e 3 anos)</td>
+            <td>
+              - Instâncias Reservadas: longas cargas de trabalho com compromisso a termo<br>
+              - Instâncias Reservadas Convertíveis: longas cargas de trabalho com instâncias flexíveis
+            </td>
+          </tr>
+          <tr>
+            <td>Planos de Economia (1 e 3 anos)</td>
+            <td>Compromisso com uma quantidade de uso, adequado para longas cargas de trabalho</td>
+          </tr>
+          <tr>
+            <td>Instâncias Spot</td>
+            <td>Cargas de trabalho curtas, econômicas, mas menos confiáveis</td>
+          </tr>
+          <tr>
+            <td>Hosts Dedicados</td>
+            <td>Reserve um servidor físico inteiro, controle a colocação das instâncias</td>
+          </tr>
+          <tr>
+            <td>Instâncias Dedicadas</td>
+            <td>Nenhum outro cliente compartilhará seu hardware</td>
+          </tr>
+          <tr>
+            <td>Reservas de Capacidade</td>
+            <td>Reserve capacidade em uma zona de disponibilidade específica por qualquer período</td>
+          </tr>
+        </table>
       </ul>
   </li> 
   <li>Configurar grupos de segurança para restringir o acesso à instância</li>
