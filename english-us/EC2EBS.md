@@ -118,6 +118,28 @@ and that makes it very, very powerful
               <img src="https://thumbs2.imgbox.com/c1/41/z4bXfnrm_t.png">
           </div>
       </ul>
+<li><b>Snapshots Features:</b>
+          <ul>
+            <li><b>EBS Snapshot Archive</b>
+              <ul>
+                <li>Move a Snapshot to an "archive tier" that is 75% cheaper</li>
+                <li>Takes within 24 or 72 hours for restoring the archive</li>
+                <div align="center">
+                  <img src="https://thumbs2.imgbox.com/09/2f/sCjyRxEh_t.png">
+                </div>
+              </ul>
+            </li>
+            <li><b>Recycle Bin for EBS Snapshots</b>
+              <ul>
+                <li>Setup rules to retain deleted snapshots so you can recover them after an accidental deletion</li>
+                <li>Specify retention (from 1 day to 1 year)</li>
+                <li></li>
+                   <div align="center">
+                    <img src="https://thumbs2.imgbox.com/02/10/OFCpvOaf_t.png">
+                  </div> 
+              </ul> 
+            </li>
+          </ul>
 </li>
 </li>
 <li><b>Volume Types:</b> EBS provides different volume types, including General Purpose, Provisioned IOPS, and Magnetic, each optimized for specific use cases.</li>
