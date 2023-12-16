@@ -95,7 +95,31 @@ and that makes it very, very powerful
         </ul>
 </li>
   
-<li><b>Snapshot:</b> A snapshot is a point-in-time copy of an EBS volume, which can be used for backup and recovery.</li>
+<li><b>Snapshot:</b> A snapshot is a point-in-time copy of an EBS volume, which can be used for backup and recovery.
+    <ul>
+          <li>Make a backup (snapshot) of your EBS volume at a point in time</li>
+          <li>Not necessary to detach volume to do snapshot, but recommended</li>
+          <li>Can copy snapshot across AZ or Region, is a way to transfer some of the data in different region on AWS</li>
+          <hr/>
+          So us-east-1a has an EC2 and an attached EBS volume
+           <div align="center">
+              <img src="https://thumbs2.imgbox.com/a8/20/eanO2Ogn_t.png">
+           </div>
+          That EBS volume would be snapshot it. For consequence the EBS Snapshots exist in your region
+           <div align="center">
+              <img src="https://thumbs2.imgbox.com/1b/7f/rfK9FFKN_t.png">
+            </div>
+          And that snapshot can be used to restore a new EBS volume in another availability zone
+          <div align="center">
+              <img src="https://thumbs2.imgbox.com/af/c8/UMTAkjwK_t.png">
+          </div>
+          And then now that is done. Is possible to attach the new EBS volume to an EC2 is us-east-1b and effectively transferred an EBS volume through a snapshot across AZ
+          <div align="center">
+              <img src="https://thumbs2.imgbox.com/c1/41/z4bXfnrm_t.png">
+          </div>
+      </ul>
+</li>
+</li>
 <li><b>Volume Types:</b> EBS provides different volume types, including General Purpose, Provisioned IOPS, and Magnetic, each optimized for specific use cases.</li>
 </ul>
 </details>
