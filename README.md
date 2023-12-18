@@ -192,12 +192,7 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
      <td>AWS IAM is an identity and access management service that enables control of access to AWS resources by users and applications.</td>
  </tr>
 
-<tr align="center">
-     <td colspan="2">Storage</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
-     <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
- </tr>
+
 
 <tr align="center">
      <td rowspan="3">Compute</td>
@@ -236,10 +231,17 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
      <td>The Amazon Route 53 is AWS's domain name system (DNS) and content delivery network (CDN) service, providing domain registration, DNS resolution, and traffic routing to optimize availability and performance for applications on the internet.
 </td>
  </tr>
- 
+
+<tr align="center">
+     <td>Storage</td>
+     <td rowspan="5">Integrate with any service model</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
+     <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
+ </tr>
+
 <tr align="center">
      <td rowspan="2">Database</td>
-     <td rowspan="4">Integrate with any service model</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB is a fully managed, highly scalable, flexible, and high-performance NoSQL database service.</td>
