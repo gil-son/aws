@@ -61,14 +61,7 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
  </tr>
 
 <tr align="center">
-     <td colspan="2">Armazenar</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md">S3</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
-     <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
- </tr>
- 
-<tr align="center">
-     <td rowspan="4">Computação</td>
+     <td rowspan="3">Computação</td>
      <td>PaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
@@ -76,16 +69,10 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
  </tr> 
   
  <tr align="center">
-     <td rowspan="2">IaaS</td>
+     <td>IaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
- </tr>
- 
-  <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md">EC2 Auto Scaling</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="70%"/></a></td>
-     <td>O Amazon Auto Scaling é um serviço que ajusta automaticamente a capacidade de computação de um grupo de instâncias do Amazon EC2 para atender às demandas da aplicação.</td>
  </tr>
 
  <tr align="center">
@@ -111,8 +98,15 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
  </tr>
  
 <tr align="center">
+     <td>Armazenar</td>
+     <td rowspan="5">Integra com qualquer modelo de serviço</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md">S3</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
+     <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
+ </tr>
+ 
+<tr align="center">
      <td rowspan="2">Banco de Dados</td>
-     <td rowspan="4">Integra com qualquer modelo de serviço</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md">DynamoDB</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
      <td>DynamoDB é um serviço de banco de dados NoSQL, totalmente gerenciado, altamente escalável, flexível e com alta performance</td>
