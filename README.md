@@ -200,7 +200,7 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
  </tr>
 
 <tr align="center">
-     <td rowspan="4">Compute</td>
+     <td rowspan="3">Compute</td>
      <td>PaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
@@ -208,16 +208,10 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
  </tr>    
    
  <tr align="center">
-     <td rowspan="2">IaaS</td>
+     <td>IaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
      <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
- </tr>
-
-  <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md">EC2 Auto Scaling</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2AutoScaling.md"><img src="https://thumbs2.imgbox.com/8d/17/MCXI0CYy_t.png"  width="70%"/></a></td>
-     <td>Amazon Auto Scaling is a service that automatically adjusts the computing capacity of a group of Amazon EC2 instances to meet the demands of the application.</td>
  </tr>
 
  <tr align="center">
