@@ -109,7 +109,6 @@ Principalmente, consiste na capacidade de:
         <li><b>Script de inicialização (configurado no primeiro lançamento):</b> Dados do Usuário EC2.</li>
     </ul> 
 </li>
-<li><b>Imagens de AMI:</b> As imagens de AMI (Amazon Machine Image) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, o software necessário e as configurações da aplicação.</li>
 <li>
     <b>Convenção:</b> A AWS segue a seguinte convenção de nomenclatura: <em>m</em><b>5</b>.2xlarge
     <ul>
@@ -175,6 +174,54 @@ Principalmente, consiste na capacidade de:
 <li><b>Regiões:</b> O EC2 está disponível em várias regiões ao redor do mundo. Cada região é uma área geográfica independente, com várias zonas de disponibilidade para aumentar a resiliência e a disponibilidade.</li>
 <li><b>Zonas de disponibilidade:</b> Cada região do EC2 tem várias zonas de disponibilidade, que são data centers separados fisicamente, mas conectados por uma rede de baixa latência e alta largura de banda.</li>
 <li><b>Elastic IP:</b> Um Elastic IP é um endereço IP estático que você pode associar a uma instância EC2. Ele permite que você mantenha o mesmo endereço IP mesmo se a instância for interrompida ou reiniciada.</li>
+<li><b>Imagens AMI:</b> As Imagens de Máquina da Amazon (AMI) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, software necessário e configurações de aplicativos.
+  <ul>
+      <li> AMI é uma personalização de uma instância EC2
+           <ul>
+            <li>Você adiciona seu próprio software, configuração, sistema operacional, monitoramento...</li>
+            <li>
+              Tempo de inicialização/configuração mais rápido porque todo o seu software está pré-empacotado
+            </li>
+        </ul>
+      </li>
+      <li>
+        AMI é construída para uma <b>região específica</b> (e pode ser copiada entre regiões)
+      </li>
+      <li>
+         Você pode iniciar instâncias EC2 a partir de:
+          <ul>
+          <li>Uma AMI Pública: fornecida pela AWS</li>
+          <li>Sua própria AMI: que você cria e mantém</li>
+          <li>Uma AMI do AWS Marketplace: uma AMI feita por outra pessoa (e potencialmente à venda)</li>
+        </ul>
+      </li>
+      <li>
+         Processo AMI (de uma instância EC2):
+          <ul>
+          <li>Inicie uma instância EC2 e a personalize</li>
+          <li>Pare a instância (para integridade dos dados)</li>
+          <li>Crie uma AMI - isso também criará snapshots do EBS</li>
+          <li>Inicie instâncias a partir de outras AMIs
+            <hr/>
+            Assim, existe uma instância EC2 em us-east-1a e a mesma instância em us-east-1b
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
+            </div>
+            <hr/>
+            O processo consiste em iniciar a instância em us-east-1a, mas é necessário personalizá-la, depois criar uma AMI a partir dela
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
+            </div>
+            <hr/>
+            Esta será sua AMI personalizada. E então, em us-east-1b, você poderá iniciar uma instância a partir dessa AMI. É uma cópia da sua instância EC2
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
+            </div>
+          </li>  
+        </ul>
+      </li>
+  </ul>
+</li>
 <li><b>Load Balancers:</b> O EC2 oferece balanceadores de carga, que distribuem o tráfego de rede entre várias instâncias EC2 em uma região.</li>
 </ul>
 </details>
