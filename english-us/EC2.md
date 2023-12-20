@@ -112,7 +112,6 @@ It mainly consists in the capability of:
     <li><b>Bootsrap script (configure at first launch):</b>EC2 User Data.</li>
   </ul> 
 </li>
-<li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 instances. They contain the operating system, necessary software, and application settings.</li>
 <li>
 <b>Convention:</b> AWS has the following naming convention:  <em>m</em><b>5</b>.2xlarge
   <ul>
@@ -180,6 +179,55 @@ It mainly consists in the capability of:
 <li><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</li>
 <li><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</li>
 <li><b>Elastic IP:</b> An Elastic IP is a static IP address that you can associate with an EC2 instance. It allows you to keep the same IP address even if the instance is stopped or restarted.</li>
+<li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 instances. They contain the operating system, necessary software, and application settings.
+  <ul>
+      <li> AMI are a customization of an EC2 instance
+           <ul>
+            <li>You add your own software, configuration, operation system, monitoring...</li>
+            <li>
+              Faster boot / configuration time because all your software is pre-packaged
+            </li>
+        </ul>
+      </li>
+      <li>
+        AMI are built for a <b>specific region</b> (and can be copied across regions)
+      </li>
+      <li>
+         You can launch EC2 instances from:
+          <ul>
+          <li>A Public AMI: AWS provided</li>
+          <li>You own AMI: you make and maintain them yourself</li>
+          <li>An AWS Marketplace AMI: an AMI someone else made (and potentially sells)</li>
+        </ul>
+      </li>
+      <li>
+         AMI Process (from an EC2 instance):
+          <ul>
+          <li>Start an EC2 instance and customize ir</li>
+          <li>Stop the instance (for data integrity)</li>
+          <li>Build an AMI - this will also create EBS snapshots</li>
+          <li>Launch a instances from others AMIs
+            <hr/>
+            So exist a EC2 instance in us-east-1a and the same instance as us-east-b
+            <div align="center"> 
+              <img src="">  
+            </div>
+            <hr/>
+            the proccess consist to launch the instance in us-east-1a, but are necessary customize, then create an AMI from it
+            <div align="center"> 
+              <img src="">  
+            </div>
+            <hr/>
+            this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 instance
+            <div align="center"> 
+              <img src="">  
+            </div>
+          </li>  
+        </ul>
+      </li>
+  </ul>
+
+</li>
 <li><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 instances in a region.</li>
 </ul>
 </details>
