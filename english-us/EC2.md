@@ -210,17 +210,17 @@ It mainly consists in the capability of:
             <hr/>
             So exist a EC2 instance in us-east-1a and the same instance as us-east-b
             <div align="center"> 
-              <img src="">  
+              <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
             </div>
             <hr/>
             the proccess consist to launch the instance in us-east-1a, but are necessary customize, then create an AMI from it
             <div align="center"> 
-              <img src="">  
+              <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
             </div>
             <hr/>
             this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 instance
             <div align="center"> 
-              <img src="">  
+              <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
             </div>
           </li>  
         </ul>
