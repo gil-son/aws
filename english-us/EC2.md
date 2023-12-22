@@ -226,7 +226,14 @@ It mainly consists in the capability of:
         </ul>
       </li>
   </ul>
-
+</li>
+<li><b>EC2 Image Builder:</b>
+  <ul>
+    <li>Used to automate the creation of Virtual Machines or container images</li>
+    <li>Automate the creation, maintain, validate and test EC2 AMIs, and more</li>
+    <li>Can be run on a schedule (weekly, whenever packages are updated, etc...)</li>
+    <li>Free service (only pay for the underlying resources)</li>
+  </ul>
 </li>
 <li><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 instances in a region.</li>
 </ul>
