@@ -233,6 +233,38 @@ It mainly consists in the capability of:
     <li>Automate the creation, maintain, validate and test EC2 AMIs, and more</li>
     <li>Can be run on a schedule (weekly, whenever packages are updated, etc...)</li>
     <li>Free service (only pay for the underlying resources)</li>
+    <li>
+      <hr/>
+        aaa1
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
+          </div>
+      <hr/>
+        aaa2
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
+          </div>
+      <hr/>
+        aaa3
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
+          </div>
+      <hr/>
+        aaa4
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
+          </div>
+      <hr/>
+        aaa5
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
+          </div>
+      <hr/>
+        aaa6
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
+          </div>
+    </li>
   </ul>
 </li>
 <li><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 instances in a region.</li>
