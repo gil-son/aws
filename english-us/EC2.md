@@ -229,45 +229,45 @@ It mainly consists in the capability of:
 </li>
 <li><b>EC2 Image Builder:</b>
   <ul>
-    <li>Usado para automatizar a criação de Máquinas Virtuais ou imagens de contêiner</li>
-    <li>Automatiza a criação, manutenção, validação e teste de AMIs EC2, e muito mais</li>
-    <li>Pode ser executado em um cronograma (semanalmente, sempre que os pacotes são atualizados, etc...)</li>
-    <li>Serviço gratuito (paga apenas pelos recursos subjacentes)</li>
+    <li>Used to automate the creation of Virtual Machines or container images</li>
+    <li>Automate the creation, maintain, validate and test EC2 AMIs, and more</li>
+    <li>Can be run on a schedule (weekly, whenever packages are updated, etc...)</li>
+    <li>Free service (only pay for the underlying resources)</li>
     <li>
       <hr/>
-        Então, temos o serviço EC2 Image Builder e vamos configurá-lo. E ele é executado automaticamente quando for iniciar
+        So we have the EC2 Image Builder service and we're going to set it up. And it is automatically when it's going to run
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
           </div>
       <hr/>
-        ele vai criar uma Instância EC2 chamada Builder EC2 Instance.
+        it is going to create an EC2 Instance called Builder EC2 Instance.
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
           </div>
       <hr/>
-        E essa Instância EC2 vai construir componentes e personalizar o software. Por exemplo, instalar o Java, atualizar a CLI, atualizar o sistema de software,
-        talvez instalar firewalls, o que quer que você defina para acontecer nessa Instância EC2, talvez instalar sua aplicação.
+        And that EC2 Instance is going to build components and customize the software. For example, install Java, update the CLI, update the software system,
+        maybe install firewalls, whatever you define to happen on that EC2 Instance, maybe install your application.
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
           </div>
       <hr/>
-        E uma vez que isso estiver feito, então uma AMI será criada a partir dessa Instância EC2, mas tudo isso é obviamente automatizado.
-       Então a AMI é criada, mas queremos validá-la. 
+        An then once this is done, then an AMI is going to be created out of that EC2 Instance, but all of this is obviously automated.
+       Then the AMI is created, but we want to validate it. 
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
           </div>
       <hr/>
-        Assim, o EC2 Image Builder criará automaticamente uma Instância EC2 de teste a partir dessa AMI e executará uma série de testes que você definiu antecipadamente.
-        E se você não quiser executar nenhum teste, pode simplesmente pular esse teste. Mas o teste pode perguntar: a AMI está funcionando? Está segura? Minha aplicação está sendo executada corretamente?
-        Todas essas coisas. 
+        So EC2 Image Builder will automatically create a test EC2 Instance from that AMI and going to run a bunch of tests that you are defining in advance.
+        And if you don't wanna run any tests, you can just skip that test. But the test can be asking, is the AMI working? Is it secure? Is my application running correctly?
+        All these kind of things. 
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
           </div>
       <hr/>
-        E uma vez que a AMI é testada, então a AMI será distribuída, então, enquanto o EC2 Image Builder é um serviço regional, é possível pegar essa AMI e
-        distribuí-la para várias regiões, permitindo assim que sua aplicação e fluxo de trabalho sejam verdadeiramente globais. Em seguida, o EC2 Image Builder pode ser executado em um cronograma. Portanto, você pode definir um cronograma semanal,
-        ou você pode dizer que pode ser executado sempre que os pacotes são atualizados, ou você pode executá-lo manualmente, etc. E é um serviço gratuito. Portanto, você só pagará pelos recursos subjacentes. O que significa? Isso significa que se você criar uma Instância EC2 durante esse processo, o EC2 Image Builder criará essas Instâncias EC2, então você pagará por essas Instâncias EC2. E quando a AMI
-        for criada e distribuída, você pagará pelo armazenamento dessa AMI onde quer que ela tenha sido criada e distribuída.
+        And then one the AMI is tested, then the AMI is going to be distributed, so while EC2 Image Builder is a regional service, it is possible for you to take that AMI and
+        distribute it to multiple regions, therefore, allowing your application and workflow to be truly global. Next, EC2 Image Builder can be run on a schedule. So you can define a weekly schedule,
+        or you can say you can run whenever packages are updated, or you can run it manually, etc. And it is a free service. So you're only going to pay for the underlying resources. What's means? That              means that if you create an EC2 Instance during this process, an EC2 Image Builder will create these EC2 Instances, then you're going to pay for these EC2 Instances. And when the AMI
+        is created and distribuited youre going to pay for these storage of that AMI wherever it has been created, and wherever it has been distribuited.
           <div align="center">  
             <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
           </div>
