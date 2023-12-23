@@ -222,6 +222,53 @@ Principalmente, consiste na capacidade de:
       </li>
   </ul>
 </li>
+<li><b>EC2 Image Builder:</b>
+  <ul>
+    <li>Usado para automatizar a criação de Máquinas Virtuais ou imagens de contêiner</li>
+    <li>Automatiza a criação, manutenção, validação e teste de AMIs EC2, e muito mais</li>
+    <li>Pode ser executado em um cronograma (semanalmente, sempre que os pacotes são atualizados, etc...)</li>
+    <li>Serviço gratuito (paga apenas pelos recursos subjacentes)</li>
+    <li>
+      <hr/>
+        Então, temos o serviço EC2 Image Builder e vamos configurá-lo. E ele é executado automaticamente quando for iniciar
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
+          </div>
+      <hr/>
+        ele vai criar uma Instância EC2 chamada Builder EC2 Instance.
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
+          </div>
+      <hr/>
+        E essa Instância EC2 vai construir componentes e personalizar o software. Por exemplo, instalar o Java, atualizar a CLI, atualizar o sistema de software,
+        talvez instalar firewalls, o que quer que você defina para acontecer nessa Instância EC2, talvez instalar sua aplicação.
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
+          </div>
+      <hr/>
+        E uma vez que isso estiver feito, então uma AMI será criada a partir dessa Instância EC2, mas tudo isso é obviamente automatizado.
+       Então a AMI é criada, mas queremos validá-la. 
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
+          </div>
+      <hr/>
+        Assim, o EC2 Image Builder criará automaticamente uma Instância EC2 de teste a partir dessa AMI e executará uma série de testes que você definiu antecipadamente.
+        E se você não quiser executar nenhum teste, pode simplesmente pular esse teste. Mas o teste pode perguntar: a AMI está funcionando? Está segura? Minha aplicação está sendo executada corretamente?
+        Todas essas coisas. 
+          <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
+          </div>
+      <hr/>
+        E uma vez que a AMI é testada, então a AMI será distribuída, então, enquanto o EC2 Image Builder é um serviço regional, é possível pegar essa AMI e
+        distribuí-la para várias regiões, permitindo assim que sua aplicação e fluxo de trabalho sejam verdadeiramente globais. Em seguida, o EC2 Image Builder pode ser executado em um cronograma. Portanto, você pode definir um cronograma semanal,
+        ou você pode dizer que pode ser executado sempre que os pacotes são atualizados, ou você pode executá-lo manualmente, etc. E é um serviço gratuito. Portanto, você só pagará pelos recursos subjacentes. O que significa? Isso significa que se você criar uma Instância EC2 durante esse processo, o EC2 Image Builder criará essas Instâncias EC2, então você pagará por essas Instâncias EC2. E quando a AMI
+        for criada e distribuída, você pagará pelo armazenamento dessa AMI onde quer que ela tenha sido criada e distribuída.
+          <div align="center">  
+            <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
+          </div>
+    </li>
+  </ul>
+</li>
 <li><b>Load Balancers:</b> O EC2 oferece balanceadores de carga, que distribuem o tráfego de rede entre várias instâncias EC2 em uma região.</li>
 </ul>
 </details>
