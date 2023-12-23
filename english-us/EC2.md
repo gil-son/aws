@@ -3,7 +3,7 @@ EC2
   <img src="https://cdn.freebiesupply.com/logos/large/2x/aws-ec2-logo-svg-vector.svg" width="25%">
 </div>
 
-Amazon EC2 (Elastic Compute Cloud) is a cloud computing service that provides scalable computing capacity on Amazon's cloud. It allows you to easily set up and run virtual servers in Amazon's cloud, called EC2 instances. With Amazon EC2, you can scale your computing capacity vertically or horizontally according to your application needs, paying only for the resources you use.
+Amazon EC2 (Elastic Compute Cloud) is a cloud computing service that provides scalable computing capacity on Amazon's cloud. It allows you to easily set up and run virtual servers in Amazon's cloud, called EC2 Instances. With Amazon EC2, you can scale your computing capacity vertically or horizontally according to your application needs, paying only for the resources you use.
 
 EC2 = Elastic Compute Cloud = Infrastructure as a Service
 
@@ -28,7 +28,7 @@ It mainly consists in the capability of:
 </details>
 <details><summary> <h3>Terms and Concepts</h3></summary>
 <ul>
-<li><b>Sizing and Configurations options:</b> EC2 instances are configurable virtual servers that you can launch on Amazon's cloud:
+<li><b>Sizing and Configurations options:</b> EC2 Instances are configurable virtual servers that you can launch on Amazon's cloud:
     <ul>
     <li><b>Operating System (OS):</b> Linux, Windows or Mac OS</li>
     <li>How much compute power & cores (CPU).</li>
@@ -49,7 +49,7 @@ It mainly consists in the capability of:
         </li>
         <li>Security groups contain <b>allow rules</b></li>
         <li>Security groups rules can reference by IP or by security group</li>
-        <li>Security groups are acting as a "firewall" on EC2 instances</li>
+        <li>Security groups are acting as a "firewall" on EC2 Instances</li>
         <li>They regulate:  
           <ul>
             <li>Access to Ports</li>
@@ -62,18 +62,18 @@ It mainly consists in the capability of:
               Source represents an IP address range and 0.0.0.0/0 means everything
               (That is an illustration. Then don't share your particular informations)
               <hr/>
-              So we have our EC2 instance and it has one security group allow attached to it
+              So we have our EC2 Instance and it has one security group allow attached to it
               that has inboud rules and outbound rules. So our computer is going to be authorized on say port 22.
-              So the traffic can go through from our computer to the EC2 instance, but someone else's computer, that's
-              not using my IP address beacause they don't live where I live (They don't have the same IP), then if they're to                   access our EC2 instance they will not get through it, because the firewall is going to block it and it will be a                  time out. Then for the outbound rules by default, our EC2 instance for any security group is going to be by default               allowing any traffic out of it. So our EC2 instance, id tries to access a website and initiate a connection it is                 going to be allowed by the security group:
+              So the traffic can go through from our computer to the EC2 Instance, but someone else's computer, that's
+              not using my IP address beacause they don't live where I live (They don't have the same IP), then if they're to                   access our EC2 Instance they will not get through it, because the firewall is going to block it and it will be a                  time out. Then for the outbound rules by default, our EC2 Instance for any security group is going to be by default               allowing any traffic out of it. So our EC2 Instance, id tries to access a website and initiate a connection it is                 going to be allowed by the security group:
             <img src="https://thumbs2.imgbox.com/8b/ab/I2BjxQMv_t.png" /> 
               <br/>
               (So this is the basics of how the firewall works) 
                <hr/>
-               About other securty groups. So we have an EC2 instance, and it has a security group, what I call group number one, and the inbound rules is basically saying, I'm authorizing security group number one inbound and security group number two. So, why would we even do this? 
-               Well, if we launch another EC2 instance and it has security group two attached to it, well, by using security group (instinct) rule we bassically allow our EC2 instance to go connect straight through on the port we decided onto our first EC2 instance.
-              Similarly, if we have another EC2 instance with a security group one attached, while we've also authorized this one to communicate straight back to our instances. And so regardless of the IP of our EC2 instances because they have the right security group
-              attached to them they're able to communicate straight through to other instances. And that's awesome because it doesn't make you think about IPs all the time. As well as if you have another EC2 instance maybe with security group number three attached to it, well,
+               About other securty groups. So we have an EC2 Instance, and it has a security group, what I call group number one, and the inbound rules is basically saying, I'm authorizing security group number one inbound and security group number two. So, why would we even do this? 
+               Well, if we launch another EC2 Instance and it has security group two attached to it, well, by using security group (instinct) rule we bassically allow our EC2 Instance to go connect straight through on the port we decided onto our first EC2 Instance.
+              Similarly, if we have another EC2 Instance with a security group one attached, while we've also authorized this one to communicate straight back to our instances. And so regardless of the IP of our EC2 Instances because they have the right security group
+              attached to them they're able to communicate straight through to other instances. And that's awesome because it doesn't make you think about IPs all the time. As well as if you have another EC2 Instance maybe with security group number three attached to it, well,
               because it group number three, was't authorized in the inbound rules of security group number one, then it's being denied and things don't work. So that's a bit of an advanced feature. Whereas it's can be usefull with load balancers:
               <br/>
               <img src="https://thumbs2.imgbox.com/26/2c/GV6J2skK_t.png" />  
@@ -91,7 +91,7 @@ It mainly consists in the capability of:
           </ul>
         </li>
         <li>Locked down to a region / VPC combination</li>
-        <li>Does live "outside" the EC2 - if traffic is blocked the EC2 instance won't see it</li>
+        <li>Does live "outside" the EC2 - if traffic is blocked the EC2 Instance won't see it</li>
         <li>It's good to maintain one separete security group for SSH access</li>
         <li>If your application is not accessible (time out), then it's a security group issue</li>
         <li>If your application gives a "connection refused" error, then it's an application error or it's not launched</li>
@@ -178,10 +178,10 @@ It mainly consists in the capability of:
 </li>
 <li><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</li>
 <li><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</li>
-<li><b>Elastic IP:</b> An Elastic IP is a static IP address that you can associate with an EC2 instance. It allows you to keep the same IP address even if the instance is stopped or restarted.</li>
-<li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 instances. They contain the operating system, necessary software, and application settings.
+<li><b>Elastic IP:</b> An Elastic IP is a static IP address that you can associate with an EC2 Instance. It allows you to keep the same IP address even if the instance is stopped or restarted.</li>
+<li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 Instances. They contain the operating system, necessary software, and application settings.
   <ul>
-      <li> AMI are a customization of an EC2 instance
+      <li> AMI are a customization of an EC2 Instance
            <ul>
             <li>You add your own software, configuration, operation system, monitoring...</li>
             <li>
@@ -193,7 +193,7 @@ It mainly consists in the capability of:
         AMI are built for a <b>specific region</b> (and can be copied across regions)
       </li>
       <li>
-         You can launch EC2 instances from:
+         You can launch EC2 Instances from:
           <ul>
           <li>A Public AMI: AWS provided</li>
           <li>You own AMI: you make and maintain them yourself</li>
@@ -201,14 +201,14 @@ It mainly consists in the capability of:
         </ul>
       </li>
       <li>
-         AMI Process (from an EC2 instance):
+         AMI Process (from an EC2 Instance):
           <ul>
-          <li>Start an EC2 instance and customize ir</li>
+          <li>Start an EC2 Instance and customize ir</li>
           <li>Stop the instance (for data integrity)</li>
           <li>Build an AMI - this will also create EBS snapshots</li>
           <li>Launch a instances from others AMIs
             <hr/>
-            So exist a EC2 instance in us-east-1a and the same instance as us-east-b
+            So exist a EC2 Instance in us-east-1a and the same instance as us-east-b
             <div align="center"> 
               <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
             </div>
@@ -218,7 +218,7 @@ It mainly consists in the capability of:
               <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
             </div>
             <hr/>
-            this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 instance
+            this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 Instance
             <div align="center"> 
               <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
             </div>
@@ -235,39 +235,46 @@ It mainly consists in the capability of:
     <li>Free service (only pay for the underlying resources)</li>
     <li>
       <hr/>
-        aaa1
+        So we have the EC2 Image Builder service and we're going to set it up. And it is automatically when it's going to run
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
           </div>
       <hr/>
-        aaa2
+        it is going to create an EC2 Instance called Builder EC2 Instance.
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
           </div>
       <hr/>
-        aaa3
+        And that EC2 Instance is going to build components and customize the software. For example, install Java, update the CLI, update the software system,
+        maybe install firewalls, whatever you define to happen on that EC2 Instance, maybe install your application.
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
           </div>
       <hr/>
-        aaa4
+        An then once this is done, then an AMI is going to be created out of that EC2 Instance, but all of this is obviously automated.
+       Then the AMI is created, but we want to validate it. 
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
           </div>
       <hr/>
-        aaa5
+        So EC2 Image Builder will automatically create a test EC2 Instance from that AMI and going to run a bunch of tests that you are defining in advance.
+        And if you don't wanna run any tests, you can just skip that test. But the test can be asking, is the AMI working? Is it secure? Is my application running correctly?
+        All these kind of things. 
           <div align="center"> 
             <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
           </div>
       <hr/>
-        aaa6
-          <div align="center"> 
+        And then one the AMI is tested, then the AMI is going to be distributed, so while EC2 Image Builder is a regional service, it is possible for you to take that AMI and
+        distribute it to multiple regions, therefore, allowing your application and workflow to be truly global. Next, EC2 Image Builder can be run on a schedule. So you can define a weekly schedule,
+        or you can say you can run whenever packages are updated, or you can run it manually, etc. And it is a free service. So you're only going to pay for the underlying resources. What's means? That              means that if you create an EC2 Instance during this process, an EC2 Image Builder will create these EC2 Instances, then you're going to pay for these EC2 Instances. And when the AMI
+        is created and distribuited youre going to pay for these storage of that AMI wherever it has been created, and wherever it has been distribuited.
+          <div align="center">  
             <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
           </div>
     </li>
   </ul>
 </li>
-<li><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 instances in a region.</li>
+<li><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</li>
 </ul>
 </details>
 <details><summary> <h3>Best Practices</h3></summary>
@@ -356,7 +363,7 @@ It mainly consists in the capability of:
        <ul>
           <li>Security Groups rule</li>
           <li>Operating-system patches and updates</li>
-          <li>Software and utilities installed on the EC2 instance</li>
+          <li>Software and utilities installed on the EC2 Instance</li>
           <li>IAM Roles assigned to EC2 & IAM user access management</li>
           <li>Data security on your instance</li>
       </ul>
