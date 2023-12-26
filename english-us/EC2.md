@@ -18,6 +18,7 @@ It mainly consists in the capability of:
 
 
 <details><summary> <h3>Features</h3></summary>
+<hr/>
 <ul>
     <li><b>Elasticity:</b> EC2 allows you to scale your computing capacity vertically or horizontally according to your application needs.</li>
     <li><b>Flexibility:</b> EC2 offers a wide selection of instance types, operating systems, databases, and other software options for you to choose from.</li>
@@ -25,22 +26,27 @@ It mainly consists in the capability of:
     <li><b>Security:</b> EC2 offers advanced security features, such as instance isolation, data encryption, user authentication, and much more.</li>
     <li><b>Management:</b> EC2 allows you to easily manage your instances, with features such as Amazon EC2 Auto Scaling and Amazon EC2 Systems Manager.</li>
 </ul> 
+<hr/>
 </details>
-<details><summary> <h3>Terms and Concepts</h3></summary>
-<ul>
-<li><b>Sizing and Configurations options:</b> EC2 Instances are configurable virtual servers that you can launch on Amazon's cloud:
+<details><summary> <h3>Components and Configuration</h3></summary>
+ <hr/>
+ <p>EC2 Instances has so much components and resources:</p>
+   <details><summary> <h3>Operating System</h3></summary>
+     <ul>
+      <li><b>Operating System (OS):</b> Linux, Windows or Mac OS</li>
+      <li>How much compute power & cores (CPU).</li>
+      <li>How much random-access memory (RAM).</li>
+      <li>How much storage space:
+          <ul>
+            <li>Network-attached (EBS & EFS)</li>
+            <li>hardware (EC2 Instance Store)</li>
+          </ul>
+      <li><b>Network card:</b> speed of the card, Public IP address</li>  
+    </ul>
+  </details>
+    
+  <details><summary> <h3>Security group (Firewall rules)</h3></summary>
     <ul>
-    <li><b>Operating System (OS):</b> Linux, Windows or Mac OS</li>
-    <li>How much compute power & cores (CPU).</li>
-    <li>How much random-access memory (RAM).</li>
-    <li>How much storage space:
-        <ul>
-          <li>Network-attached (EBS & EFS)</li>
-          <li>hardware (EC2 Instance Store)</li>
-        </ul>
-    <li><b>Network card:</b> speed of the card, Public IP address</li>
-    <li><b>Security group (Firewall rules):</b>
-      <ul>
         <li>Security Group are the fundamental of network security in AWS</li>
         <li>They control how traffic is allowed into or out EC2 Instance:
         <div align="center"> 
@@ -113,171 +119,189 @@ It mainly consists in the capability of:
   </ul> 
 </li>
 <li>
-<b>Convention:</b> AWS has the following naming convention:  <em>m</em><b>5</b>.2xlarge
-  <ul>
-    <li><em>m</em>: instance class</li>
-    <li><b>5</b>: generation (AWS improves them over time)</li>
-    <li>2xlarge: size within the instance class</li>
-  </ul>
-</li>
-<li>
-<b>Instance Types:</b> EC2 offers a wide selection of instance types, each with different CPU, memory, storage, and networking capabilities.
-<div align="center"> 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
-</div>
-<ul>
-<li><b>General Purpose:</b>
-  <ul>
-    <li>Balances compute, memory, and networking resources.</li> 
-    <li>Recommended for application servers, gaming, backend, small databases.</li>
-  </ul>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/ac/37/XseN96S8_t.png">  
-</div>  
- </li>
-<li><b>Compute Optimized:</b>  
-  <ul>
-    <li>Ideal for workloads that require high-performance processors.</li> 
-    <li>Can be used for the same use cases as general purpose but when higher performance is desired.</li>
-    <li>Also ideal for batch processing.</li>
-<div align="center"> 
-<img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Evaluating-Performance_0.jpg?itok=qVXPQAya" width="50%">  
-  </ul>
- </li>
-</li>
-<li><b>Memory Optimized:</b> 
+    <b>Convention:</b> AWS has the following naming convention:  <em>m</em><b>5</b>.2xlarge
     <ul>
-    <li>Designed for high performance in processing large amounts of in-memory data.</li> 
-    <li>For example, high-performance databases, real-time data processing.</li>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/85/bb/AEbPZHGd_t.png">  
-</div>      
-  </ul>
-</li>
-<li><b>Accelerated Computing:</b> 
-  <ul>
-    <li>Uses hardware acceleration or coprocessors to perform certain functions more efficiently than in software running directly on the CPU.</li> 
-    <li>Commonly used for floating-point calculations, graphics processing, and data pattern matching.</li>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/33/18/Sg9mLdO3_t.png">  
-</div>
-  </ul>
-</li>
-<li><b>Storage Optimized:</b> 
-  <ul>
-    <li>Ideal for workloads that require high read and write access to large volumes of data.</li> 
-    <li>Commonly used in distributed file systems, data warehouses, online transaction processing systems.</li>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
-</div>
+      <li><em>m</em>: instance class</li>
+      <li><b>5</b>: generation (AWS improves them over time)</li>
+      <li>2xlarge: size within the instance class</li>
+    </ul>
+</ul>
 
-  </ul>
-</li>
-<a href="https://aws.amazon.com/ec2/instance-types/"/> More information</a>
-</ul>
-</li>
-<li><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</li>
-<li><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</li>
-<li><b>Elastic IP:</b> An Elastic IP is a static IP address that you can associate with an EC2 Instance. It allows you to keep the same IP address even if the instance is stopped or restarted.</li>
-<li><b>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 Instances. They contain the operating system, necessary software, and application settings.
-  <ul>
-      <li> AMI are a customization of an EC2 Instance
-           <ul>
-            <li>You add your own software, configuration, operation system, monitoring...</li>
-            <li>
-              Faster boot / configuration time because all your software is pre-packaged
-            </li>
-        </ul>
-      </li>
-      <li>
-        AMI are built for a <b>specific region</b> (and can be copied across regions)
-      </li>
-      <li>
-         You can launch EC2 Instances from:
-          <ul>
-          <li>A Public AMI: AWS provided</li>
-          <li>You own AMI: you make and maintain them yourself</li>
-          <li>An AWS Marketplace AMI: an AMI someone else made (and potentially sells)</li>
-        </ul>
-      </li>
-      <li>
-         AMI Process (from an EC2 Instance):
-          <ul>
-          <li>Start an EC2 Instance and customize ir</li>
-          <li>Stop the instance (for data integrity)</li>
-          <li>Build an AMI - this will also create EBS snapshots</li>
-          <li>Launch a instances from others AMIs
-            <hr/>
-            So exist a EC2 Instance in us-east-1a and the same instance as us-east-b
-            <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
-            </div>
-            <hr/>
-            the proccess consist to launch the instance in us-east-1a, but are necessary customize, then create an AMI from it
-            <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
-            </div>
-            <hr/>
-            this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 Instance
-            <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
-            </div>
-          </li>  
-        </ul>
-      </li>
-  </ul>
-</li>
-<li><b>EC2 Image Builder:</b>
-  <ul>
-    <li>Used to automate the creation of Virtual Machines or container images</li>
-    <li>Automate the creation, maintain, validate and test EC2 AMIs, and more</li>
-    <li>Can be run on a schedule (weekly, whenever packages are updated, etc...)</li>
-    <li>Free service (only pay for the underlying resources)</li>
-    <li>
-      <hr/>
-        So we have the EC2 Image Builder service and we're going to set it up. And it is automatically when it's going to run
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
-          </div>
-      <hr/>
-        it is going to create an EC2 Instance called Builder EC2 Instance.
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
-          </div>
-      <hr/>
-        And that EC2 Instance is going to build components and customize the software. For example, install Java, update the CLI, update the software system,
-        maybe install firewalls, whatever you define to happen on that EC2 Instance, maybe install your application.
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
-          </div>
-      <hr/>
-        An then once this is done, then an AMI is going to be created out of that EC2 Instance, but all of this is obviously automated.
-       Then the AMI is created, but we want to validate it. 
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
-          </div>
-      <hr/>
-        So EC2 Image Builder will automatically create a test EC2 Instance from that AMI and going to run a bunch of tests that you are defining in advance.
-        And if you don't wanna run any tests, you can just skip that test. But the test can be asking, is the AMI working? Is it secure? Is my application running correctly?
-        All these kind of things. 
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
-          </div>
-      <hr/>
-        And then one the AMI is tested, then the AMI is going to be distributed, so while EC2 Image Builder is a regional service, it is possible for you to take that AMI and
-        distribute it to multiple regions, therefore, allowing your application and workflow to be truly global. Next, EC2 Image Builder can be run on a schedule. So you can define a weekly schedule,
-        or you can say you can run whenever packages are updated, or you can run it manually, etc. And it is a free service. So you're only going to pay for the underlying resources. What's means? That              means that if you create an EC2 Instance during this process, an EC2 Image Builder will create these EC2 Instances, then you're going to pay for these EC2 Instances. And when the AMI
-        is created and distribuited youre going to pay for these storage of that AMI wherever it has been created, and wherever it has been distribuited.
-          <div align="center">  
-            <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
-          </div>
-    </li>
-  </ul>
-</li>
-<li><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</li>
-</ul>
 </details>
+
+  <details><summary> <h3>Instance Types</h3></summary>
+
+  EC2 offers a wide selection of instance types, each with different CPU, memory, storage, and networking capabilities.
+    <div align="center"> 
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
+      </div>
+      <ul>
+      <li><b>General Purpose:</b>
+        <ul>
+          <li>Balances compute, memory, and networking resources.</li> 
+          <li>Recommended for application servers, gaming, backend, small databases.</li>
+        </ul>
+      <div align="center"> 
+        <img src="https://thumbs2.imgbox.com/ac/37/XseN96S8_t.png">  
+      </div>  
+       </li>
+      <li><b>Compute Optimized:</b>  
+        <ul>
+          <li>Ideal for workloads that require high-performance processors.</li> 
+          <li>Can be used for the same use cases as general purpose but when higher performance is desired.</li>
+          <li>Also ideal for batch processing.</li>
+          <div align="center"> 
+              <img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Evaluating-Performance_0.jpg?itok=qVXPQAya" width="50%">  
+          </div>
+          </ul>
+         </li>
+        </li>
+        <li><b>Memory Optimized:</b> 
+            <ul>
+            <li>Designed for high performance in processing large amounts of in-memory data.</li> 
+            <li>For example, high-performance databases, real-time data processing.</li>
+        <div align="center"> 
+          <img src="https://thumbs2.imgbox.com/85/bb/AEbPZHGd_t.png">  
+        </div>      
+      </ul>
+    </li>
+    <li><b>Accelerated Computing:</b> 
+      <ul>
+        <li>Uses hardware acceleration or coprocessors to perform certain functions more efficiently than in software running directly on the CPU.</li> 
+        <li>Commonly used for floating-point calculations, graphics processing, and data pattern matching.</li>
+    <div align="center"> 
+    <img src="https://thumbs2.imgbox.com/33/18/Sg9mLdO3_t.png">  
+    </div>
+      </ul>
+    </li>
+    <li><b>Storage Optimized:</b> 
+      <ul>
+        <li>Ideal for workloads that require high read and write access to large volumes of data.</li> 
+        <li>Commonly used in distributed file systems, data warehouses, online transaction processing systems.</li>
+    <div align="center"> 
+    <img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
+    </div>
+  </ul>
+    </li>
+    <a href="https://aws.amazon.com/ec2/instance-types/"/> More information</a>
+  </ul>
+</li>
+
+  </details>
+  
+  <details><summary> <h3>AMI images</h3></summary>
+
+  <p>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 Instances. They contain the operating system, necessary software, and application settings.</p>
+    <ul>
+        <li> AMI are a customization of an EC2 Instance
+             <ul>
+              <li>You add your own software, configuration, operation system, monitoring...</li>
+              <li>
+                Faster boot / configuration time because all your software is pre-packaged
+              </li>
+          </ul>
+        </li>
+        <li>
+          AMI are built for a <b>specific region</b> (and can be copied across regions)
+        </li>
+        <li>
+           You can launch EC2 Instances from:
+            <ul>
+            <li>A Public AMI: AWS provided</li>
+            <li>You own AMI: you make and maintain them yourself</li>
+            <li>An AWS Marketplace AMI: an AMI someone else made (and potentially sells)</li>
+          </ul>
+        </li>
+        <li>
+           AMI Process (from an EC2 Instance):
+            <ul>
+            <li>Start an EC2 Instance and customize ir</li>
+            <li>Stop the instance (for data integrity)</li>
+            <li>Build an AMI - this will also create EBS snapshots</li>
+            <li>Launch a instances from others AMIs
+              <hr/>
+              So exist a EC2 Instance in us-east-1a and the same instance as us-east-b
+              <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
+              </div>
+              <hr/>
+              the proccess consist to launch the instance in us-east-1a, but are necessary customize, then create an AMI from it
+              <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
+              </div>
+              <hr/>
+              this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 Instance
+              <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
+              </div>
+            </li>  
+          </ul>
+        </li>
+    </ul>
+  
+  </details>
+  
+  <details><summary> <h3>EC2 Image Builder</h3></summary>
+    
+  <p>EC2 Image Builder</p>
+    <ul>
+      <li>Used to automate the creation of Virtual Machines or container images</li>
+      <li>Automate the creation, maintain, validate and test EC2 AMIs, and more</li>
+      <li>Can be run on a schedule (weekly, whenever packages are updated, etc...)</li>
+      <li>Free service (only pay for the underlying resources)</li>
+      <li>Example:
+        <hr/>
+          So we have the EC2 Image Builder service and we're going to set it up. And it is automatically when it's going to run
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
+            </div>
+        <hr/>
+          it is going to create an EC2 Instance called Builder EC2 Instance.
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
+            </div>
+        <hr/>
+          And that EC2 Instance is going to build components and customize the software. For example, install Java, update the CLI, update the software system,
+          maybe install firewalls, whatever you define to happen on that EC2 Instance, maybe install your application.
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
+            </div>
+        <hr/>
+          An then once this is done, then an AMI is going to be created out of that EC2 Instance, but all of this is obviously automated.
+         Then the AMI is created, but we want to validate it. 
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
+            </div>
+        <hr/>
+          So EC2 Image Builder will automatically create a test EC2 Instance from that AMI and going to run a bunch of tests that you are defining in advance.
+          And if you don't wanna run any tests, you can just skip that test. But the test can be asking, is the AMI working? Is it secure? Is my application running correctly?
+          All these kind of things. 
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
+            </div>
+        <hr/>
+          And then one the AMI is tested, then the AMI is going to be distributed, so while EC2 Image Builder is a regional service, it is possible for you to take that AMI and
+          distribute it to multiple regions, therefore, allowing your application and workflow to be truly global. Next, EC2 Image Builder can be run on a schedule. So you can define a weekly schedule,
+          or you can say you can run whenever packages are updated, or you can run it manually, etc. And it is a free service. So you're only going to pay for the underlying resources. What's means? That              means that if you create an EC2 Instance during this process, an EC2 Image Builder will create these EC2 Instances, then you're going to pay for these EC2 Instances. And when the AMI
+          is created and distribuited youre going to pay for these storage of that AMI wherever it has been created, and wherever it has been distribuited.
+            <div align="center">  
+              <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
+            </div>
+      </li>
+    </ul>
+  </li>
+ 
+</details>
+
+  <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
+  <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
+  <p><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</p>
+  <p><b>Elastic IP:</b> An Elastic IP is a static IP address that you can associate with an EC2 Instance. It allows you to keep the same IP address even if the instance is stopped or restarted.</p>
+  <hr/>
+</details>
+
 <details><summary> <h3>Best Practices</h3></summary>
+<hr/>
 <ul>
   <li><b>Purchasing Option:</b> Choose the appropriate instance type based on the computing resource needs and expected workload:
     <ul>
@@ -341,10 +365,11 @@ It mainly consists in the capability of:
   <li>Use Auto Scaling to increase or decrease instance capacity based on workload demand, allowing the infrastructure to adjust automatically to user demand</li>
   <li>Configure security options such as CloudTrail and CloudWatch to monitor and audit access to the instance and protect against security threats</li>
 </ul>
+<hr/>
 </details>
 
 <details><summary> <h3>Responsibility Model for EC2</h3></summary>
-
+<hr/>
 <table>
   <tr>
     <th>AWS</th>
@@ -370,5 +395,5 @@ It mainly consists in the capability of:
     </td>
   </tr>
 </table>
-
+<hr/>
 </details>
