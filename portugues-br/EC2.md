@@ -1,346 +1,375 @@
 EC2
-
 <div align="center">
   <img src="https://cdn.freebiesupply.com/logos/large/2x/aws-ec2-logo-svg-vector.svg" width="25%">
 </div>
 
-O Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que fornece capacidade de computação escalável na nuvem da Amazon. Ele permite que você configure e execute facilmente servidores virtuais na nuvem da Amazon, chamados de instâncias EC2. Com o Amazon EC2, você pode dimensionar verticalmente ou horizontalmente sua capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.
+Amazon EC2 (Elastic Compute Cloud) é um serviço de computação em nuvem que oferece capacidade de computação escalável na nuvem da Amazon. Ele permite que você configure e execute facilmente servidores virtuais na nuvem da Amazon, chamados de Instâncias EC2. Com o Amazon EC2, você pode dimensionar sua capacidade de computação vertical ou horizontalmente de acordo com as necessidades de sua aplicação, pagando apenas pelos recursos que utiliza.
 
 EC2 = Elastic Compute Cloud = Infraestrutura como Serviço
 
-Principalmente, consiste na capacidade de:
+Isso consiste principalmente na capacidade de:
+
 <ul>
     <li>Alugar máquinas virtuais (EC2).</li>
     <li>Armazenar dados em discos virtuais (EBS).</li>
     <li>Distribuir carga entre máquinas (ELB).</li>
-    <li>Escalonar os serviços usando um grupo de autoescalonamento (ASG).</li>
+    <li>Dimensionar os serviços usando um grupo de dimensionamento automático (ASG).</li>
 </ul>
 
 <details><summary> <h3>Recursos</h3></summary>
+<hr/>
 <ul>
-    <li><b>Elasticidade:</b> O EC2 permite escalar verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação.</li>
+    <li><b>Elasticidade:</b> O EC2 permite que você dimensione sua capacidade de computação vertical ou horizontalmente de acordo com as necessidades de sua aplicação.</li>
     <li><b>Flexibilidade:</b> O EC2 oferece uma ampla seleção de tipos de instância, sistemas operacionais, bancos de dados e outras opções de software para você escolher.</li>
-    <li><b>Integração com outros serviços AWS:</b> O EC2 pode ser facilmente integrado com outros serviços AWS, como o Amazon S3, Elastic Load Balancing, Amazon RDS e outros.</li>
-    <li><b>Segurança:</b> O EC2 oferece recursos avançados de segurança, como isolamento de instância, criptografia de dados, autenticação de usuário e muito mais.</li>
-    <li><b>Gerenciamento:</b> O EC2 permite que você gerencie facilmente suas instâncias, com recursos como o Amazon EC2 Auto Scaling e o Amazon EC2 Systems Manager.</li>
+    <li><b>Integração com outros serviços AWS:</b> O EC2 pode ser facilmente integrado a outros serviços da AWS, como Amazon S3, Elastic Load Balancing, Amazon RDS, entre outros.</li>
+    <li><b>Segurança:</b> O EC2 oferece recursos avançados de segurança, como isolamento de instâncias, criptografia de dados, autenticação de usuários e muito mais.</li>
+    <li><b>Gerenciamento:</b> O EC2 permite que você gerencie facilmente suas instâncias, com recursos como Amazon EC2 Auto Scaling e Amazon EC2 Systems Manager.</li>
 </ul> 
+<hr/>
 </details>
 
-<details><summary> <h3>Termos e conceitos</h3></summary>
-<ul>
-<li><b>Opções de Dimensionamento e Configurações:</b> As instâncias EC2 são servidores virtuais configuráveis que você pode iniciar na nuvem da Amazon:
+<details><summary> <h3>Componentes e Configuração</h3></summary>
+ <hr/>
+ <p>As instâncias EC2 têm muitos componentes e recursos:</p>
+   <details><summary> <h3>Sistema Operacional</h3></summary>
+     <ul>
+      <li><b>Sistema Operacional (SO):</b> Linux, Windows ou Mac OS</li>
+      <li>Quantidade de poder de processamento e núcleos (CPU).</li>
+      <li>Quantidade de memória de acesso aleatório (RAM).</li>
+      <li>Espaço de armazenamento:
+          <ul>
+            <li>Conectado à rede (EBS & EFS)</li>
+            <li>Hardware (EC2 Instance Store)</li>
+          </ul>
+      <li><b>Placa de rede:</b> velocidade da placa, endereço IP público</li>  
+    </ul>
+  </details>
+    
+  <details><summary> <h3>Grupo de Segurança (Regras do Firewall)</h3></summary>
     <ul>
-        <li><b>Sistema Operacional (SO):</b> Linux, Windows ou Mac OS</li>
-        <li>Quantidade de poder computacional e núcleos (CPU).</li>
-        <li>Quantidade de memória de acesso aleatório (RAM).</li>
-        <li>Quantidade de espaço de armazenamento:
-            <ul>
-                <li>Anexado à rede (EBS & EFS)</li>
-                <li>Hardware (EC2 Instance Store)</li>
-            </ul>
+        <li>Os Grupos de Segurança são fundamentais para a segurança de rede na AWS.</li>
+        <li>Eles controlam como o tráfego é permitido dentro ou fora da Instância EC2:
+        <div align="center"> 
+        <img src="https://thumbs2.imgbox.com/71/d4/653laO96_t.png" />  
+        </div>
         </li>
-        <li><b>Placa de rede:</b> velocidade da placa, Endereço IP público</li>
-        <li><b>Grupo de Segurança (Regras de Firewall):</b>
-            <ul>
-                <li>Os Grupos de Segurança são fundamentais para a segurança de rede na AWS</li>
-                <li>Eles controlam como o tráfego é permitido para dentro ou fora da Instância EC2:
-                    <div align="center"> 
-                        <img src="https://thumbs2.imgbox.com/a8/54/cSs3kUS3_t.png" />  
-                    </div>
-                </li>
-                <li>Os Grupos de Segurança contêm <b>regras de permitir</b></li>
-                <li>As regras dos Grupos de Segurança podem fazer referência a IP ou a outro Grupo de Segurança</li>
-                <li>Os Grupos de Segurança atuam como um "firewall" nas instâncias EC2</li>
-                <li>Eles regulam:  
-                    <ul>
-                        <li>Acesso às Portas</li>
-                        <li>Faixas de IP autorizadas - IPv4 e IPv6</li>
-                        <li>Controle de rede de entrada (de outros para a instância)</li>
-                        <li>Controle de rede de saída (da instância para outros)</li>
-                        <div align="center"> 
-                            <img src="https://thumbs2.imgbox.com/9a/83/wrbTRumK_t.png" />  
-                            <hr/>
-                            Origem representa um intervalo de endereços IP e 0.0.0.0/0 significa que tudo pode acessar
-                            (Isso é uma ilustração. Não compartilhe suas informações específicas)
-                          <hr/>
-                          Então, temos nossa instância EC2 e ela tem um Grupo de Segurança permitir anexado a ela,
-                          que possui regras de entrada e regras de saída. Então, nosso computador será autorizado em, digamos, a                             porta 22. Assim, o tráfego pode passar do nosso computador para a instância EC2, mas o computador de                             outra pessoa, que não está usando meu endereço IP porque eles não moram onde eu moro (não possuem o                                mesmo IP), se tentarem acessar nossa instância EC2, eles não conseguirão, porque o firewall vai                                 bloquear e ocorrerá um timeout. Então, para as regras de saída, por padrão, nossa instância EC2 para                             qualquer Grupo de Segurança vai, por padrão, permitir qualquer tráfego saindo dela. Assim, se nossa                               instância EC2 tentar acessar um site e iniciar uma conexão, isso será permitido pelo Grupo de Segurança:
-                          <img src="https://thumbs2.imgbox.com/c2/8a/AZQDOhCd_t.png" /> 
-                          (Esses são os conceitos básicos de como o firewall funciona)
-                          <hr/>
-                          Sobre outros grupos de segurança. Então, temos uma instância EC2, e ela tem um grupo de segurança, que eu chamo de grupo número um, e as regras de entrada basicamente dizem que estou autorizando o grupo de segurança número um na entrada e o grupo de segurança número dois. Então, por que faríamos isso?
-                          Bem, se lançarmos outra instância EC2 e ela tiver o grupo de segurança dois anexado a ela, usando a regra de grupo de segurança, basicamente permitimos que nossa instância EC2 se conecte diretamente na porta que decidimos para nossa primeira instância EC2.
-                          Da mesma forma, se tivermos outra instância EC2 com o grupo de segurança um anexado, também autorizamos esta a se comunicar diretamente com nossas instâncias. E, independentemente do IP de nossas instâncias EC2, porque elas têm o grupo de segurança certo anexado a elas, podem se comunicar diretamente com outras instâncias. E isso é ótimo porque não faz você pensar em IPs o tempo todo. Assim como se tivermos outra instância EC2 talvez com o grupo de segurança número três anexado a ela, bem, como o grupo número três não foi autorizado nas regras de entrada do grupo de segurança número um, então está sendo negado e as coisas não funcionam. Isso é um recurso um pouco avançado, mas pode ser útil com balanceadores de carga:
-                          <br/>
-                          <img src="https://thumbs2.imgbox.com/c0/b8/HkkUiFUb_t.png" />  
-                          </div> 
-                          A notação "203.0.113.0/24" em CIDR representa um intervalo de endereços IP de 203.0.113.0 a 203.0.113.255. O "/24" indica que os primeiros 24 bits são a parte da rede, e os 8 bits restantes estão disponíveis para endereços de host.
-                          Portanto, quando você especifica "203.0.113.0/24" como a origem na regra do seu grupo de segurança, ela abrange todos os endereços IP de 203.0.113.0 a 203.0.113.255, inclusivamente. Portanto, tanto 203.0.113.001 quanto 203.0.113.002 fazem parte deste intervalo.
-                          <br/>
-                          <ul>
-                              Para esclarecer:
-                              <li>203.0.113.0 é o endereço de rede.</li>
-                              <li>203.0.113.255 é o endereço de transmissão.</li>
-                              <li>O intervalo de endereços IP utilizáveis vai de 203.0.113.1 a 203.0.113.254.</li>
-                              <li>Endereços IP fora desse intervalo, como 203.0.114.0, não são aceitáveis.</li>
-                          </ul>
-                        </div>
-                    </ul>
-                </li>
-               <li>Restrito a uma combinação de região / VPC</li>
-               <li>Existe "fora" da EC2 - se o tráfego for bloqueado, a instância EC2 não o verá</li>
-               <li>É recomendável manter um grupo de segurança separado para acesso SSH</li>
-               <li>Se sua aplicação não estiver acessível (timeout), então é um problema no grupo de segurança</li>
-               <li>Se sua aplicação apresentar um erro de "conexão recusada", então é um erro na aplicação ou ela não foi iniciada</li>
-               <li>Todo o tráfego de entrada é bloqueado por padrão</li>
-               <li>Todo o tráfego de saída é autorizado por padrão</li>
-              <li>Portas Clássicas para Conhecer
-                  <ul>
-                      <li>22 = SSH (Secure Shell) - fazer login em uma instância Linux.</li>
-                      <li>21 = FTP (File Transfer Protocol) - enviar arquivos para um compartilhamento de arquivos.</li>
-                      <li>22 = SFTP (Secure File Transfer Protocol) - enviar arquivos usando SSH.</li>
-                      <li>80 = HTTP (Hypertext Transfer Protocol) - acessar sites não seguros.</li>
-                      <li>443 = HTTPS (Hypertext Transfer Protocol Secure) - acessar sites seguros.</li>
-                      <li>3389 = RDP (Remote Desktop Protocol) - fazer login em uma instância Windows.</li>
-                  </ul>
-              </li>
-            </ul> 
+        <li>Os grupos de segurança contêm <b>regras de permissão</b>.</li>
+        <li>As regras de grupos de segurança podem fazer referência a IP ou a outros grupos de segurança.</li>
+        <li>Os grupos de segurança atuam como um "firewall" nas Instâncias EC2.</li>
+        <li>Regulam:  
+          <ul>
+            <li>Acesso às Portas</li>
+            <li>Faixas de IP autorizadas - IPv4 e IPv6</li>
+            <li>Controle de rede de entrada (de outros para a instância)</li>
+            <li>Controle de rede de saída (da instância para outros)</li>
+            <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/9f/5d/nGp5IhhT_t.png" />  
+              <hr/>
+              A origem representa um intervalo de endereços IP e 0.0.0.0/0 significa tudo
+              (Isso é uma ilustração. Não compartilhe suas informações específicas)
+              <hr/>
+              Então temos nossa Instância EC2 e ela possui um grupo de segurança permitido anexado a ela
+              que possui regras de entrada e regras de saída. Assim, nosso computador será autorizado a dizer na porta 22.
+              Assim, o tráfego pode passar do nosso computador para a Instância EC2, mas o computador de outra pessoa, que não está usando meu endereço IP porque não mora onde moro (não tem o mesmo IP), então se eles tentarem acessar nossa Instância EC2, eles não conseguirão, porque o firewall vai bloquear e será um timeout. Então, para as regras de saída por padrão, nossa Instância EC2 para qualquer grupo de segurança vai permitir por padrão qualquer tráfego fora dela. Então, se nossa Instância EC2 tentar acessar um site e iniciar uma conexão, ela será permitida pelo grupo de segurança:
+            <img src="https://thumbs2.imgbox.com/8b/ab/I2BjxQMv_t.png" /> 
+              <br/>
+              (Então, este é o básico de como o firewall funciona) 
+               <hr/>
+               Sobre outros grupos de segurança. Então, temos uma Instância EC2, e ela tem um grupo de segurança, o que chamo de grupo número um, e as regras de entrada basicamente estão dizendo, estou autorizando o grupo de segurança número um na entrada e o grupo de segurança número dois. Então, por que faríamos isso? 
+               Bem, se lançarmos outra Instância EC2 e ela tiver o grupo de segurança dois anexado a ela, bom, usando a regra de grupo de segurança (instinto), basicamente permitimos que nossa Instância EC2 se conecte diretamente na porta que decidimos para nossa primeira Instância EC2.
+              Da mesma forma, se tivermos outra Instância EC2 com o grupo de segurança um anexado, bem,
+              porque é o grupo número um, não foi autorizado nas regras de entrada do grupo de segurança número dois, então está sendo negado e as coisas não funcionam. Então isso é um recurso um pouco avançado. Enquanto pode ser útil com balanceadores de carga:
+              <br/>
+              <img src="https://thumbs2.imgbox.com/26/2c/GV6J2skK_t.png" />  
+            </div> 
+              A notação "203.0.113.0/24" em CIDR representa uma faixa de endereços IP de 203.0.113.0 a 203.0.113.255. O "/24" indica que os primeiros 24 bits são a parte da rede e os 8 bits restantes estão disponíveis para endereços de host.
+              Portanto, ao especificar "203.0.113.0/24" como a origem na regra do grupo de segurança, ela abrange todos os endereços IP de 203.0.113.0 a 203.0.113.255, inclusivos. Portanto, tanto 203.0.113.001 quanto 203.0.113.002 fazem parte desta faixa.
+              <br/>
+                <ul>
+                  Para esclarecer:
+                  <li>203.0.113.0 é o endereço de rede.</li>
+                  <li>203.0.113.255 é o endereço de broadcast.</li>
+                  <li>A faixa de endereços IP utilizáveis é de 203.0.113.1 a 203.0.113.254.</li>
+                  <li>Endereços IP fora dessa faixa, como 203.0.114.0, não são aceitáveis.</li>
+                </ul>
+          </ul>
         </li>
-        <li><b>Script de inicialização (configurado no primeiro lançamento):</b> Dados do Usuário EC2.</li>
-    </ul> 
+        <li>Restrito a uma combinação de região / VPC</li>
+        <li>Não "vê" fora do EC2 - se o tráfego for bloqueado, a Instância EC2 não verá</li>
+        <li>É bom manter um grupo de segurança separado para acesso SSH</li>
+        <li>Se sua aplicação não for acessível (timeout), é um problema de grupo de segurança</li>
+        <li>Se sua aplicação der um erro "connection refused", é um erro de aplicação ou ela não está iniciada</li>
+        <li>Todo tráfego de entrada é bloqueado por padrão</li>
+        <li>Todo tráfego de saída é autorizado por padrão</li>
+        <li> Portas clássicas a conhecer
+          <ul>
+            <li>22 = SSH (Secure Shell) - entrar em uma instância Linux.</li>
+            <li>21 = FTP (File Transfer Protocol) - enviar arquivos para um compartilhamento de arquivos.</li>
+            <li>22 = SFTP (Secure File Transfer Protocol) - enviar arquivos usando SSH.</li>
+            <li>80 = HTTP (Hypertext Transfer Protocol) - acessar sites não seguros.</li>
+            <li>443 = HTTPS (Hypertext Transfer Protocol Secure) - acessar sites seguros </li>
+            <li>3389 = RDP (Remote Desktop Protocol) - entrar em uma instância Windows</li>
+          </ul>
+        </li>
+      </ul> 
+    </li>  
+    <li><b>Script de Inicialização (configuração no primeiro lançamento):</b> Dados do Usuário EC2.</li>
+  </ul> 
 </li>
 <li>
-    <b>Convenção:</b> A AWS segue a seguinte convenção de nomenclatura: <em>m</em><b>5</b>.2xlarge
+    <b>Convenção:</b> A AWS segue a seguinte convenção de nomenclatura:  <em>m</em><b>5</b>.2xlarge
     <ul>
-        <li><em>m</em>: classe da instância</li>
-        <li><b>5</b>: geração (a AWS as aprimora ao longo do tempo)</li>
-        <li>2xlarge: tamanho dentro da classe da instância</li>
+      <li><em>m</em>: classe da instância</li>
+      <li><b>5</b>: geração (a AWS as melhora ao longo do tempo)</li>
+      <li>2xlarge: tamanho dentro da classe da instância</li>
     </ul>
-</li>
-<li><b>Tipos de instância:</b> O EC2 oferece uma ampla seleção de tipos de instância, cada um com diferentes capacidades de CPU, memória, armazenamento e rede.
-<div align="center"> 
-<img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
-</div>
-<ul>
-<li><b>Uso geral:</b> 
-  <ul>
-    <li>Equilíbrio de recursos de computação, memória e rede.</li> 
-    <li>Indicado para servidores de aplicativo, jogos, backend, banco de dados pequenos.</li>
-  </ul>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/ac/37/XseN96S8_t.png">  
-</div>
- </li>
-<li><b>Otimizadas para computação:</b>  
-  <ul>
-    <li>Ideal para cargas de trabalho que exigem processadores de alto desempenho.</li> 
-    <li>Pode ser usado para os mesmos casos de uso da categoria de uso geral mas quando se deseja um melhor desempenho.</li>
-    <li>Ideal também para processamento em lote.</li>
-<div align="center"> 
-<img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Evaluating-Performance_0.jpg?itok=qVXPQAya" width="50%">  
-</div>
-  </ul>
- </li>
-</li>
-<li><b>Otimizadas para memória:</b> 
-    <ul>
-    <li>Projeto para alto desempenho no processamento de grandes quantidades de informações na memória.</li> 
-    <li>Por exemplo, banco de dados de alto desempenho, processamento em tempo real de dados.</li>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/85/bb/AEbPZHGd_t.png">  
-</div>
-  </ul>
-</li>
-<li><b>Computação acelerada:</b> 
-  <ul>
-    <li>Usa acelaração de hardware ou coprocessadores para executar algumas funções mais eficiente do que em um software executado direto na CPU.</li> 
-    <li>Muito usado em Cálculo de ponto flutuante, processamento de gráficos e correspondência de padrões de dados.</li>
-  </ul>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/33/18/Sg9mLdO3_t.png">  
-</div>
-</li>
-<li><b>Otimizadas para armazenamento:</b> 
-  <ul>
-    <li>Ideal para cargas de trabalho que exigem acesso de leitura e gravação com grande volume de dados.</li> 
-    <li>Muito usado em Sistema de arquivos distribuídos, Data warehouse, sistema de processamento de transações on-line.</li>
-<div align="center"> 
-<img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
-</div>
-  </ul>
-</li>  
-<a href="https://aws.amazon.com/ec2/instance-types/"/> Mais informações</a>
- </ul>
-<li><b>Regiões:</b> O EC2 está disponível em várias regiões ao redor do mundo. Cada região é uma área geográfica independente, com várias zonas de disponibilidade para aumentar a resiliência e a disponibilidade.</li>
-<li><b>Zonas de disponibilidade:</b> Cada região do EC2 tem várias zonas de disponibilidade, que são data centers separados fisicamente, mas conectados por uma rede de baixa latência e alta largura de banda.</li>
-<li><b>Elastic IP:</b> Um Elastic IP é um endereço IP estático que você pode associar a uma instância EC2. Ele permite que você mantenha o mesmo endereço IP mesmo se a instância for interrompida ou reiniciada.</li>
-<li><b>Imagens AMI:</b> As Imagens de Máquina da Amazon (AMI) são imagens pré-configuradas que você pode usar para iniciar instâncias EC2. Elas contêm o sistema operacional, software necessário e configurações de aplicativos.
-  <ul>
-      <li> AMI é uma personalização de uma instância EC2
-           <ul>
-            <li>Você adiciona seu próprio software, configuração, sistema operacional, monitoramento...</li>
-            <li>
-              Tempo de inicialização/configuração mais rápido porque todo o seu software está pré-empacotado
-            </li>
-        </ul>
-      </li>
-      <li>
-        AMI é construída para uma <b>região específica</b> (e pode ser copiada entre regiões)
-      </li>
-      <li>
-         Você pode iniciar instâncias EC2 a partir de:
-          <ul>
-          <li>Uma AMI Pública: fornecida pela AWS</li>
-          <li>Sua própria AMI: que você cria e mantém</li>
-          <li>Uma AMI do AWS Marketplace: uma AMI feita por outra pessoa (e potencialmente à venda)</li>
-        </ul>
-      </li>
-      <li>
-         Processo AMI (de uma instância EC2):
-          <ul>
-          <li>Inicie uma instância EC2 e a personalize</li>
-          <li>Pare a instância (para integridade dos dados)</li>
-          <li>Crie uma AMI - isso também criará snapshots do EBS</li>
-          <li>Inicie instâncias a partir de outras AMIs
-            <hr/>
-            Assim, existe uma instância EC2 em us-east-1a e a mesma instância em us-east-1b
-            <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
-            </div>
-            <hr/>
-            O processo consiste em iniciar a instância em us-east-1a, mas é necessário personalizá-la, depois criar uma AMI a partir dela
-            <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
-            </div>
-            <hr/>
-            Esta será sua AMI personalizada. E então, em us-east-1b, você poderá iniciar uma instância a partir dessa AMI. É uma cópia da sua instância EC2
-            <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
-            </div>
-          </li>  
-        </ul>
-      </li>
-  </ul>
-</li>
-<li><b>EC2 Image Builder:</b>
-  <ul>
-    <li>Usado para automatizar a criação de Máquinas Virtuais ou imagens de contêiner</li>
-    <li>Automatiza a criação, manutenção, validação e teste de AMIs EC2, e muito mais</li>
-    <li>Pode ser executado em um cronograma (semanalmente, sempre que os pacotes são atualizados, etc...)</li>
-    <li>Serviço gratuito (paga apenas pelos recursos subjacentes)</li>
-    <li>
-      <hr/>
-        Então, temos o serviço EC2 Image Builder e vamos configurá-lo. E ele é executado automaticamente quando for iniciar
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
-          </div>
-      <hr/>
-        ele vai criar uma Instância EC2 chamada Builder EC2 Instance.
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
-          </div>
-      <hr/>
-        E essa Instância EC2 vai construir componentes e personalizar o software. Por exemplo, instalar o Java, atualizar a CLI, atualizar o sistema de software,
-        talvez instalar firewalls, o que quer que você defina para acontecer nessa Instância EC2, talvez instalar sua aplicação.
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
-          </div>
-      <hr/>
-        E uma vez que isso estiver feito, então uma AMI será criada a partir dessa Instância EC2, mas tudo isso é obviamente automatizado.
-       Então a AMI é criada, mas queremos validá-la. 
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
-          </div>
-      <hr/>
-        Assim, o EC2 Image Builder criará automaticamente uma Instância EC2 de teste a partir dessa AMI e executará uma série de testes que você definiu antecipadamente.
-        E se você não quiser executar nenhum teste, pode simplesmente pular esse teste. Mas o teste pode perguntar: a AMI está funcionando? Está segura? Minha aplicação está sendo executada corretamente?
-        Todas essas coisas. 
-          <div align="center"> 
-            <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
-          </div>
-      <hr/>
-        E uma vez que a AMI é testada, então a AMI será distribuída, então, enquanto o EC2 Image Builder é um serviço regional, é possível pegar essa AMI e
-        distribuí-la para várias regiões, permitindo assim que sua aplicação e fluxo de trabalho sejam verdadeiramente globais. Em seguida, o EC2 Image Builder pode ser executado em um cronograma. Portanto, você pode definir um cronograma semanal,
-        ou você pode dizer que pode ser executado sempre que os pacotes são atualizados, ou você pode executá-lo manualmente, etc. E é um serviço gratuito. Portanto, você só pagará pelos recursos subjacentes. O que significa? Isso significa que se você criar uma Instância EC2 durante esse processo, o EC2 Image Builder criará essas Instâncias EC2, então você pagará por essas Instâncias EC2. E quando a AMI
-        for criada e distribuída, você pagará pelo armazenamento dessa AMI onde quer que ela tenha sido criada e distribuída.
-          <div align="center">  
-            <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
-          </div>
-    </li>
-  </ul>
-</li>
-<li><b>Load Balancers:</b> O EC2 oferece balanceadores de carga, que distribuem o tráfego de rede entre várias instâncias EC2 em uma região.</li>
 </ul>
+
 </details>
 
-<details><summary> <h3>Boas práticas</h3></summary>
-<ul>
-   <li><b>Opção de Compra:</b> escolha o tipo de instância apropriado com base nas necessidades de recursos computacionais e na carga de trabalho esperada:
+ <details><summary> <h3>Instance Types</h3></summary>
+
+  EC2 offers a wide selection of instance types, each with different CPU, memory, storage, and networking capabilities.
+    <div align="center"> 
+      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20220322144908/typesofec2instances768x384.png" width="70%">  
+      </div>
       <ul>
-          <li>Instâncias Sob Demanda - carga de trabalho curta, precificação previsível, pagamento por segundo</li>
-          <li>Reservadas (1 e 3 anos)
-              <ul>
-                  <li>Instâncias Reservadas - longas cargas de trabalho</li>
-                  <li>Instâncias Reservadas Conversíveis - longas cargas de trabalho com instâncias flexíveis</li>
-              </ul>
-          </li>
-          <li>Planos de Economia (1 e 3 anos) - compromisso com uma quantidade de uso, carga de trabalho longa</li>
-          <li>Instâncias Spot - cargas de trabalho curtas, econômicas, podem perder instâncias (menos confiáveis)</li>
-          <li>Hosts Dedicados - reserve um servidor físico inteiro, controle o posicionamento da instância</li>
-          <li>Instâncias Dedicadas - nenhum outro cliente compartilhará seu hardware</li>
-          <li>Reservas de Capacidade - reserve capacidade em uma Zona de Disponibilidade específica por qualquer duração</li>
-        <hr/>
-        <table>
-          <tr>
-            <th>Opção de Compra</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>Instâncias Sob Demanda</td>
-            <td>Carga de trabalho curta, precificação previsível, pagamento por segundo</td>
-          </tr>
-          <tr>
-            <td>Instâncias Reservadas (1 e 3 anos)</td>
-            <td>
-              - Instâncias Reservadas: longas cargas de trabalho com compromisso a termo<br>
-              - Instâncias Reservadas Convertíveis: longas cargas de trabalho com instâncias flexíveis
-            </td>
-          </tr>
-          <tr>
-            <td>Planos de Economia (1 e 3 anos)</td>
-            <td>Compromisso com uma quantidade de uso, adequado para longas cargas de trabalho</td>
-          </tr>
-          <tr>
-            <td>Instâncias Spot</td>
-            <td>Cargas de trabalho curtas, econômicas, mas menos confiáveis</td>
-          </tr>
-          <tr>
-            <td>Hosts Dedicados</td>
-            <td>Reserve um servidor físico inteiro, controle a colocação das instâncias</td>
-          </tr>
-          <tr>
-            <td>Instâncias Dedicadas</td>
-            <td>Nenhum outro cliente compartilhará seu hardware</td>
-          </tr>
-          <tr>
-            <td>Reservas de Capacidade</td>
-            <td>Reserve capacidade em uma zona de disponibilidade específica por qualquer período</td>
-          </tr>
-        </table>
+      <li><b>General Purpose:</b>
+        <ul>
+          <li>Balances compute, memory, and networking resources.</li> 
+          <li>Recommended for application servers, gaming, backend, small databases.</li>
+        </ul>
+      <div align="center"> 
+        <img src="https://thumbs2.imgbox.com/ac/37/XseN96S8_t.png">  
+      </div>  
+       </li>
+      <li><b>Compute Optimized:</b>  
+        <ul>
+          <li>Ideal for workloads that require high-performance processors.</li> 
+          <li>Can be used for the same use cases as general purpose but when higher performance is desired.</li>
+          <li>Also ideal for batch processing.</li>
+          <div align="center"> 
+              <img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202001/MIT-Evaluating-Performance_0.jpg?itok=qVXPQAya" width="50%">  
+          </div>
+          </ul>
+         </li>
+        </li>
+        <li><b>Memory Optimized:</b> 
+            <ul>
+            <li>Designed for high performance in processing large amounts of in-memory data.</li> 
+            <li>For example, high-performance databases, real-time data processing.</li>
+        <div align="center"> 
+          <img src="https://thumbs2.imgbox.com/85/bb/AEbPZHGd_t.png">  
+        </div>      
       </ul>
-  </li> 
-  <li>Configurar grupos de segurança para restringir o acesso à instância</li>
-  <li>Usar chaves SSH para autenticar o acesso à instância</li>
-  <li>Implementar backups regulares da instância para proteger dados críticos</li>
-  <li>Monitorar o uso da instância e definir alertas para anomalias ou problemas de desempenho</li>
-  <li>Usar o Elastic Load Balancing para distribuir a carga de trabalho entre várias instâncias e melhorar a disponibilidade</li>
-  <li>Usar o Auto Scaling para aumentar ou diminuir a capacidade de instância com base na demanda de carga de trabalho, permitindo que a infraestrutura se ajuste automaticamente à demanda dos usuários</li>
-  <li>Configurar as opções de segurança, como o CloudTrail e o CloudWatch, para monitorar e auditar o acesso à instância e proteger contra ameaças de segurança</li>
-</ul>
+    </li>
+    <li><b>Accelerated Computing:</b> 
+      <ul>
+        <li>Uses hardware acceleration or coprocessors to perform certain functions more efficiently than in software running directly on the CPU.</li> 
+        <li>Commonly used for floating-point calculations, graphics processing, and data pattern matching.</li>
+    <div align="center"> 
+    <img src="https://thumbs2.imgbox.com/33/18/Sg9mLdO3_t.png">  
+    </div>
+      </ul>
+    </li>
+    <li><b>Storage Optimized:</b> 
+      <ul>
+        <li>Ideal for workloads that require high read and write access to large volumes of data.</li> 
+        <li>Commonly used in distributed file systems, data warehouses, online transaction processing systems.</li>
+    <div align="center"> 
+    <img src="https://thumbs2.imgbox.com/76/f9/NAK8q2sT_t.png">  
+    </div>
+  </ul>
+    </li>
+    <a href="https://aws.amazon.com/ec2/instance-types/"/> More information</a>
+  </ul>
+</li>
+
+  </details>
+  
+  <details><summary> <h3>AMI images</h3></summary>
+
+  <p>AMI images:</b> Amazon Machine Images (AMI) are pre-configured images that you can use to launch EC2 Instances. They contain the operating system, necessary software, and application settings.</p>
+    <ul>
+        <li> AMI are a customization of an EC2 Instance
+             <ul>
+              <li>You add your own software, configuration, operation system, monitoring...</li>
+              <li>
+                Faster boot / configuration time because all your software is pre-packaged
+              </li>
+          </ul>
+        </li>
+        <li>
+          AMI are built for a <b>specific region</b> (and can be copied across regions)
+        </li>
+        <li>
+           You can launch EC2 Instances from:
+            <ul>
+            <li>A Public AMI: AWS provided</li>
+            <li>You own AMI: you make and maintain them yourself</li>
+            <li>An AWS Marketplace AMI: an AMI someone else made (and potentially sells)</li>
+          </ul>
+        </li>
+        <li>
+           AMI Process (from an EC2 Instance):
+            <ul>
+            <li>Start an EC2 Instance and customize ir</li>
+            <li>Stop the instance (for data integrity)</li>
+            <li>Build an AMI - this will also create EBS snapshots</li>
+            <li>Launch a instances from others AMIs
+              <hr/>
+              So exist a EC2 Instance in us-east-1a and the same instance as us-east-b
+              <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/9d/35/d3mKBbbJ_t.png">  
+              </div>
+              <hr/>
+              the proccess consist to launch the instance in us-east-1a, but are necessary customize, then create an AMI from it
+              <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/ff/d8/5SdUhHBy_t.png">  
+              </div>
+              <hr/>
+              this will be you custom AMI. And then in us-east-1b you will be able to launch from that AMI. It is a copy of your EC2 Instance
+              <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/22/28/0HABL0sI_t.png">  
+              </div>
+            </li>  
+          </ul>
+        </li>
+    </ul>
+  
+  </details>
+  
+  <details><summary> <h3>EC2 Image Builder</h3></summary>
+    
+  <p>EC2 Image Builder</p>
+    <ul>
+      <li>Used to automate the creation of Virtual Machines or container images</li>
+      <li>Automate the creation, maintain, validate and test EC2 AMIs, and more</li>
+      <li>Can be run on a schedule (weekly, whenever packages are updated, etc...)</li>
+      <li>Free service (only pay for the underlying resources)</li>
+      <li>Example:
+        <hr/>
+          So we have the EC2 Image Builder service and we're going to set it up. And it is automatically when it's going to run
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/c0/49/IuhxLYM2_t.png">  
+            </div>
+        <hr/>
+          it is going to create an EC2 Instance called Builder EC2 Instance.
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/aa/f3/bgy59Cv0_t.png">  
+            </div>
+        <hr/>
+          And that EC2 Instance is going to build components and customize the software. For example, install Java, update the CLI, update the software system,
+          maybe install firewalls, whatever you define to happen on that EC2 Instance, maybe install your application.
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/b8/1c/DEjZt2tk_t.png">  
+            </div>
+        <hr/>
+          An then once this is done, then an AMI is going to be created out of that EC2 Instance, but all of this is obviously automated.
+         Then the AMI is created, but we want to validate it. 
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/de/f3/NtWjFoR1_t.png">  
+            </div>
+        <hr/>
+          So EC2 Image Builder will automatically create a test EC2 Instance from that AMI and going to run a bunch of tests that you are defining in advance.
+          And if you don't wanna run any tests, you can just skip that test. But the test can be asking, is the AMI working? Is it secure? Is my application running correctly?
+          All these kind of things. 
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/68/15/BOE3J1if_t.png">  
+            </div>
+        <hr/>
+          And then one the AMI is tested, then the AMI is going to be distributed, so while EC2 Image Builder is a regional service, it is possible for you to take that AMI and
+          distribute it to multiple regions, therefore, allowing your application and workflow to be truly global. Next, EC2 Image Builder can be run on a schedule. So you can define a weekly schedule,
+          or you can say you can run whenever packages are updated, or you can run it manually, etc. And it is a free service. So you're only going to pay for the underlying resources. What's means? That              means that if you create an EC2 Instance during this process, an EC2 Image Builder will create these EC2 Instances, then you're going to pay for these EC2 Instances. And when the AMI
+          is created and distribuited youre going to pay for these storage of that AMI wherever it has been created, and wherever it has been distribuited.
+            <div align="center">  
+              <img src="https://thumbs2.imgbox.com/b9/ae/h2K8lKjU_t.png">  
+            </div>
+      </li>
+    </ul>
+  </li>
+ 
 </details>
 
-<details><summary><h3>Modelo de Responsabilidade para EC2</h3></summary>
+  <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
+  <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
+  <p><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</p>
+  <p><b>Elastic IP:</b> An Elastic IP is a static IP address that you can associate with an EC2 Instance. It allows you to keep the same IP address even if the instance is stopped or restarted.</p>
+  <hr/>
+</details>
 
+
+
+<details><summary> <h3>Melhores Práticas</h3></summary>
+<hr/>
+<ul>
+  <li><b>Opção de Compra:</b> Escolha o tipo de instância apropriado com base nas necessidades de recursos de computação e carga de trabalho esperada:
+    <ul>
+      <li>Instâncias On-Demand - carga de trabalho curta, precificação previsível, pagamento por segundo</li>
+      <li>Reservadas (1 e 3 anos)
+        <ul>
+          <li>Instâncias Reservadas - cargas de trabalho longas</li>
+          <li>Instâncias Reservadas Conversíveis - cargas de trabalho longas com instâncias flexíveis</li>
+        </ul>
+      </li>
+      <li>Planos de Economia (1 e 3 anos) - compromisso com uma quantidade de uso, carga de trabalho longa</li>
+      <li>Instâncias Spot - cargas de trabalho curtas, econômicas, podem perder instâncias (menos confiáveis)</li>
+      <li>Hosts Dedicados - reserve um servidor físico inteiro, controle o posicionamento da instância</li>
+      <li>Instâncias Dedicadas - nenhum outro cliente compartilhará seu hardware</li>
+      <li>Reservas de Capacidade - reserve capacidade em uma zona de disponibilidade específica por qualquer duração</li>
+    </ul>
+      <hr/>
+      <table>
+        <tr>
+          <th>Opção de Compra</th>
+          <th>Descrição</th>
+        </tr>
+        <tr>
+          <td>Instâncias On-Demand</td>
+          <td>Carga de trabalho curta, precificação previsível, pagamento por segundo</td>
+        </tr>
+        <tr>
+          <td>Instâncias Reservadas (1 e 3 anos)</td>
+          <td>
+            - Instâncias Reservadas: Cargas de trabalho longas com um compromisso de prazo fixo<br>
+            - Instâncias Reservadas Conversíveis: Cargas de trabalho longas com instâncias flexíveis
+          </td>
+        </tr>
+        <tr>
+          <td>Planos de Economia (1 e 3 anos)</td>
+          <td>Compromisso com uma quantidade de uso, adequado para cargas de trabalho longas</td>
+        </tr>
+        <tr>
+          <td>Instâncias Spot</td>
+          <td>Cargas de trabalho curtas, eficientes em custo, mas menos confiáveis</td>
+        </tr>
+        <tr>
+          <td>Hosts Dedicados</td>
+          <td>Reserve um servidor físico inteiro, controle o posicionamento da instância</td>
+        </tr>
+        <tr>
+          <td>Instâncias Dedicadas</td>
+          <td>Nenhum outro cliente compartilhará seu hardware</td>
+        </tr>
+        <tr>
+          <td>Reservas de Capacidade</td>
+          <td>Reserve capacidade em uma zona de disponibilidade específica por qualquer duração</td>
+        </tr>
+    </table>
+  </li>
+  <li>Configure grupos de segurança para restringir o acesso à instância</li>
+  <li>Use chaves SSH para autenticar o acesso à instância</li>
+  <li>Implemente backups regulares da instância para proteger dados críticos</li>
+  <li>Monitore o uso da instância e defina alertas para anomalias ou problemas de desempenho</li>
+  <li>Use o Elastic Load Balancing para distribuir a carga de trabalho entre várias instâncias e melhorar a disponibilidade</li>
+  <li>Use o Auto Scaling para aumentar ou diminuir a capacidade da instância com base na demanda da carga de trabalho, permitindo que a infraestrutura se ajuste automaticamente à demanda do usuário</li>
+  <li>Configure opções de segurança, como CloudTrail e CloudWatch, para monitorar e auditar o acesso à instância e proteger contra ameaças de segurança</li>
+</ul>
+<hr/>
+</details>
+
+<details><summary> <h3>Modelo de Responsabilidade para EC2</h3></summary>
+<hr/>
 <table>
   <tr>
     <th>AWS</th>
@@ -349,7 +378,7 @@ Principalmente, consiste na capacidade de:
   <tr>
     <td>
         <ul>
-          <li>Infraestrutura (segurança de rede global)</li>
+          <li>Infraestrutura (segurança global da rede)</li>
           <li>Isolamento no host físico</li>
           <li>Substituição de hardware com defeito</li>
           <li>Validação de conformidade</li>
@@ -357,14 +386,14 @@ Principalmente, consiste na capacidade de:
     </td>
     <td>
        <ul>
-          <li>Regras de Grupos de Segurança</li>
+          <li>Regra de Grupos de Segurança</li>
           <li>Patches e atualizações do sistema operacional</li>
-          <li>Software e utilitários instalados na instância EC2</li>
-          <li>Funções IAM atribuídas à EC2 e gerenciamento de acesso do usuário IAM</li>
-          <li>Segurança de dados na sua instância</li>
+          <li>Software e utilitários instalados na Instância EC2</li>
+          <li>Funções IAM atribuídas à EC2 e gerenciamento de acesso de usuário IAM</li>
+          <li>Segurança de dados em sua instância</li>
       </ul>
     </td>
   </tr>
 </table>
-
+<hr/>
 </details>
