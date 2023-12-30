@@ -291,6 +291,19 @@ Isso consiste principalmente na capacidade de:
  
 </details>
 
+<details><summary><h3>Armazenamento da Instância</h3></summary>
+  <ul>
+    <li>Os volumes EBS são unidades de rede com desempenho bom, mas "limitado"</li>
+    <li>Se você precisa de um disco de hardware com alto desempenho, use o Armazenamento da Instância EC2</li>
+    <li>Melhor desempenho de I/O</li>
+    <li>O Armazenamento da Instância EC2 perde seu armazenamento se for interrompido (efêmero)</li>
+    <li>Bom para buffer/cache/dados temporários/contúdo temporário</li>
+    <li>Risco de perda de dados em caso de falha de hardware</li>
+    <li>Backups e replicação são de sua responsabilidade</li>
+  </ul>
+</details>
+
+
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
   <p><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</p>
