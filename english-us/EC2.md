@@ -323,6 +323,26 @@ It mainly consists in the capability of:
         <hr/>
 </details>
 
+<details><summary> <h3>EBS vs EFS</h3></summary>
+   <p>
+     Look a EBS with EC2 instance in one AZ and another one. Then the EBS volume can only be attached to one instance in one specific AZ. And the EBS volumes are bound to specific availability zones.
+     But if we wanted to move over the EBS volume from one AZ to another, we could create a snapshot, it would create an EBS snapshot and then restore that snapshot into a new availability zone.
+     And effectively we would've moved the EBS volume over. But this is a copy, this is not an in-sync replica. This is a copy, and that would mean that this drive can now be used by another EC2 instance:
+   </p>
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+  </div>
+  <hr/>
+  <p>
+    EFS is a network file system. That means that whatever is on EFS drive is shared by everything that is mounted to it. SO, what does that mean? Say we have many instances in Availability Zone one on one
+    or many instances as weell on Availability Zone 2. At the same time, all these instances can mount the same EFS drive, using a mount target, and they will all see the same files.
+    So, that makes it a shared file system:
+  </p>
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+  </div>
+  <hr/>
+</details>
 
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
