@@ -293,7 +293,7 @@ It mainly consists in the capability of:
  
 </details>
 
-<details><summary> <h3>Instance Store</h3></summary>
+<details><summary> <h3>EBS - Instance Store</h3></summary>
   <ul>
     <li>EBS volumes are network drives with good but "limited" performance</li>
     <li>If you need a high-performance hardware disk, use EC2 Instance Store</li>
@@ -304,6 +304,20 @@ It mainly consists in the capability of:
     <li>Backupds and Replication are your responsability</li>
   </ul>
 </details>
+
+
+<details><summary> <h3>EFS - Elastic File System</h3></summary>
+  <ul>
+    <li>Managed NFS (network file system) that can ben mounted on 100s of EC2</li>
+    <li>EFS works with Linux EC2 instances in multi-AZ</li>
+    <li>Highly available, scalabe, expensive, pay per use, no capacity planning</li>
+  </ul>
+  <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+            </div>
+        <hr/>
+</details>
+
 
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
