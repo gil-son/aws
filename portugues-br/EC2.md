@@ -320,6 +320,27 @@ Isso consiste principalmente na capacidade de:
         <hr/>
 </details>
 
+<details><summary><h3>EBS vs EFS</h3></summary>
+   <p>
+     Observando um EBS com uma instância EC2 em uma Zona de Disponibilidade 1 (AZ) e outra Zona de Disponibilidade 2. Em seguida, o volume EBS só pode ser anexado a uma instância em uma AZ específica. E os volumes EBS estão vinculados a Zonas de Disponibilidade específicas.
+     Mas se quisermos mover o volume EBS de uma AZ para outra, podemos criar um snapshot. Isso criaria um snapshot do EBS e, em seguida, restauraríamos esse snapshot em uma nova zona de disponibilidade.
+     E, efetivamente, teríamos movido o volume EBS. Mas isso é uma cópia, não é uma réplica em sincronia. Isso é uma cópia, e isso significaria que esse disco agora pode ser usado por outra instância EC2:
+   </p>
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/1c/74/e3OiEdv8_t.png">  
+  </div>
+  <hr/>
+  <p>
+    EFS é um sistema de arquivos de rede. Isso significa que tudo o que está no drive EFS é compartilhado por tudo o que está montado nele. Então, o que isso significa? Digamos que tenhamos muitas instâncias na Zona de Disponibilidade um em um
+    ou muitas instâncias também na Zona de Disponibilidade 2. Ao mesmo tempo, todas essas instâncias podem montar o mesmo drive EFS, usando um alvo de montagem, e todas verão os mesmos arquivos.
+    Isso torna um sistema de arquivos compartilhado:
+  </p>
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/36/ac/gg8CtxzO_t.png">
+  </div>
+  <hr/>
+</details>
+
 
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
