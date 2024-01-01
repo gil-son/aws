@@ -291,7 +291,7 @@ Isso consiste principalmente na capacidade de:
  
 </details>
 
-<details><summary><h3>Armazenamento da Instância</h3></summary>
+<details><summary><h3>EBS - Armazenamento da Instância</h3></summary>
   <ul>
     <li>Os volumes EBS são unidades de rede com desempenho bom, mas "limitado"</li>
     <li>Se você precisa de um disco de hardware com alto desempenho, use o Armazenamento da Instância EC2</li>
@@ -301,6 +301,18 @@ Isso consiste principalmente na capacidade de:
     <li>Risco de perda de dados em caso de falha de hardware</li>
     <li>Backups e replicação são de sua responsabilidade</li>
   </ul>
+</details>
+
+<details><summary><h3>EFS - Sistema de Arquivos Elástico</h3></summary>
+  <ul>
+    <li>NFS gerenciado (sistema de arquivos de rede) que pode ser montado em centenas de instâncias EC2</li>
+    <li>O EFS funciona com instâncias EC2 Linux em várias zonas de disponibilidade</li>
+    <li>Altamente disponível, escalável, custoso, pagamento por uso, sem planejamento de capacidade</li>
+  </ul>
+  <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+            </div>
+        <hr/>
 </details>
 
 
