@@ -309,6 +309,11 @@ Isso consiste principalmente na capacidade de:
     <li>O EFS funciona com instâncias EC2 Linux em várias zonas de disponibilidade</li>
     <li>Altamente disponível, escalável, custoso, pagamento por uso, sem planejamento de capacidade</li>
   </ul>
+  <hr/>
+  <p>
+    Neste diagrama, existe um Sistema de Arquivos EFS com um grupo de segurança, e então temos instâncias EC2 em várias zonas de disponibilidade conectadas a ele.
+    Portanto, temos instâncias EC2 em us-east-1a, instâncias EC2 em us-east-1b, bem como instâncias EC2 em us-east-1c. E todas estão conectadas ao mesmo sistema EFS:
+  </p>
   <div align="center"> 
               <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
             </div>
