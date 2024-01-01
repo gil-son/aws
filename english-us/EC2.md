@@ -312,6 +312,11 @@ It mainly consists in the capability of:
     <li>EFS works with Linux EC2 instances in multi-AZ</li>
     <li>Highly available, scalabe, expensive, pay per use, no capacity planning</li>
   </ul>
+   <hr/>
+   <p>
+     In this diagram exist an EFS File System with a security group, and then we have EC2 instances in various availability zones connected to it.
+     So, we have EC2 instances in us-east-1a, EC2 instances in us-east-1b as well as EC2 instances in us-east-1c. And they're all connected to the same EFS system:
+   </p>
   <div align="center"> 
               <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
             </div>
