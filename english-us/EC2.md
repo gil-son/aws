@@ -330,7 +330,7 @@ It mainly consists in the capability of:
      And effectively we would've moved the EBS volume over. But this is a copy, this is not an in-sync replica. This is a copy, and that would mean that this drive can now be used by another EC2 instance:
    </p>
   <div align="center"> 
-      <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+      <img src="https://thumbs2.imgbox.com/1c/74/e3OiEdv8_t.png">  
   </div>
   <hr/>
   <p>
@@ -339,7 +339,7 @@ It mainly consists in the capability of:
     So, that makes it a shared file system:
   </p>
   <div align="center"> 
-      <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+      <img src="https://thumbs2.imgbox.com/36/ac/gg8CtxzO_t.png">
   </div>
   <hr/>
 </details>
