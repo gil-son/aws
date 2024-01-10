@@ -461,3 +461,33 @@ Isso consiste principalmente na capacidade de:
 </table>
 <hr/>
 </details>
+
+<details><summary><h3>Modelo de Responsabilidade para Armazenamento do EC2</h3></summary>
+<hr/>
+<table>
+  <tr>
+    <th>AWS</th>
+    <th>USUÁRIO</th>
+  </tr>
+  <tr>
+    <td>
+        <ul>
+          <li>Infraestrutura</li>
+          <li>Replicação de dados para volumes EBS e unidades EFS</li>
+          <li>Substituição de hardware com defeito</li>
+          <li>Garantir que seus funcionários não possam acessar seus dados</li>
+        </ul>
+    </td>
+    <td>
+       <ul>
+          <li>Configurar procedimentos de backup/snapshot</li>
+          <li>Configurar a criptografia de dados</li>
+          <li>Responsabilidade por quaisquer dados nos drives</li>
+          <li>Compreender o risco de usar o Armazenamento de Instância EC2</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<hr/>
+</details>
+
