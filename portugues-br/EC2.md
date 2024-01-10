@@ -308,7 +308,7 @@ Isso consiste principalmente na capacidade de:
     <li>NFS gerenciado (sistema de arquivos de rede) que pode ser montado em centenas de instâncias EC2</li>
     <li>O EFS funciona com instâncias EC2 Linux em várias zonas de disponibilidade</li>
     <li>Altamente disponível, escalável, custoso, pagamento por uso, sem planejamento de capacidade</li>
-  </ul>
+ 
   <hr/>
   <p>
     Neste diagrama, existe um Sistema de Arquivos EFS com um grupo de segurança, e então temos instâncias EC2 em várias zonas de disponibilidade conectadas a ele.
@@ -318,6 +318,19 @@ Isso consiste principalmente na capacidade de:
               <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
             </div>
         <hr/>
+   <li> Acesso Infrequente EFS (EFS-IA)
+      <ul>
+        <li>Classe de armazenamento otimizada para arquivos não acessados diariamente</li>
+        <li>Custo mais baixo em comparação com o Padrão</li>
+        <li>O EFS moverá automaticamente seus arquivos para o EFS-IA com base no último acesso</li>
+        <li>Ative o EFS-IA com uma Política de Ciclo de Vida</li>
+        <li>Exemplo: mova arquivos que não foram acessados por 60 dias para o EFS-IA</li>
+        </ul>
+          <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/e3/33/VrvdXrru_t.png">  
+          </div>
+        <hr/>
+   </ul>
 </details>
 
 <details><summary><h3>EBS vs EFS</h3></summary>
