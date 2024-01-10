@@ -311,16 +311,31 @@ It mainly consists in the capability of:
     <li>Managed NFS (network file system) that can ben mounted on 100s of EC2</li>
     <li>EFS works with Linux EC2 instances in multi-AZ</li>
     <li>Highly available, scalabe, expensive, pay per use, no capacity planning</li>
-  </ul>
+  
    <hr/>
-   <p>
-     In this diagram exist an EFS File System with a security group, and then we have EC2 instances in various availability zones connected to it.
-     So, we have EC2 instances in us-east-1a, EC2 instances in us-east-1b as well as EC2 instances in us-east-1c. And they're all connected to the same EFS system:
-   </p>
-  <div align="center"> 
-              <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
-            </div>
+     <p>
+       In this diagram exist an EFS File System with a security group, and then we have EC2 instances in various availability zones connected to it.
+       So, we have EC2 instances in us-east-1a, EC2 instances in us-east-1b as well as EC2 instances in us-east-1c. And they're all connected to the same EFS system:
+     </p>
+      <div align="center"> 
+            <img src="https://thumbs2.imgbox.com/2e/2f/j6bLDISQ_t.png">  
+      </div>
         <hr/>
+    <li> EFS Infrequent Access (EFS-IA)
+      <ul>
+        <li>Storage class that is cost-optimized for files not accessed every day</li>
+        <li>Lower cost compared Standard</li>
+        <li>EFS Will automatically move your files to EFS-IA based on the last time they were accessed</li>
+        <li>Enable EFS-IA with a Lifecycle Policy</li>
+        <li>Example: move files that are not accessed for 60 days to EFS-IA</li>
+        </p>
+          <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/e3/33/VrvdXrru_t.png">  
+          </div>
+        <hr/>
+      </ul>
+    </li>
+  </ul>
 </details>
 
 <details><summary> <h3>EBS vs EFS</h3></summary>
