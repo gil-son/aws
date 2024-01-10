@@ -328,12 +328,11 @@ It mainly consists in the capability of:
         <li>EFS Will automatically move your files to EFS-IA based on the last time they were accessed</li>
         <li>Enable EFS-IA with a Lifecycle Policy</li>
         <li>Example: move files that are not accessed for 60 days to EFS-IA</li>
-        </p>
+        </ul>
           <div align="center"> 
                 <img src="https://thumbs2.imgbox.com/e3/33/VrvdXrru_t.png">  
           </div>
         <hr/>
-      </ul>
     </li>
   </ul>
 </details>
@@ -457,6 +456,35 @@ It mainly consists in the capability of:
           <li>Software and utilities installed on the EC2 Instance</li>
           <li>IAM Roles assigned to EC2 & IAM user access management</li>
           <li>Data security on your instance</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+<hr/>
+</details>
+
+<details><summary> <h3>Responsibility Model for EC2 Storage</h3></summary>
+<hr/>
+<table>
+  <tr>
+    <th>AWS</th>
+    <th>USER</th>
+  </tr>
+  <tr>
+    <td>
+        <ul>
+          <li>Infrastructure</li>
+          <li>Replication for data for EBS volumes & EFS drives</li>
+          <li>Replacing faulty hardware</li>
+          <li>Ensuring their employees cannot access your data</li>
+        </ul>
+    </td>
+    <td>
+       <ul>
+          <li>Setting up backup / snapshot procedures</li>
+          <li>Setting up data encryption</li>
+          <li>Responsibility of any data on the drives</li>
+          <li>Understanding the risk of using EC2 Instance Store</li>
       </ul>
     </td>
   </tr>
