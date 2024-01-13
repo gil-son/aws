@@ -354,6 +354,19 @@ Isso consiste principalmente na capacidade de:
   <hr/>
 </details>
 
+<details><summary> <h3>FSx</h3></summary>
+  
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/ab/7c/USeaqi2h_t.png">
+  </div>
+  <hr/>
+
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/3f/29/oDflKIeQ_t.png">
+  </div>
+  <hr/>
+  
+</details>
 
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
