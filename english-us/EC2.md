@@ -359,15 +359,51 @@ It mainly consists in the capability of:
 </details>
 
 <details><summary> <h3>FSx</h3></summary>
-  
-  <div align="center"> 
-      <img src="https://thumbs2.imgbox.com/ab/7c/USeaqi2h_t.png">
-  </div>
-  <hr/>
-
-  <div align="center"> 
-      <img src="https://thumbs2.imgbox.com/3f/29/oDflKIeQ_t.png">
-  </div>
+  <ul>
+    <li>Launch 3rd party high-performance file systems on AWS</li>
+    <li>Fully managed service</li>
+    <li>Currently exist 3 types of FSx
+        <ul>
+          <li>FSx for Windows File Server
+            <ul>
+              <li>A fully managed, highly, reliable, and scalable Windows native shared file system</li>
+              <li>Built on Windows File Server</li>
+              <li>Supports SMB protocol & Windows NTFS</li>
+              <li>Integrated with Microsoft Active Directory</li>
+              <li>Can be accessed from AWS or your on-premise infrastructure</li>
+            </ul>
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/ab/7c/USeaqi2h_t.png">
+            </div>
+            <hr/>
+          </li>
+          <li>FSx for Lustre
+            <ul>
+              <li>A fully managed, high-performance, scalable file storage for <b>High Performance Computing (HPC)</b></li>
+              <li>The name Lustre is derived from "Linux" and "cluster"</li>
+              <li>Machine Learning, Analytics, Video Processing, Financial Modeling...</li>
+              <li>Scales up to 100s GB/s, millions of, sub-ms latencies</li>
+            </ul>
+            <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/3f/29/oDflKIeQ_t.png">
+            </div>
+          </li>
+          <li>FSx for NetApp ONTAP
+            <ul>
+                <li>A fully managed cloud service that provides highly available and scalable shared storage with advanced data management capabilities.</li>
+                <li>Based on the NetApp ONTAP storage operating system, offering enterprise-grade features for data management, efficiency, and security.</li>
+                <li>Supports NFS (Network File System) and SMB (Server Message Block) protocols, making it suitable for a wide range of applications and workloads.</li>
+                <li>Provides advanced data management features such as data deduplication, data compression, and snapshot-based backups, enhancing storage efficiency and data protection.</li>
+                <li>Integrates seamlessly with your existing on-premise NetApp environment, enabling hybrid cloud scenarios.</li>
+                <li>Allows you to easily migrate and replicate data between on-premise NetApp systems and FSx for NetApp ONTAP in AWS.</li>
+            </ul>
+            <div align="center"> 
+                <img src="https://github.com/gil-son/aws/assets/72712095/073c464d-5857-4e20-96db-d8fd66a26170">
+            </div>
+        </li>
+      </ul>
+    </li>
+   </ul>
   <hr/>
   
 </details>
