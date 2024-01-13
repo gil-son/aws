@@ -354,18 +354,53 @@ Isso consiste principalmente na capacidade de:
   <hr/>
 </details>
 
-<details><summary> <h3>FSx</h3></summary>
-  
-  <div align="center"> 
-      <img src="https://thumbs2.imgbox.com/ab/7c/USeaqi2h_t.png">
-  </div>
+<details><summary><h3>FSx</h3></summary>
+  <ul>
+    <li>Lance sistemas de arquivos de alto desempenho de terceiros na AWS</li>
+    <li>Serviço totalmente gerenciado</li>
+    <li>Atualmente existem 3 tipos de FSx
+        <ul>
+          <li>FSx para Windows File Server
+            <ul>
+              <li>Um sistema de arquivos compartilhado nativo do Windows totalmente gerenciado, altamente confiável e escalável</li>
+              <li>Construído no Windows File Server</li>
+              <li>Suporta protocolo SMB e Windows NTFS</li>
+              <li>Integrado ao Microsoft Active Directory</li>
+              <li>Pode ser acessado pela AWS ou pela sua infraestrutura local</li>
+            </ul>
+            <div align="center"> 
+              <img src="https://thumbs2.imgbox.com/ab/7c/USeaqi2h_t.png">
+            </div>
+            <hr/>
+          </li>
+          <li>FSx para Lustre
+            <ul>
+              <li>Armazenamento de arquivos totalmente gerenciado, de alto desempenho e escalável para <b>Computação de Alto Desempenho (HPC)</b></li>
+              <li>O nome Lustre é derivado de "Linux" e "cluster"</li>
+              <li>Aprendizado de Máquina, Análises, Processamento de Vídeo, Modelagem Financeira...</li>
+              <li>Escalabilidade de até 100 GB/s, milhões de operações por segundo, latências sub-milissegundos</li>
+            </ul>
+            <div align="center"> 
+                <img src="https://thumbs2.imgbox.com/3f/29/oDflKIeQ_t.png">
+            </div>
+          </li>
+          <li>FSx para NetApp ONTAP
+            <ul>
+                <li>Um serviço em nuvem totalmente gerenciado que oferece armazenamento compartilhado altamente disponível e escalável com recursos avançados de gerenciamento de dados.</li>
+                <li>Baseado no sistema operacional de armazenamento NetApp ONTAP, oferecendo recursos de nível empresarial para gerenciamento, eficiência e segurança de dados.</li>
+                <li>Suporta os protocolos NFS (Network File System) e SMB (Server Message Block), sendo adequado para uma ampla variedade de aplicativos e cargas de trabalho.</li>
+                <li>Oferece recursos avançados de gerenciamento de dados, como deduplicação, compressão de dados e backups baseados em snapshots, aprimorando a eficiência de armazenamento e a proteção de dados.</li>
+                <li>Integra-se perfeitamente ao seu ambiente NetApp local existente, possibilitando cenários de nuvem híbrida.</li>
+                <li>Permite fácil migração e replicação de dados entre sistemas NetApp locais e FSx para NetApp ONTAP na AWS.</li>
+            </ul>
+            <div align="center"> 
+                <img src="https://github.com/gil-son/aws/assets/72712095/073c464d-5857-4e20-96db-d8fd66a26170">
+            </div>
+          </li>
+        </ul>
+    </li>
+  </ul>
   <hr/>
-
-  <div align="center"> 
-      <img src="https://thumbs2.imgbox.com/3f/29/oDflKIeQ_t.png">
-  </div>
-  <hr/>
-  
 </details>
 
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
