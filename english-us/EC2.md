@@ -358,6 +358,20 @@ It mainly consists in the capability of:
   <hr/>
 </details>
 
+<details><summary> <h3>FSx</h3></summary>
+  
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/ab/7c/USeaqi2h_t.png">
+  </div>
+  <hr/>
+
+  <div align="center"> 
+      <img src="https://thumbs2.imgbox.com/3f/29/oDflKIeQ_t.png">
+  </div>
+  <hr/>
+  
+</details>
+
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
   <p><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</p>
