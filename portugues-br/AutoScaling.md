@@ -17,13 +17,45 @@ O Amazon Auto Scaling é um serviço versátil que oferece ajustes automáticos 
 </details>
 
 <details><summary><h3>Termos e Conceitos</h3></summary>
-<ul>
-  <li><b>Grupo de Dimensionamento Automático (ASG):</b> Um grupo de dimensionamento automático é uma coleção de instâncias EC2, serviços Docker, instâncias de banco de dados, etc., que são tratadas como uma unidade lógica para dimensionamento e gerenciamento. Os grupos de dimensionamento automático definem o número mínimo, máximo e desejado de instâncias.</li>
-  <li><b>Configuração de Lançamento:</b> Uma configuração de lançamento é um modelo que define as configurações de configuração para as instâncias lançadas por um grupo de dimensionamento automático.</li>
-  <li><b>Política de Dimensionamento:</b> Uma política de dimensionamento é um conjunto de instruções que define como o dimensionamento automático deve dimensionar as instâncias EC2, serviços Docker, instâncias de banco de dados, etc., em resposta às mudanças na demanda.</li>
-  <li><b>Plano de Dimensionamento:</b> Um plano de dimensionamento é uma configuração que permite criar e gerenciar políticas de dimensionamento usando estratégias de dimensionamento predefinidas.</li>
-  <li><b>Período de Espera:</b> Um período de espera é um período de tempo configurável que impede que o dimensionamento automático inicie ou termine instâncias adicionais imediatamente após uma atividade de dimensionamento.</li>
-</ul>
+  <details><summary><h4>Escalabilidade</h4></summary>
+        <ul>
+          <li>Escalabilidade significa que a aplicação/sistema pode lidar com cargas maiores ao se adaptar.</li>
+          <li>Há dois tipos de escalabilidade:
+            <ul>
+              <li>Escalabilidade Vertical
+                <ul>
+                  <li>Escalabilidade Vertical significa aumentar o tamanho da instância.</li>
+                  <li>Melhorar qualquer parte da instância.</li>
+                  <li>Sua aplicação roda em um t2.micro, escalar verticalmente significa rodá-la em um t2.large, por exemplo.</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/d4/1a/yPfIV4ZR_t.png">
+                  </div>
+                  <li>A escalabilidade vertical é muito comum para sistemas não distribuídos, como um banco de dados.</li>
+                  <li>Geralmente, há um limite para o quanto você pode escalar verticalmente (limite de hardware).</li>
+                </ul>
+              </li>
+              <li>Escalabilidade Horizontal (= elasticidade)
+                  <ul>
+                  <li>Escalabilidade Horizontal significa aumentar o número de instâncias/sistemas para sua aplicação.</li>
+                  <li>A escalabilidade horizontal implica em sistemas distribuídos.</li>
+                  <li>Isso é muito comum em aplicações web/aplicações modernas.</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/1e/13/1NerXmnE_t.png">
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+  </details>
+
+  <ul>
+    <li><b>Grupo de Dimensionamento Automático (ASG):</b> Um grupo de dimensionamento automático é uma coleção de instâncias EC2, serviços Docker, instâncias de banco de dados, etc., que são tratadas como uma unidade lógica para dimensionamento e gerenciamento. Os grupos de dimensionamento automático definem o número mínimo, máximo e desejado de instâncias.</li>
+    <li><b>Configuração de Lançamento:</b> Uma configuração de lançamento é um modelo que define as configurações de configuração para as instâncias lançadas por um grupo de dimensionamento automático.</li>
+    <li><b>Política de Dimensionamento:</b> Uma política de dimensionamento é um conjunto de instruções que define como o dimensionamento automático deve dimensionar as instâncias EC2, serviços Docker, instâncias de banco de dados, etc., em resposta às mudanças na demanda.</li>
+    <li><b>Plano de Dimensionamento:</b> Um plano de dimensionamento é uma configuração que permite criar e gerenciar políticas de dimensionamento usando estratégias de dimensionamento predefinidas.</li>
+    <li><b>Período de Espera:</b> Um período de espera é um período de tempo configurável que impede que o dimensionamento automático inicie ou termine instâncias adicionais imediatamente após uma atividade de dimensionamento.</li>
+  </ul>
 </details>
 
 <details><summary><h3>Boas Práticas</h3></summary>
