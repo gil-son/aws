@@ -17,6 +17,37 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
 </details>
 
 <details><summary><h3>Terms and Concepts</h3></summary>
+  <details><summary><h4>Scalability</h4></summary>
+        <ul>
+          <li>Scalability means that application / system can handle greater loads by adapting.</li>
+          <li>There are two kinds of scalability:
+            <ul>
+              <li>Vertical Scalability
+                <ul>
+                  <li>Vertical Scalability means increase the size of the instance</li>
+                  <li>Improve any part of the instance</li>
+                  <li>Your application runs on a t2.micro, Scaling that application vertically means running it on a t2.large</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/d4/1a/yPfIV4ZR_t.png">
+                  </div>
+                  <li>Vertical scalability is very common for non distributed systems, such as a database.</li>
+                  <li>Theres usually a limit to how much you can vertically scale (hardware limit)</li>
+                </ul>
+              </li>
+              <li>Horizontal Scalability (= elasticity)
+                  <ul>
+                  <li>Horizontal Scalability means increase the number of the instance / system for your application</li>
+                  <li>Horizontal scaling implies distributed systems</li>
+                  <li>This is very common for web applications / modern applications</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/1e/13/1NerXmnE_t.png">
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+  </details> 
 <ul>
   <li><b>Auto Scaling Group (ASG):</b> An Auto Scaling group is a collection of EC2 instances, Docker services, database instances, etc., treated as a logical unit for scaling and management. Auto Scaling groups define the minimum, maximum, and desired number of instances.</li>
   <li><b>Launch Configuration:</b> A launch configuration is a template that defines the configuration settings for instances launched by an Auto Scaling group.</li>
