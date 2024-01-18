@@ -48,6 +48,19 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
           </li>
         </ul>
   </details> 
+  <details><summary><h4>Availability</h4></summary>
+      <ul>
+          <li>High Availability usually goes hand in hand with horizontal scaling</li>
+          <li>High availability means running your application / system in at least 2 Availability Zones</li>
+          <li>The goal of high availability is to survive a data center loss (disaster)</li>
+            <div align="center">
+                  <img src="https://thumbs2.imgbox.com/78/63/coxLKVbv_t.png">
+            </div>
+            <div align="center">
+                  <img src="https://thumbs2.imgbox.com/c6/b3/Sjg8TioT_t.png">
+            </div>
+      </ul>
+ </details> 
 <ul>
   <li><b>Auto Scaling Group (ASG):</b> An Auto Scaling group is a collection of EC2 instances, Docker services, database instances, etc., treated as a logical unit for scaling and management. Auto Scaling groups define the minimum, maximum, and desired number of instances.</li>
   <li><b>Launch Configuration:</b> A launch configuration is a template that defines the configuration settings for instances launched by an Auto Scaling group.</li>
