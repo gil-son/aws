@@ -408,6 +408,81 @@ It mainly consists in the capability of:
   
 </details>
 
+
+<details><summary><h3>Scalability & Availability</h3></summary>
+   <details><summary><h4>Scalability</h4></summary>
+        <ul>
+          <li>Scalability means that application / system can handle greater loads by adapting.</li>
+          <li>There are two kinds of scalability:
+            <ul>
+              <li>Vertical Scalability
+                <ul>
+                  <li>Vertical Scalability means increase the size of the instance</li>
+                  <li>Improve any part of the instance</li>
+                  <li>Your application runs on a t2.micro, Scaling that application vertically means running it on a t2.large</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/d4/1a/yPfIV4ZR_t.png">
+                  </div>
+                  <li>Vertical scalability is very common for non distributed systems, such as a database.</li>
+                  <li>Theres usually a limit to how much you can vertically scale (hardware limit)</li>
+                </ul>
+              </li>
+              <li>Horizontal Scalability (= elasticity)
+                  <ul>
+                  <li>Horizontal Scalability means increase the number of the instance / system for your application</li>
+                  <li>Horizontal scaling implies distributed systems</li>
+                  <li>This is very common for web applications / modern applications</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/1e/13/1NerXmnE_t.png">
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+  </details> 
+  <details><summary><h4>Availability</h4></summary>
+      <ul>
+          <li>High Availability usually goes hand in hand with horizontal scaling</li>
+          <li>High availability means running your application / system in at least 2 Availability Zones</li>
+          <li>The goal of high availability is to survive a data center loss (disaster)</li>
+            <div align="center">
+                  <img src="https://thumbs2.imgbox.com/78/63/coxLKVbv_t.png">
+            </div>
+            <div align="center">
+                  <img src="https://thumbs2.imgbox.com/c6/b3/Sjg8TioT_t.png">
+            </div>
+      </ul>
+   </details> 
+ </details>
+
+<details><summary><h3>Scalability & Availability For EC2</h3></summary>
+      <ul>
+          <li>Vertical Scaling: Increase instance size (= scale up / down)
+            <ul>
+              <li>From: t2.nano - 0.5 of RAM, 1 vCPU</li>
+              <li>To: u-12tb.metal - 12.3TB of RAM, 448 vCPUs</li>
+            </ul>
+          </li>       
+          <li>Horizontal Scaling: Increase number of instances (= scale out/ in)
+            <ul>
+              <li>Auto Scaling Group</li>
+              <li>Load Balancer</li>
+            </ul>
+        </li>
+        <li>High Availability: Run instances for the same application across multi AZ:
+            <ul>
+              <li>Auto Scaling Group multi AZ</li>
+              <li>Load Balancer multi AZ</li>
+            </ul>
+        </li>
+      </ul>
+</details>
+
+
+
+
+
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
   <p><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</p>
