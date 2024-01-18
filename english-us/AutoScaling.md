@@ -61,6 +61,14 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
             </div>
       </ul>
  </details> 
+   <details><summary><h4>Scalability vs Elasticity (vs Agility)</h4></summary>
+      <ul>
+          <li><b>Scalability:</b> ability to accomodate a larger load by making the hardware stronger (scale up), or by adding nodes (scale out)</li>
+          <li><b>Elasticity:</b>once a system is scalable, elasticity means that there will be some "auto-scaling" so that the system can scale based on the load. This is "cloud-friendly", pay-per-use, match demand, optimize costs</li>
+          <li><b>Agility:</b>(not related to scalability - distractor) new IT resources are only a click away, wich means that you reduce the time to make those resources available to your developers from weeks to just minutes.</li>
+      </ul>
+      <hr/>
+ </details> 
 <ul>
   <li><b>Auto Scaling Group (ASG):</b> An Auto Scaling group is a collection of EC2 instances, Docker services, database instances, etc., treated as a logical unit for scaling and management. Auto Scaling groups define the minimum, maximum, and desired number of instances.</li>
   <li><b>Launch Configuration:</b> A launch configuration is a template that defines the configuration settings for instances launched by an Auto Scaling group.</li>
