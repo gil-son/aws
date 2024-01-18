@@ -61,6 +61,17 @@ O Amazon Auto Scaling é um serviço versátil que oferece ajustes automáticos 
     </div>
   </ul>
 </details>
+</details>
+<details>
+  <summary>
+    <h4>Escalabilidade vs Elasticidade (vs Agilidade)</h4>
+  </summary>
+  <ul>
+    <li><b>Escalabilidade:</b> capacidade de acomodar uma carga maior tornando o hardware mais poderoso (escalar para cima) ou adicionando nós (escalar para fora)</li>
+    <li><b>Elasticidade:</b> uma vez que um sistema é escalável, a elasticidade significa que haverá algum "auto-escalonamento" para que o sistema possa se adaptar à carga. Isso é "amigável à nuvem", pagamento por uso, atende à demanda, otimiza custos</li>
+    <li><b>Agilidade:</b> (não relacionado à escalabilidade - distrativo) novos recursos de TI estão a apenas um clique de distância, o que significa que você reduz o tempo para disponibilizar esses recursos para seus desenvolvedores de semanas para apenas minutos.</li>
+  </ul>
+</details>
 
   <ul>
     <li><b>Grupo de Dimensionamento Automático (ASG):</b> Um grupo de dimensionamento automático é uma coleção de instâncias EC2, serviços Docker, instâncias de banco de dados, etc., que são tratadas como uma unidade lógica para dimensionamento e gerenciamento. Os grupos de dimensionamento automático definem o número mínimo, máximo e desejado de instâncias.</li>
