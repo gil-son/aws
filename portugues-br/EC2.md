@@ -403,6 +403,76 @@ Isso consiste principalmente na capacidade de:
   <hr/>
 </details>
 
+<details><summary><h3>Escalabilidade e Disponibilidade</h3></summary>
+  <details><summary><h4>Escalabilidade</h4></summary>
+        <ul>
+          <li>Escalabilidade significa que a aplicação/sistema pode lidar com cargas maiores ao se adaptar.</li>
+          <li>Há dois tipos de escalabilidade:
+            <ul>
+              <li>Escalabilidade Vertical
+                <ul>
+                  <li>Escalabilidade Vertical significa aumentar o tamanho da instância.</li>
+                  <li>Melhorar qualquer parte da instância.</li>
+                  <li>Sua aplicação roda em um t2.micro, escalar verticalmente significa rodá-la em um t2.large, por exemplo.</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/d4/1a/yPfIV4ZR_t.png">
+                  </div>
+                  <li>A escalabilidade vertical é muito comum para sistemas não distribuídos, como um banco de dados.</li>
+                  <li>Geralmente, há um limite para o quanto você pode escalar verticalmente (limite de hardware).</li>
+                </ul>
+              </li>
+              <li>Escalabilidade Horizontal (= elasticidade)
+                  <ul>
+                  <li>Escalabilidade Horizontal significa aumentar o número de instâncias/sistemas para sua aplicação.</li>
+                  <li>A escalabilidade horizontal implica em sistemas distribuídos.</li>
+                  <li>Isso é muito comum em aplicações web/aplicações modernas.</li>
+                  <div align="center">
+                    <img src="https://thumbs2.imgbox.com/1e/13/1NerXmnE_t.png">
+                  </div>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+    </details>
+    <details><summary><h4>Disponibilidade</h4></summary>
+    <ul>
+      <li>A Alta Disponibilidade geralmente está associada à escalabilidade horizontal.</li>
+      <li>Alta disponibilidade significa executar sua aplicação/sistema em pelo menos 2 Zonas de Disponibilidade.</li>
+      <li>O objetivo da alta disponibilidade é sobreviver à perda de um centro de dados (desastre).</li>
+      <div align="center">
+        <img src="https://thumbs2.imgbox.com/78/63/coxLKVbv_t.png">
+      </div>
+      <div align="center">
+        <img src="https://thumbs2.imgbox.com/c6/b3/Sjg8TioT_t.png">
+      </div>
+    </ul>
+  </details>
+</details>
+
+<details><summary><h3>Escalabilidade e Disponibilidade para EC2</h3></summary>
+  <ul>
+    <li>Escalonamento Vertical: Aumentar o tamanho da instância (= escalar para cima/baixo)
+      <ul>
+        <li>De: t2.nano - 0.5 de RAM, 1 vCPU</li>
+        <li>Para: u-12tb.metal - 12.3TB de RAM, 448 vCPUs</li>
+      </ul>
+    </li>
+    <li>Escalonamento Horizontal: Aumentar o número de instâncias (= escalar para fora/dentro)
+      <ul>
+        <li>Grupo de Auto Scaling</li>
+        <li>Balanceador de Carga</li>
+      </ul>
+    </li>
+    <li>Alta Disponibilidade: Executar instâncias para a mesma aplicação em várias Zonas de Disponibilidade:
+      <ul>
+        <li>Grupo de Auto Scaling em várias Zonas de Disponibilidade</li>
+        <li>Balanceador de Carga em várias Zonas de Disponibilidade</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
   <p><b>Load Balancers:</b> EC2 offers load balancers, which distribute network traffic among multiple EC2 Instances in a region.</p>
   <p><b>Regions:</b> EC2 is available in several regions around the world. Each region is an independent geographic area, with multiple availability zones to increase resilience and availability.</p>
   <p><b>Availability zones:</b> Each EC2 region has multiple availability zones, which are physically separate data centers, but connected by a low-latency, high-bandwidth network.</p>
