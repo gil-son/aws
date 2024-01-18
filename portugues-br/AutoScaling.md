@@ -48,6 +48,19 @@ O Amazon Auto Scaling é um serviço versátil que oferece ajustes automáticos 
           </li>
         </ul>
   </details>
+  <details><summary><h4>Disponibilidade</h4></summary>
+  <ul>
+    <li>A Alta Disponibilidade geralmente está associada à escalabilidade horizontal.</li>
+    <li>Alta disponibilidade significa executar sua aplicação/sistema em pelo menos 2 Zonas de Disponibilidade.</li>
+    <li>O objetivo da alta disponibilidade é sobreviver à perda de um centro de dados (desastre).</li>
+    <div align="center">
+      <img src="https://thumbs2.imgbox.com/78/63/coxLKVbv_t.png">
+    </div>
+    <div align="center">
+      <img src="https://thumbs2.imgbox.com/c6/b3/Sjg8TioT_t.png">
+    </div>
+  </ul>
+</details>
 
   <ul>
     <li><b>Grupo de Dimensionamento Automático (ASG):</b> Um grupo de dimensionamento automático é uma coleção de instâncias EC2, serviços Docker, instâncias de banco de dados, etc., que são tratadas como uma unidade lógica para dimensionamento e gerenciamento. Os grupos de dimensionamento automático definem o número mínimo, máximo e desejado de instâncias.</li>
