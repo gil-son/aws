@@ -1,4 +1,4 @@
- Load Balancing for AWS Lambda
+ Load Balancer for AWS Lambda
 
   <div align="center">
     <img src="https://coralogix.com/wp-content/uploads/2019/02/Load-balancer-icon.png" width="50%">
