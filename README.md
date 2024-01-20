@@ -211,7 +211,7 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
  </tr>
 
  <tr align="center">
-     <td rowspan="2" >Networking and Delivery</td>
+     <td rowspan="3" >Networking and Delivery</td>
      <td>API Management</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
@@ -225,10 +225,15 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
      <td>The Amazon Route 53 is AWS's domain name system (DNS) and content delivery network (CDN) service, providing domain registration, DNS resolution, and traffic routing to optimize availability and performance for applications on the internet.
 </td>
  </tr>
-
+ 
+ <tr align="center">
+     <td rowspan="6">Integrate with any service model</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/LoadBalancer.md">Load Balancer</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/LoadBalancer.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/7177e919b32ad97825f95e902595014b-1594766d92813b5baeb706c453f91de0.svg" /></a></td>
+     <td>Load balancing optimizes resource distribution, ensuring efficient and reliable performance by distributing incoming network traffic across multiple servers or resources.</td>
+ </tr>
 <tr align="center">
      <td>Storage</td>
-     <td rowspan="5">Integrate with any service model</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
