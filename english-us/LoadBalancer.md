@@ -7,7 +7,7 @@
  A load balancer is a server or a critical component that plays a pivotal role in distributing incoming internet traffic to multiple servers (such as EC2 instances) downstream. This process optimizes resource utilization, enhances system performance, and ensures high availability by preventing any single server from being overwhelmed. Load balancers act as intermediaries, efficiently managing the distribution of requests, thereby improving the overall reliability and responsiveness of the system.
 
 <div align="center">
-    <img src="">
+    <img src="https://thumbs2.imgbox.com/44/00/9bCV1Xo4_t.png">
 </div>
 
   
@@ -49,7 +49,7 @@ Load balancing is a versatile concept and can be applied to various types of res
               <ul>
                 <li>AWS guarantees that it will be working</li>
                 <li>AWS takes care of upgrades, mainenance, high availability</li>
-                <li>AWS provides only a few con</li>
+                <li>AWS provides only a few configurations knobs</li>
               </ul>
           </li>
           <li>It costs less to setup your own load balancer but it will be a lot more effort on your end (maintence, integrations)</li>
@@ -63,6 +63,51 @@ Load balancing is a versatile concept and can be applied to various types of res
           </li>
        </ul>
       </details>
+      <details><summary><h4>Types of Load Balancers</h4></summary>
+        <ul>
+           <li>Application Load Balancer:
+               <div align="center">
+                 <img src="https://thumbs2.imgbox.com/40/ab/a5iXGjyz_t.png" width="25%">
+               </div>
+               <ul>
+                 <li>HTTP / HTTPS / gRPC protocols (Layer 7)</li>
+                 <li>HTTP Routing features</li>
+                 <li>AWS provides only a few con</li>
+               </ul>
+               <div align="center">
+                 <img src="https://thumbs2.imgbox.com/24/70/ait8gdLE_t.png">
+               </div>
+              <hr/>
+           </li>
+           <li>Network Load Balancer:
+               <div align="center">
+                 <img src="https://thumbs2.imgbox.com/12/75/GWDh0X03_t.png" width="25%">
+               </div>
+               <ul>
+                 <li>TCP / UDP protocols (Layer 4)</li>
+                 <li>High Performance, millions of request per seconds</li>
+                 <li>Static IP through Elastic IP</li>
+               </ul>
+               <div align="center">
+                 <img src="https://thumbs2.imgbox.com/41/7e/6muve8z5_t.png">
+               </div>
+               <hr/>
+           </li>
+            <li>Gateway Load Balancer:
+               <div align="center">
+                 <img src="https://thumbs2.imgbox.com/b9/aa/ESBhKVPV_t.png" width="25%">
+               </div>
+               <ul>
+                 <li>GENEVE Protocol on IP Packets (Layer 3)</li>
+                 <li>Route Traffic to Firewalls that you manage on EC2 Instances</li>
+                 <li>Intrusion detection</li>
+               </ul>
+               <div align="center">
+                 <img src="https://thumbs2.imgbox.com/12/05/GFeWXg40_t.png">
+               </div>
+           </li>
+        </ul>
+       </details>
   </details>
 
   <details>
