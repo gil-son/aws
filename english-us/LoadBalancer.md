@@ -77,6 +77,10 @@ Load balancing is a versatile concept and can be applied to various types of res
                <div align="center">
                  <img src="https://thumbs2.imgbox.com/24/70/ait8gdLE_t.png">
                </div>
+              <p>Choose an Application Load Balancer when you need a flexible feature set for your applications with HTTP and HTTPS traffic. Operating at the request level, Application Load Balancers provide advanced routing and visibility features targeted at application architectures, including microservices and containers.</p>
+              <div align="center">
+                 <img src="https://a.b.cdn.console.awsstatic.com/a/v1/5OBQRLTIGHMRUVN5XLKT5XU3JE4K6GTDZFDK5IPNT3GWUZTYJBOQ/2024-01-23T02-33-43_a88821a4018ec38/Static/591e55b0c20360da58ee3eee136b1fc6.svg" width="50%">
+               </div>
               <hr/>
            </li>
            <li>Network Load Balancer:
@@ -91,6 +95,11 @@ Load balancing is a versatile concept and can be applied to various types of res
                <div align="center">
                  <img src="https://thumbs2.imgbox.com/41/7e/6muve8z5_t.png">
                </div>
+               <p>Choose a Network Load Balancer when you need ultra-high performance, TLS offloading at scale, centralized certificate deployment, support for UDP, and static IP addresses for your applications. Operating at the connection level, Network Load Balancers are capable of handling millions of requests per second securely while maintaining ultra-low latencies.
+               </p>
+               <div align="center">
+                 <img src="https://a.b.cdn.console.awsstatic.com/a/v1/5OBQRLTIGHMRUVN5XLKT5XU3JE4K6GTDZFDK5IPNT3GWUZTYJBOQ/2024-01-23T02-33-43_a88821a4018ec38/Static/707c56b1d8a250c545ca7e2af0e770d7.svg" width="50%">
+               </div>
                <hr/>
            </li>
             <li>Gateway Load Balancer:
@@ -104,6 +113,10 @@ Load balancing is a versatile concept and can be applied to various types of res
                </ul>
                <div align="center">
                  <img src="https://thumbs2.imgbox.com/12/05/GFeWXg40_t.png">
+               </div>
+              <p>Choose a Gateway Load Balancer when you need to deploy and manage a fleet of third-party virtual appliances that support GENEVE. These appliances enable you to improve security, compliance, and policy controls.</p>
+              <div align="center">
+                 <img src="https://a.b.cdn.console.awsstatic.com/a/v1/5OBQRLTIGHMRUVN5XLKT5XU3JE4K6GTDZFDK5IPNT3GWUZTYJBOQ/2024-01-23T02-33-43_a88821a4018ec38/Static/2b583e8904605b0212959d386600bc20.svg" width="50%">
                </div>
            </li>
         </ul>
