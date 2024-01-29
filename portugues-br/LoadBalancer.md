@@ -64,24 +64,33 @@ O balanceamento de carga é um conceito versátil e pode ser aplicado a vários 
                <ul>
                  <li>Protocolos HTTP / HTTPS / gRPC (Camada 7)</li>
                  <li>Recursos de Roteamento HTTP</li>
-                 <li>A AWS fornece apenas algumas configurações</li>
+                 <li>A AWS fornece apenas alguns recursos</li>
                </ul>
                <div align="center">
                  <img src="https://thumbs2.imgbox.com/24/70/ait8gdLE_t.png">
+               </div>
+              <p>Escolha um Balanceador de Carga de Aplicativos quando você precisar de um conjunto flexível de recursos para suas aplicações com tráfego HTTP e HTTPS. Operando no nível da solicitação, os Balanceadores de Carga de Aplicativos fornecem recursos avançados de roteamento e visibilidade voltados para arquiteturas de aplicativos, incluindo microsserviços e contêineres.</p>
+              <div align="center">
+                 <img src="https://a.b.cdn.console.awsstatic.com/a/v1/5OBQRLTIGHMRUVN5XLKT5XU3JE4K6GTDZFDK5IPNT3GWUZTYJBOQ/2024-01-23T02-33-43_a88821a4018ec38/Static/591e55b0c20360da58ee3eee136b1fc6.svg" width="50%">
                </div>
               <hr/>
            </li>
            <li>Balanceador de Carga de Rede:
                <div align="center">
-                 <<img src="https://thumbs2.imgbox.com/12/75/GWDh0X03_t.png" width="25%">
+                 <img src="https://thumbs2.imgbox.com/12/75/GWDh0X03_t.png" width="25%">
                </div>
                <ul>
                  <li>Protocolos TCP / UDP (Camada 4)</li>
                  <li>Alto desempenho, milhões de solicitações por segundo</li>
-                 <li>IP estático por meio de IP Elástico</li>
+                 <li>IP estático por meio de IP elástico</li>
                </ul>
                <div align="center">
                  <img src="https://thumbs2.imgbox.com/41/7e/6muve8z5_t.png">
+               </div>
+               <p>Escolha um Balanceador de Carga de Rede quando você precisar de ultra-alto desempenho, descarregamento TLS em escala, implantação centralizada de certificados, suporte para UDP e endereços IP estáticos para suas aplicações. Operando no nível da conexão, os Balanceadores de Carga de Rede são capazes de lidar com milhões de solicitações por segundo de forma segura, mantendo latências ultra baixas.
+               </p>
+               <div align="center">
+                 <img src="https://a.b.cdn.console.awsstatic.com/a/v1/5OBQRLTIGHMRUVN5XLKT5XU3JE4K6GTDZFDK5IPNT3GWUZTYJBOQ/2024-01-23T02-33-43_a88821a4018ec38/Static/707c56b1d8a250c545ca7e2af0e770d7.svg" width="50%">
                </div>
                <hr/>
            </li>
@@ -91,15 +100,20 @@ O balanceamento de carga é um conceito versátil e pode ser aplicado a vários 
                </div>
                <ul>
                  <li>Protocolo GENEVE em Pacotes IP (Camada 3)</li>
-                 <li>Roteie o Tráfego para Firewalls que você gerencia em Instâncias EC2</li>
-                 <li>Deteção de Intrusões</li>
+                 <li>Roteamento de Tráfego para Firewalls que você gerencia em Instâncias EC2</li>
+                 <li>Deteção de intrusões</li>
                </ul>
                <div align="center">
                  <img src="https://thumbs2.imgbox.com/12/05/GFeWXg40_t.png">
                </div>
+              <p>Escolha um Balanceador de Carga de Gateway quando precisar implantar e gerenciar uma frota de appliances virtuais de terceiros que suportam GENEVE. Esses appliances permitem melhorar a segurança, conformidade e controles de políticas.</p>
+              <div align="center">
+                 <img src="https://a.b.cdn.console.awsstatic.com/a/v1/5OBQRLTIGHMRUVN5XLKT5XU3JE4K6GTDZFDK5IPNT3GWUZTYJBOQ/2024-01-23T02-33-43_a88821a4018ec38/Static/2b583e8904605b0212959d386600bc20.svg" width="50%">
+               </div>
            </li>
         </ul>
-       </details>
+  </details>
+
   </details>
   <details>
     <summary>
