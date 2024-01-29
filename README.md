@@ -83,7 +83,7 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
  </tr>
 
 <tr align="center">
-     <td rowspan="2">Rede e Entrega de Conteúdo</td>
+     <td rowspan="3">Rede e Entrega de Conteúdo</td>
      <td>Gerenciamento de API</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
@@ -96,10 +96,16 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Route53.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg" /></a></td>
      <td>O Amazon Route 53 é o serviço de sistema de nomes de domínio (DNS) e entrega de conteúdo (CDN) da AWS, oferecendo registro de domínio, resolução de DNS e direcionamento de tráfego para otimizar a disponibilidade e desempenho de aplicações na internet.</td>
  </tr>
- 
+
+<tr align="center">
+     <td rowspan="6">Integra com qualquer modelo de serviço</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/LoadBalancer.md">Load Balancer</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/LoadBalancer.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/7177e919b32ad97825f95e902595014b-1594766d92813b5baeb706c453f91de0.svg" /></a></td>
+     <td>O balanceamento de carga otimiza a distribuição de recursos, garantindo um desempenho eficiente e confiável ao distribuir o tráfego de rede de entrada entre vários servidores ou recursos.</td>
+ </tr>
+
 <tr align="center">
      <td>Armazenar</td>
-     <td rowspan="5">Integra com qualquer modelo de serviço</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md">S3</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
      <td>O Amazon S3 é um serviço de armazenamento de objetos altamente escalável e durável da AWS, projetado para armazenar e recuperar quantidades massivas de dados de qualquer lugar na web.</td>
