@@ -70,16 +70,43 @@ O Amazon Auto Scaling é um serviço versátil que oferece ajustes automáticos 
   </ul>
   <hr/>
 </details> 
+
+<details><summary><h4>Grupos de Auto Dimensionamento - Estratégias de Dimensionamento</h4></summary>
+      <ul>
+          <li><b>Dimensionamento Manual:</b> atualizar o tamanho de um ASG manualmente</li>
+          <li><b>Dimensionamento Dinâmico:</b> responder à demanda em constante mudança
+              <ul>
+                <li><b>Dimensionamento Simples / por Etapas</b>
+                    <ul>
+                      <li>Quando um alarme do CloudWatch é acionado (por exemplo, CPU > 70%), adicionar 2 unidades</li>
+                      <li>Quando um alarme do CloudWatch é acionado (por exemplo, CPU < 30%), remover unidades</li>
+                    </ul>    
+                </li>
+                 <li><b>Dimensionamento por Acompanhamento de Alvo</b>
+                    <ul>
+                      <li>Exemplo: quero que a CPU média do ASG permaneça em torno de 40%</li>
+                    </ul>
+                </li>
+                <li><b>Dimensionamento Agendado</b>
+                    <ul>
+                      <li>Antecipar um dimensionamento com base em padrões de uso conhecidos</li>
+                      <li>Exemplo: aumentar a capacidade mínima para 10 às 17h nas sextas-feiras</li>
+                    </ul>
+                </li>
+              </ul>
+          </li>
+          <li><b>Dimensionamento Preditivo</b>
+              <ul>
+                <li>Usar aprendizado de máquina para prever o tráfego futuro com antecedência</li>
+                <li>Provisionar automaticamente o número certo de recursos com antecedência</li>    
+             </ul>
+          </li>  
+      </ul>
+ </details>
+
+
 </details>
 
-
-  <ul>
-    <li><b>Grupo de Dimensionamento Automático (ASG):</b> Um grupo de dimensionamento automático é uma coleção de instâncias EC2, serviços Docker, instâncias de banco de dados, etc., que são tratadas como uma unidade lógica para dimensionamento e gerenciamento. Os grupos de dimensionamento automático definem o número mínimo, máximo e desejado de instâncias.</li>
-    <li><b>Configuração de Lançamento:</b> Uma configuração de lançamento é um modelo que define as configurações de configuração para as instâncias lançadas por um grupo de dimensionamento automático.</li>
-    <li><b>Política de Dimensionamento:</b> Uma política de dimensionamento é um conjunto de instruções que define como o dimensionamento automático deve dimensionar as instâncias EC2, serviços Docker, instâncias de banco de dados, etc., em resposta às mudanças na demanda.</li>
-    <li><b>Plano de Dimensionamento:</b> Um plano de dimensionamento é uma configuração que permite criar e gerenciar políticas de dimensionamento usando estratégias de dimensionamento predefinidas.</li>
-    <li><b>Período de Espera:</b> Um período de espera é um período de tempo configurável que impede que o dimensionamento automático inicie ou termine instâncias adicionais imediatamente após uma atividade de dimensionamento.</li>
-  </ul>
 </details>
 
 <details><summary><h3>Boas Práticas</h3></summary>
