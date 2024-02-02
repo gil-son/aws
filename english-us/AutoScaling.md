@@ -77,7 +77,7 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
                 <li><b>Simple / Step Scaling</b>
                     <ul>
                       <li>When a Cloud Watch alarm is triggered (example CPU > 70%), then add 2 units</li>
-                      <li>When a Cloud Watch alarm is triggered (example CPU > 30%), then remove</li>
+                      <li>When a Cloud Watch alarm is triggered (example CPU < 30%), then remove</li>
                     </ul>    
                 </li>
                  <li><b>Target Tracking Scaling</b>
