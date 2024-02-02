@@ -69,13 +69,38 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
       </ul>
       <hr/>
  </details> 
-<ul>
-  <li><b>Auto Scaling Group (ASG):</b> An Auto Scaling group is a collection of EC2 instances, Docker services, database instances, etc., treated as a logical unit for scaling and management. Auto Scaling groups define the minimum, maximum, and desired number of instances.</li>
-  <li><b>Launch Configuration:</b> A launch configuration is a template that defines the configuration settings for instances launched by an Auto Scaling group.</li>
-  <li><b>Scaling Policy:</b> A scaling policy is a set of instructions that defines how Auto Scaling should scale EC2 instances, Docker services, database instances, etc., in response to changes in demand.</li>
-  <li><b>Scaling Plan:</b> A scaling plan is a configuration that allows you to create and manage scaling policies using predefined scaling strategies.</li>
-  <li><b>Cooldown Period:</b> A cooldown period is a configurable time period that prevents Auto Scaling from starting or terminating additional instances immediately after a scaling activity.</li>
-</ul>
+ <details><summary><h4>Auto Scaling Groups - Scaling Strategies</h4></summary>
+      <ul>
+          <li><b>Manual Scaling:</b> update the size of an ASG manually</b></li>
+          <li><b>Dynamic Scaling:</b> respond to changing demand
+              <ul>
+                <li><b>Simple / Step Scaling</b>
+                    <ul>
+                      <li>When a Cloud Watch alarm is triggered (example CPU > 70%), then add 2 units</li>
+                      <li>When a Cloud Watch alarm is triggered (example CPU > 30%), then remove</li>
+                    </ul>    
+                </li>
+                 <li><b>Target Tracking Scaling</b>
+                    <ul>
+                      <li>Example: I want the avarege ASG CPU to stay around 40%</li>
+                    </ul>
+                </li>
+                <li><b>Scheduled Scaling</b>
+                    <ul>
+                      <li>Antecipate a scaling based on known usage patterns</li>
+                      <li>Example: increase the min capacity to 10 at 5pm on Fridays</li>
+                    </ul>
+                </li>
+              </ul>
+          </li>
+          <li><b>Predictive Scaling</b>
+              <ul>
+                <li>Use Machine Learning to predict future traffic ahead of time</li>
+                <li>Automatically provisions the right number of resources in advance</li>    
+             </ul>
+          </li>  
+      </ul>
+ </details>
 </details>
 
 <details><summary><h3>Best Practices</h3></summary>
