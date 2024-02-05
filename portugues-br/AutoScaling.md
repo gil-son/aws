@@ -73,32 +73,40 @@ O Amazon Auto Scaling é um serviço versátil que oferece ajustes automáticos 
 
 <details><summary><h4>Grupos de Auto Dimensionamento - Estratégias de Dimensionamento</h4></summary>
       <ul>
-          <li><b>Dimensionamento Manual:</b> atualizar o tamanho de um ASG manualmente</li>
-          <li><b>Dimensionamento Dinâmico:</b> responder à demanda em constante mudança
+          <li><b>Dimensionamento Manual:</b> atualiza o tamanho de um Grupo de Auto Dimensionamento manualmente</li>
+          <li><b>Dimensionamento Dinâmico:</b> responde à demanda em constante mudança
               <ul>
                 <li><b>Dimensionamento Simples / por Etapas</b>
                     <ul>
-                      <li>Quando um alarme do CloudWatch é acionado (por exemplo, CPU > 70%), adicionar 2 unidades</li>
-                      <li>Quando um alarme do CloudWatch é acionado (por exemplo, CPU < 30%), remover unidades</li>
-                    </ul>    
+                      <li>Quando um alarme CloudWatch é acionado (por exemplo, CPU > 70%), então adicione 2 unidades</li>
+                      <li>Quando um alarme CloudWatch é acionado (por exemplo, CPU < 30%), então remova</li>
+                        <div align="center">
+                          <img src="https://100daysofdevops.com/wp-content/uploads/2019/11/auto-scaling.png" width="50%">
+                        </div>
+                        (Ajusta o número de instâncias em execução com base na demanda da aplicação)
+                    </ul>
                 </li>
                  <li><b>Dimensionamento por Acompanhamento de Alvo</b>
                     <ul>
-                      <li>Exemplo: quero que a CPU média do ASG permaneça em torno de 40%</li>
+                      <li>Exemplo: quero que a CPU média do Grupo de Auto Dimensionamento fique em torno de 40%</li>
                     </ul>
                 </li>
                 <li><b>Dimensionamento Agendado</b>
                     <ul>
-                      <li>Antecipar um dimensionamento com base em padrões de uso conhecidos</li>
-                      <li>Exemplo: aumentar a capacidade mínima para 10 às 17h nas sextas-feiras</li>
+                      <li>Antecipe um dimensionamento com base em padrões de uso conhecidos</li>
+                      <li>Exemplo: aumente a capacidade mínima para 10 às 17h de quarta-feira</li>
                     </ul>
+                    <div align="center">
+                      <img src="https://docs.amazonaws.cn/en_us/autoscaling/ec2/userguide/images/capacity-example-with-as-diagram.png" width="50%">
+                    </div>
+                    (O Auto Dimensionamento ajuda a garantir que sua aplicação tenha a capacidade necessária para lidar tanto com a demanda atual quanto com a futura)
                 </li>
               </ul>
           </li>
           <li><b>Dimensionamento Preditivo</b>
               <ul>
-                <li>Usar aprendizado de máquina para prever o tráfego futuro com antecedência</li>
-                <li>Provisionar automaticamente o número certo de recursos com antecedência</li>    
+                <li>Utiliza aprendizado de máquina para prever o tráfego futuro com antecedência</li>
+                <li>Provisiona automaticamente o número correto de recursos com antecedência</li>    
              </ul>
           </li>  
       </ul>
