@@ -78,7 +78,11 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
                     <ul>
                       <li>When a Cloud Watch alarm is triggered (example CPU > 70%), then add 2 units</li>
                       <li>When a Cloud Watch alarm is triggered (example CPU < 30%), then remove</li>
-                    </ul>    
+                        <div align="center">
+                          <img src="https://100daysofdevops.com/wp-content/uploads/2019/11/auto-scaling.png" width="50%">
+                        </div>
+                        (Adjusts the number of running instances based on application demand)
+                    </ul>
                 </li>
                  <li><b>Target Tracking Scaling</b>
                     <ul>
@@ -88,8 +92,12 @@ Amazon Auto Scaling is a versatile service that provides automatic capacity adju
                 <li><b>Scheduled Scaling</b>
                     <ul>
                       <li>Antecipate a scaling based on known usage patterns</li>
-                      <li>Example: increase the min capacity to 10 at 5pm on Fridays</li>
+                      <li>Example: increase the min capacity to 10 at 5pm on Wednesday</li>
                     </ul>
+                    <div align="center">
+                      <img src="https://docs.amazonaws.cn/en_us/autoscaling/ec2/userguide/images/capacity-example-with-as-diagram.png" width="50%">
+                    </div>
+                    (Auto Scaling helps ensure your application has the necessary capacity to handle both current and future demand)
                 </li>
               </ul>
           </li>
