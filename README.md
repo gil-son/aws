@@ -6,7 +6,11 @@
 
 
 
-<details><summary> <h3>Ler em Português - BR</h3></summary>
+<details><summary> 
+  <h3>Ler em Português</h3>
+    <a href="#"><img src="https://hatscripts.github.io/circle-flags/flags/br.svg" width="5%"></a>
+    <a href="#"><img src="https://hatscripts.github.io/circle-flags/flags/pt.svg" width="5%"></a>
+</summary>
 <hr/>
 
 <details><summary><h4>Introdução</h4></summary>
@@ -141,7 +145,11 @@ Simultaneamente, é aconselhável familiarizar-se com os conceitos básicos de c
 </details>
 </details>
 
-<details><summary> <h3>Read in English - US</h3></summary>
+<details><summary> 
+  <h3>Read in English</h3>
+  <a href="#"><img src="https://hatscripts.github.io/circle-flags/flags/us.svg" width="5%"></a>
+  <a href="#"><img src="https://hatscripts.github.io/circle-flags/flags/gb.svg" width="5%"></a>
+</summary>
 <hr/>
 
 <details><summary><h4>Introduction</h4></summary>
