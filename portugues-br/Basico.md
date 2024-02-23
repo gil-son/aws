@@ -32,13 +32,39 @@
 - Contratar uma equipe 24/7 para monitorar a infraestrutura
 - Como lidar com desastres? (terremotos, desligamentos de energia, incêndios...)
 
-Tudo isso pode ser externalizado?
+Tudo isso pode ser externalizado? Veja o próximo tópico para aprender sobre isso.
 
 </details>
 
 <details>
   <summary><h4>Computação em Nuvem</h4></summary>
   <br>
+
+  Na nossa discussão anterior, exploramos a natureza intensiva em recursos de construir e manter servidores físicos, o que muitas vezes se traduz em custos substanciais e requisitos de espaço. Felizmente, existe uma solução mais eficiente para organizar recursos de servidor. As plataformas de computação em nuvem não apenas oferecem segurança aprimorada, mas também apresentam uma alternativa mais econômica aos servidores físicos e recursos tradicionais.
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/0d/20/ts9DxwE4_t.png" />
+</div>
+
+Uma plataforma de Computação em Nuvem abrange uma variedade abrangente de recursos, oferecendo não apenas as capacidades de um servidor tradicional, mas também uma ampla gama de serviços adicionais. Este ambiente dinâmico funciona como um hub para várias tecnologias. Por exemplo:
+
+- **Hospede Seu Servidor:**
+  - Amazon EC2 (Elastic Compute Cloud): Fornece capacidade de computação redimensionável na nuvem.
+  - Amazon ECS (Elastic Container Service): Serviço altamente escalável de orquestração de contêineres.
+
+- **Hospede Seu Banco de Dados:**
+  - Amazon RDS (Relational Database Service): Bancos de dados relacionais gerenciados na nuvem.
+  - Amazon DynamoDB: Um serviço de banco de dados NoSQL totalmente gerenciado.
+
+- **Crie Sua Infraestrutura de Rede:**
+  - Rede Definida por Software (SDN): Abordagem moderna de rede que virtualiza e abstrai a infraestrutura de rede.
+  - Amazon VPC (Virtual Private Cloud): Permite provisionar uma seção logicamente isolada na AWS Cloud.
+  - Sub-redes: Segmentos de uma rede, frequentemente criados dentro de uma VPC, para organizar e proteger recursos.
+
+Esses exemplos apenas arranham a superfície das diversas funcionalidades disponíveis dentro de uma plataforma de computação em nuvem. Seja para implantar servidores, gerenciar bancos de dados ou projetar estruturas de rede complexas, a nuvem oferece um ecossistema versátil e escalável para todas as suas necessidades tecnológicas.
+
+A computação em nuvem apresenta inúmeros benefícios! Continue lendo para saber mais!
+
 </details>
 
 <details>
