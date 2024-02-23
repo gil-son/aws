@@ -32,7 +32,7 @@
 - Hire 24/7 team to monitor the infrastructure
 - How to deal with disasters? (easthquake, power shutdown, fire...)
 
-Can all this be externalized?
+Can all this be externalized? Look at the next topic to learn about it.
 
 </details>
 
@@ -40,6 +40,30 @@ Can all this be externalized?
 <details><summary><h4>Cloud Computing</h4></summary>
 <br>
 
+In our previous discussion, we delved into the resource-intensive nature of building and maintaining physical servers, which often translates to substantial costs and space requirements. Fortunately, exists a more efficient solution for organizing server resources. Cloud computing platforms not only provide enhanced security but also offer a more cost-effective alternative to traditional physical servers and resources.
+
+<div alignr="center" width="50%">
+  <img src="https://thumbs2.imgbox.com/0d/20/ts9DxwE4_t.png" />
+</div>
+
+A Cloud Computing platform encompasses a comprehensive array of resources, offering not only the capabilities of a traditional server but also an extensive range of additional services. This dynamic environment serves as a hub for various technologies. For example:
+
+- **Host Your Server:**
+  - Amazon EC2 (Elastic Compute Cloud): Provides resizable compute capacity in the cloud.
+  - Amazon ECS (Elastic Container Service): Highly scalable container orchestration service.
+
+- **Host Your Database:**
+  - Amazon RDS (Relational Database Service): Managed relational databases in the cloud.
+  - Amazon DynamoDB: A fully managed NoSQL database service.
+
+- **Create Your Networking Infrastructure:**
+  - Software Defined Networking (SDN): Modern networking approach that virtualizes and abstracts network infrastructure.
+  - Amazon VPC (Virtual Private Cloud): Allows you to provision a logically isolated section of the AWS Cloud.
+  - Subnets: Segments of a network, often created within a VPC, to organize and secure resources.
+
+These examples merely scratch the surface of the diverse functionalities available within a cloud computing platform. Whether you need to deploy servers, manage databases, or design intricate networking structures, the cloud provides a versatile and scalable ecosystem for all your technological needs.
+
+Cloud computing brings forth numerous benefits! Keep reading to learn about it!
 
 </details>
 
