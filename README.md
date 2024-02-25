@@ -284,3 +284,8 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
 </details>
 </details>
 
+<hr/>
+<div align="center">
+  <img src="https://svgshare.com/i/13b4.svg" width="20%">
+</div>
+
