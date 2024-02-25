@@ -286,6 +286,6 @@ Simultaneously, it is advisable to familiarize yourself with the fundamental con
 
 <hr/>
 <div align="center">
-  <img src="https://svgshare.com/i/13cG.svg" width="20%">
+  <img src="https://svgshare.com/i/13cG.svg" width="25%">
 </div>
 
