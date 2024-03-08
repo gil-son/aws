@@ -19,6 +19,72 @@ The AWS Snow Family is a set of physical devices designed to securely and effici
   - Snowcone
   - Snowball Edge
 
+<hr/>
+
+### Why Data Migrations with AWS Snow Family?
+
+Well, if we look at the times it takes to transfer a lot of data over the network, it can take a lot of time. So for example, if we want to transfer 100 terabytes over a one gigabits per seconds network line, it will take us 12 days to achieve it, okay?
+
+And so obviously if we do a petabyte, it will take forever and so on. 
+
+<div align="center">
+<table>
+  <tr>
+    <th rowspan=2></th>
+    <th colspan=3>Time to Transfer</th>
+  </tr>
+  <tr>
+    <th>100 Mbps</th>
+    <th>1 Gbps</th>
+    <th>10 Gbps</th>
+  </tr>
+  <tr>
+    <th>
+      10 TB
+    </th>
+    <td>
+      12 days
+    </td>
+    <td>
+      30 hours
+    </td>
+    <td>
+      3 hours
+    </td>
+  </tr>
+  <tr>
+    <th>
+      100 TB
+    </th>
+    <td>
+      124 days
+    </td>
+    <td>
+      12 days
+    </td>
+    <td>
+      30 hours
+    </td>
+  </tr>
+  <tr>
+    <th>
+      1 PB
+    </th>
+    <td>
+      3 year
+    </td>
+    <td>
+      124 days
+    </td>
+    <td>
+      12 days
+    </td>
+  </tr>
+</table>
+</div>
+
+So, as we can see, sometimes we just want the data to get to AWS fast, and the challenges is that sometimes on top of having a small network transfer, 
+you have limited connectivity, limited bandwidth, transferring data over the network may cost you some money. It's not free to use a network. It could be that also the bandwidth is shared. For example, if you download a video from AWS, and you download 10 terabytes of data, maybe you're going to block your entire office, because you're maximizing the bandwithin your office. And then maybe the connection is not stable enough. So, you have to retry, and so on.
 
 
 
