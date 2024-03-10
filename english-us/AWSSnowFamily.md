@@ -84,9 +84,26 @@ And so obviously if we do a petabyte, it will take forever and so on.
 </div>
 
 So, as we can see, sometimes we just want the data to get to AWS fast, and the challenges is that sometimes on top of having a small network transfer, 
-you have limited connectivity, limited bandwidth, transferring data over the network may cost you some money. It's not free to use a network. It could be that also the bandwidth is shared. For example, if you download a video from AWS, and you download 10 terabytes of data, maybe you're going to block your entire office, because you're maximizing the bandwithin your office. And then maybe the connection is not stable enough. So, you have to retry, and so on.
+you have limited connectivity, limited bandwidth, transferring data over the network may cost you some money. It's not free to use a network. It could be that also the bandwidth is shared. For example, if you download a video from AWS, and you download 10 terabytes of data, maybe you're going to block your entire office, because you're maximizing the bandwithin your office. And then maybe the connection is not stable enough. So, you have to retry, and so on. So, all of these reasons make a case for Snow Family.
+
+<b>AWS Snow Family: offiline devices to perform data migrations</b>If it takes more than a week to transfer over the network, use Snowball devices!
 
 
+### Diagrams
+
+- Direct updaload to S3:
+  - If wanted to directly updload a file into Amazon S3, we have the client sends the data into Amazon S3.
+  <div align="center">
+    <img src="https://thumbs2.imgbox.com/e7/e7/Ih9IrkFy_t.png" width="50%">
+  </div>
+
+- With Snow Family:
+  - With Snow Family device, the clients request a Snow device. We receive it via post, okay? AWS will deliver the devices to us. We load the data directly onto the divices locally, and then we <b>ship</b> back the device to AWS, into an AWS facility. Then they will take the device and they will plug it into their own infraestructure. And then the data will be imported or exported based on what you want to do to an Amazon S3 bucket and you're good to go.
+   <div align="center">
+    <img src="https://thumbs2.imgbox.com/9d/dd/WHpoBWQI_t.png">
+  </div>
+ 
+    So really it is a way to transfer data to AWS, but through the physical route, not the network route
 
 AWS Snowcone
 <div align="center">
