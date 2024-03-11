@@ -105,22 +105,63 @@ you have limited connectivity, limited bandwidth, transferring data over the net
  
     So really it is a way to transfer data to AWS, but through the physical route, not the network route
 
-AWS Snowcone
-<div align="center">
-  <img src="https://mms.businesswire.com/media/20200617005657/en/799138/4/4440824_AWS_Snowcone_E_Ink_Label.jpg" width="25%">
-</div>
-<br/>
+<hr/>
+
+#### Edge Computing (for data transfer)
+
+<details>
+   <summary>Snow Ball Edge</summary>
+   <div align="center">
+    <img src="https://www.ktexperts.com/wp-content/uploads/2019/11/Snowball-closed-600w.png" width="25%">
+  </div>
+  Snowball Edge is a huge box as you can see and it is going to be used to:
+    <ul>
+      <li>Physical data transport solution, move TBs or PBs in or out of AWS.</li>
+      <li>Alternative to moving data over the network (and paying network fees)</li>
+      <li>Pay for data transfer job</li>
+      <li>Provide block storage and Amazon S3-compatible object storage</li>
+      <li><b>Snowball Edge Storage Optimed:</b> 80TB of HDD capacity for block volume and S3 compatible object storage</li>
+      <li><b>Snowball Edge Compute Optimed:</b> 42TB of HDD or 28TB NVMe capacity for block volume and S3 compatible object storage</li>
+      <li>Use cases: large data cloud migrations, DC decommission, disaster recovery</li>
+    </ul>
+  
+</details>
 
 
-AWS Snowball
-<div align="center">
-  <img src="https://www.ktexperts.com/wp-content/uploads/2019/11/Snowball-closed-600w.png" width="25%">
-</div>
-<br/>
+<hr/>
 
+#### Data Migrations
 
-AWS Snowmobile
-<div align="center">
-  <img src="https://d1.awsstatic.com/products/Snow/Snowmobile_11082016_09_SO1_534x300.2a5a5677ec9c098f2c4fa915a620e5fd2baed5a4.2a5a5677ec9c098f2c4fa915a620e5fd2baed5a4.png" width="50%">
-</div>
-<br/>
+<details>
+  <summary>AWS Snowcone</summary>
+  <div align="center">
+    <img src="https://mms.businesswire.com/media/20200617005657/en/799138/4/4440824_AWS_Snowcone_E_Ink_Label.jpg" width="25%">
+  </div>
+  
+ 
+  AWS Snowcone and Snowcone SSD:
+  <ul>
+    <li>Small, portable computing, anywhere, rugged & secure, withstands harsh enviroments</li>
+    <li>Device used for edge computing, storage, and data transfer</li>
+    <li>Snowcone - 8 TB of HDD Storage</li>
+    <li>Snowcone SSD - 14 TB of SSD Storage</li>
+  </ul>
+
+   You will use the Snowcone where the Snowball does not fit, for example, in a space-constrained enviroment, and you must provide your own batteries and cables. Now to send back the data to AWS, you have two options, So either you send the data back offiline by shipping it, or you can connect this device after it has captured some data into a data center, for example, whatever that has an internet connection, and then use the AWS DataSync service to send the data back to AWS.
+</details>
+
+<details>
+  <summary>AWS Snowball</summary>  
+
+  <div align="center">
+    <img src="https://www.ktexperts.com/wp-content/uploads/2019/11/Snowball-closed-600w.png" width="25%">
+  </div>
+</details>
+
+<details>
+  <summary>AWS Snowmobile</summary>
+  
+  <div align="center">
+    <img src="https://d1.awsstatic.com/products/Snow/Snowmobile_11082016_09_SO1_534x300.2a5a5677ec9c098f2c4fa915a620e5fd2baed5a4.2a5a5677ec9c098f2c4fa915a620e5fd2baed5a4.png" width="50%">
+  </div>
+</details>
