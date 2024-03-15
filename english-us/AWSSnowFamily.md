@@ -164,4 +164,13 @@ you have limited connectivity, limited bandwidth, transferring data over the net
   <div align="center">
     <img src="https://d1.awsstatic.com/products/Snow/Snowmobile_11082016_09_SO1_534x300.2a5a5677ec9c098f2c4fa915a620e5fd2baed5a4.2a5a5677ec9c098f2c4fa915a620e5fd2baed5a4.png" width="50%">
   </div>
+  
+  The Snowmobile is an actual truck. So, when they announced it, they actually took a truck on stage to show, that it was an actual truck that is going to transfer data. And so, with Snowmobile, you can transfer exabytes of data:
+  
+  <ul>
+    <li>Transfer exabytes of data (1EB = 1,000 PB = 1,000,000 TBs)</li>
+    <li>Each Snowmobile will have 100 Petabytes of capacity (Then you need 10 Snowmobiles to reach 1 exabytes, use multiple in parallel)</li>
+    <li>High security, temperature controlled, GPS, 24/7 video surveillance</li>
+    <li>Better than Snowball if you transfer more than 10 PB</li>
+  </ul>
 </details>
