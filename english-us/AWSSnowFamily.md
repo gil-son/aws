@@ -203,4 +203,20 @@ you have limited connectivity, limited bandwidth, transferring data over the net
 
 <hr/>
 
+### Usage Process
+
+Ok, so how do we use a Snow Family device?
+
+Well, you request the device from the console for delivery. Then you install the Snowball client, or use AWS Apps Hub that well see in this lecture on your servers. Then you connect the Snowball to the servers and start copying the files in the client. Then you ship back the device when we're ready. It will go straight to the right AWS facility thanks to an E-Ink marker. And the data will be loaded onto an S3 bucket. And then the Snowball will be completely wiped according to the highest security measures. Stages:
+
+<ol>
+  <li>Request Snowball devices from the AWS console for delivery</li>
+  <li>Install the Snowball client / AWS OpsHub on your serves</li>
+  <li>Connect the snowball to your servers and copy files using the client</li>
+  <li>Ship back the device when you're done (goes to the right AWS facility)</li>
+  <li>Data will be loaded into an S3 bucket</li>
+  <li>Snowball is completely wiped</li>
+</ol>
+
+So, that's for the data migration. And that was originally one and only use case for Snowball devices. But the second use case now for the Snow Family is called edge computing.
 
