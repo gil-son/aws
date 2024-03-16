@@ -9,15 +9,41 @@ The AWS Snow Family is a set of physical devices designed to securely and effici
 
 - Highly-secure, portable devices to collect and process data at the edge, and <b>migrate data into and out AWS</b>. Exist 2 use cases, Data migration and Edge computing.
 
-- Data migration:
-  - Snowcone
-  - SnowBall Edge
-  - Snowmobile   
-
-
-- Edge computing:
-  - Snowcone
-  - Snowball Edge
+  - Edge computing:
+    - Snowcone
+    - Snowball Edge
+    
+  - Data migration:
+    - Snowcone
+    - SnowBall Edge
+    - Snowmobile   
+ 
+    <table>
+      <tr>
+        <th></th>
+        <th>Snowcone & Snowcone SSD</th>
+        <th>Snowball Edge Storage Optimized</th>
+        <th>Snowmobile</th>
+      </tr>  
+      <tr>
+        <td>Storage Capacity</td>
+        <td>8 TB HDD 14TB SSD</td>
+        <td>80 TB usable</td>
+        <td><100 PB</td>
+      </tr>
+      <tr>
+        <td>Migration Size</td>
+        <td>Up to 24 TB, online and offline</td>
+        <td>Up to PBs, offline</td>
+        <td>Up to EB, offline</td>
+      </tr>
+      <tr>
+        <td>DataSync agent</td>
+        <td>Pre-installed</td>
+        <td></td>
+        <td></td>
+      </tr>
+  </table>
 
 <hr/>
 
@@ -174,3 +200,7 @@ you have limited connectivity, limited bandwidth, transferring data over the net
     <li>Better than Snowball if you transfer more than 10 PB</li>
   </ul>
 </details>
+
+<hr/>
+
+
