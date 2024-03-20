@@ -220,3 +220,9 @@ Well, you request the device from the console for delivery. Then you install the
 
 So, that's for the data migration. And that was originally one and only use case for Snowball devices. But the second use case now for the Snow Family is called edge computing.
 
+### What is Edge Computing?
+
+Edge computing is when you process data while it's being created at an location. But the second use case now for the Snow Family is called edge computing. By the way, an edge location is anything that really doesn't have internet or that is far away from a cloud. So, for example, if you have a truck on the road, or if you have a ship on the sea, or a mining station inderground, all these things can be called edge locations, because they can produce data, but the may not necessarily have internet connectivity. So, either limited connectivity or no internet access,or no access to computing power. And so, you may still want to run computation, data processing at these locations. And for this, we need edge computing
+
+
+
