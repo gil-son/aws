@@ -222,7 +222,15 @@ So, that's for the data migration. And that was originally one and only use case
 
 ### What is Edge Computing?
 
-Edge computing is when you process data while it's being created at an location. But the second use case now for the Snow Family is called edge computing. By the way, an edge location is anything that really doesn't have internet or that is far away from a cloud. So, for example, if you have a truck on the road, or if you have a ship on the sea, or a mining station inderground, all these things can be called edge locations, because they can produce data, but the may not necessarily have internet connectivity. So, either limited connectivity or no internet access,or no access to computing power. And so, you may still want to run computation, data processing at these locations. And for this, we need edge computing
+Edge computing is when you process data while it's being created at an location. But the second use case now for the Snow Family is called edge computing. By the way, an edge location is anything that really doesn't have internet or that is far away from a cloud. So, for example, if you have a truck on the road, or if you have a ship on the sea, or a mining station inderground, all these things can be called edge locations, because they can produce data, but the may not necessarily have internet connectivity. 
 
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/ab/cc/hRJPCEUF_t.png" width="50%">
+</div>
+
+So, either limited connectivity or no internet access,or no access to computing power. And so, you may still want to run computation, data processing at these locations. And for this, we need edge computing.
+And so, to do edge computing, we can order a Snowball Edge device or a Snowcone, and we have it embedded into these edge locations, and start doing edge computing. 
+
+So, the use cases of edge computing are to pre-process data, perform machine learning at the edge without it needing to go back to the cloud, transcode major streams in advance, and eventually, if needed, transfer the data back into AWS. You can then ship back the device for your Snowcone or Snowball Edge. Essentially, you start processing the data very close to where it's being created, and then you ship it back to AWS.
 
 
