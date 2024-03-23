@@ -179,6 +179,18 @@ you have limited connectivity, limited bandwidth, transferring data over the net
   <div align="center">
     <img src="https://www.ktexperts.com/wp-content/uploads/2019/11/Snowball-closed-600w.png" width="25%">
   </div>
+
+  AWS Snowball is a robust data transport solution for securely transferring large volumes of data to and from the AWS Cloud. With built-in security features and flexible deployment options, Snowball ensures reliable data transfer even in challenging environments. Ideal for organizations requiring efficient, high-speed data migrations and backups:
+
+- Large-scale data transport solution for securely transferring large amounts of data to and from the AWS Cloud.
+- Designed to handle petabytes of data.
+- Physical device with built-in security features for data protection during transit.
+- Available in multiple configurations with varying storage capacities.
+- Suitable for use cases where transferring data over the internet is impractical or inefficient.
+- Can be used in remote or edge locations with limited network connectivity.
+- Provides options for offline data transfer by shipping the device or online data transfer via a secure network connection.
+- Offers integration with AWS services like AWS DataSync for seamless data transfer to AWS storage services.
+- Ideal for scenarios requiring high-speed, secure, and reliable data transfer, such as large-scale migrations, data backups, or disaster recovery operations.
 </details>
 
 <details>
