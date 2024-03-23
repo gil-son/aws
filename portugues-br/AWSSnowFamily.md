@@ -166,6 +166,19 @@ Você usará o Snowcone onde o Snowball não couber, por exemplo, em um ambiente
   <div align="center">
     <img src="https://www.ktexperts.com/wp-content/uploads/2019/11/Snowball-closed-600w.png" width="25%">
   </div>
+
+  AWS Snowball é uma robusta solução de transporte de dados para transferir grandes volumes de dados de forma segura para e a partir da Nuvem AWS. Com recursos de segurança integrados e opções flexíveis de implantação, o Snowball garante transferência de dados confiável mesmo em ambientes desafiadores. Ideal para organizações que necessitam de migrações e backups de dados eficientes e de alta velocidade.
+
+- Solução de transporte de dados em grande escala para transferir grandes quantidades de dados de forma segura para e a partir da Nuvem AWS.
+- Projetado para lidar com petabytes de dados.
+- Dispositivo físico com recursos de segurança integrados para proteção de dados durante o trânsito.
+- Disponível em várias configurações com capacidades de armazenamento variadas.
+- Adequado para casos de uso onde a transferência de dados pela internet é impraticável ou ineficiente.
+- Pode ser usado em locais remotos ou de borda com conectividade de rede limitada.
+- Oferece opções para transferência de dados offline enviando o dispositivo ou transferência de dados online via uma conexão de rede segura.
+- Oferece integração com serviços da AWS como o AWS DataSync para transferência de dados contínua para serviços de armazenamento da AWS.
+- Ideal para cenários que requerem transferência de dados rápida, segura e confiável, como migrações em larga escala, backups de dados ou operações de recuperação de desastres.
+
 </details>
 <details>
   <summary>AWS Snowmobile</summary>
