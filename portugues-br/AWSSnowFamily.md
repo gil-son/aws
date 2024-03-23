@@ -212,3 +212,29 @@ Portanto, seja conectividade limitada ou sem acesso à internet, ou sem acesso a
 E então, para fazer computação de borda, podemos solicitar um dispositivo Snowball Edge ou um Snowcone, e o incorporamos a esses locais de borda e começamos a fazer computação de borda.
 
 Portanto, os casos de uso da computação de borda são pré-processar dados, realizar aprendizado de máquina na borda sem precisar retornar à nuvem, transcodificar fluxos principais antecipadamente e, eventualmente, se necessário, transferir os dados de volta para a AWS. Você pode então enviar o dispositivo de volta para o seu Snowcone ou Snowball Edge. Essencialmente, você começa a processar os dados muito perto de onde eles estão sendo criados e, em seguida, os envia de volta para a AWS.
+
+#### Família Snow - Snow Edge
+
+<ul>
+  <li>Snowcone & Snowcone SSD (menor) 
+    <ul>
+      <li>2 CPUs, 4 GB de memória, acesso com fio ou sem fio</li>
+      <li>Alimentação USB-C usando um cabo ou a bateria opcional</li>
+    </ul>
+  </li>
+  <li> Snowball Edge - Computação
+    <ul>
+      <li>104 vCPU, 416 GiB de RAM</li>
+      <li>GPU opcional (útil para processamento de vídeo ou Aprendizado de Máquina)</li>
+      <li>Armazenamento utilizável de 28 TB NVMe ou 42 TB HDD</li>
+      <li>Agrupamento de armazenamento disponível (até 16 nós)</li>
+    </ul>
+  </li>
+  <li> Snowball Edge - Otimizado para Armazenamento
+    <ul>
+      <li>Até 40 vCPUs, 80 GiB de RAM, 80 TB de armazenamento</li>
+    </ul>
+  </li>
+  <li>Todos: Podem executar Instâncias EC2 e funções AWS Lambda (usando AWS IoT Greengrass)</li>
+  <li>Opções de implantação de longo prazo: precificação com desconto de 1 e 3 anos</li>
+</ul>
