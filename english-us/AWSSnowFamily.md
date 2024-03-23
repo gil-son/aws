@@ -114,9 +114,6 @@ you have limited connectivity, limited bandwidth, transferring data over the net
 
 <b>AWS Snow Family: offiline devices to perform data migrations</b>If it takes more than a week to transfer over the network, use Snowball devices!
 
-
-### Diagrams
-
 - Direct updaload to S3:
   - If wanted to directly updload a file into Amazon S3, we have the client sends the data into Amazon S3.
   <div align="center">
