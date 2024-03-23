@@ -231,6 +231,33 @@ Edge computing is when you process data while it's being created at an location.
 So, either limited connectivity or no internet access,or no access to computing power. And so, you may still want to run computation, data processing at these locations. And for this, we need edge computing.
 And so, to do edge computing, we can order a Snowball Edge device or a Snowcone, and we have it embedded into these edge locations, and start doing edge computing. 
 
-So, the use cases of edge computing are to pre-process data, perform machine learning at the edge without it needing to go back to the cloud, transcode major streams in advance, and eventually, if needed, transfer the data back into AWS. You can then ship back the device for your Snowcone or Snowball Edge. Essentially, you start processing the data very close to where it's being created, and then you ship it back to AWS.
+So, the use cases of edge computing are to pre-process data, perform Machine Learning at the edge without it needing to go back to the cloud, transcode major streams in advance, and eventually, if needed, transfer the data back into AWS. You can then ship back the device for your Snowcone or Snowball Edge. Essentially, you start processing the data very close to where it's being created, and then you ship it back to AWS.
+
+### Snow Family - Edge Computing
+
+<ul>
+  <li>Snowcone & Snowcone SSD (smaller) 
+    <ul>
+      <li>2 CPUs, 4 GB of memory, wired or wireless access</li>
+      <li>USB-C power using a cord or the optional battery</li>
+    </ul>
+  </li>
+  <li> Snowball Edge - Compute
+    <ul>
+      <li>104 vCPU, 416 GiB of RAM</li>
+      <li>Optinal GPU (useful for video processing or Machine Learning)</li>
+      <li>28 TB NVMe or 42TB HDD usable storage</li>
+      <li>Storage Clustering available (up to 16 nodes)</li>
+    </ul>
+  </li>
+  <li> Snowball Edge - Storage Optimized
+    <ul>
+      <li>Up to 40 vCPUs, 80 GiB of RAM, 80 TB storage</li>
+    </ul>
+  </li>
+  <li>All: Can run EC2 Instances & AWS Lambda functions (using AWS IoT Greengrass)</li>
+  <li>Long-term deployment options: 1 and 3 years discounted princing</li>
+</ul>
+
 
 
