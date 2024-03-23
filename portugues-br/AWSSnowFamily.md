@@ -107,8 +107,6 @@ Então, como podemos ver, às vezes queremos que os dados cheguem à AWS rapidam
 
 AWS Snow Family: dispositivos offline para realizar migrações de dados Se levar mais de uma semana para transferir pela rede, use os dispositivos Snowball!
 
-#### Diagramas
-
   Upload direto para o S3:
       Se quisermos fazer o upload diretamente de um arquivo para o Amazon S3, o cliente envia os dados para o Amazon S3.
   <div align="center">
@@ -213,7 +211,7 @@ E então, para fazer computação de borda, podemos solicitar um dispositivo Sno
 
 Portanto, os casos de uso da computação de borda são pré-processar dados, realizar aprendizado de máquina na borda sem precisar retornar à nuvem, transcodificar fluxos principais antecipadamente e, eventualmente, se necessário, transferir os dados de volta para a AWS. Você pode então enviar o dispositivo de volta para o seu Snowcone ou Snowball Edge. Essencialmente, você começa a processar os dados muito perto de onde eles estão sendo criados e, em seguida, os envia de volta para a AWS.
 
-#### Família Snow - Snow Edge
+### Família Snow - Snow Edge
 
 <ul>
   <li>Snowcone & Snowcone SSD (menor) 
@@ -238,3 +236,24 @@ Portanto, os casos de uso da computação de borda são pré-processar dados, re
   <li>Todos: Podem executar Instâncias EC2 e funções AWS Lambda (usando AWS IoT Greengrass)</li>
   <li>Opções de implantação de longo prazo: precificação com desconto de 1 e 3 anos</li>
 </ul>
+
+### AWS OpsHub
+
+Finalmente, para a Família Snow, existe o OpsHub:
+<ul>
+  <li>Historicamente, para usar dispositivos da Família Snow, você precisava de uma CLI (ferramenta de Interface de Linha de Comando)</li>
+  <li>Hoje, você pode usar o AWS OpsHub (um software que você instala em seu computador) para gerenciar seu Dispositivo da Família Snow
+    <ul>
+      <li>Desbloqueio e configuração de dispositivos individuais ou em cluster</li>
+      <li>Transferência de arquivos</li>
+      <li>Inicialização e gerenciamento de instâncias em execução nos Dispositivos da Família Snow</li>
+      <li>Monitoramento de métricas do dispositivo (capacidade de armazenamento, instâncias ativas no seu dispositivo)</li>
+      <li>Inicialização de serviços AWS compatíveis em seus dispositivos (por exemplo: instâncias Amazon EC2, AWS DataSync, Sistema de Arquivos de Rede (NFS))</li>
+    </ul>
+  </li>
+</ul>
+<br/>
+<div align="center">
+  <img src="https://media.amazonwebservices.com/blog/2020/oh_dash_1.png">
+</div>
+
