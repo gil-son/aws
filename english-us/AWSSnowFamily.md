@@ -259,5 +259,28 @@ So, the use cases of edge computing are to pre-process data, perform Machine Lea
   <li>Long-term deployment options: 1 and 3 years discounted princing</li>
 </ul>
 
+### AWS OpsHub
+
+Finally, for the Snow Family, there is OpsHub:
+
+<ul>
+  <li>Historically, to use Snow Family devices, you needed a CLI (Command Line Interface tool)</li>
+  <li>Today, you can use AWS OpsHub (a software you install on you computer) to manage your Snow Family Device
+    <ul>
+      <li>Unlocking and configuring single or clustered devices</li>
+      <li>Transferring files</li>
+      <li>Launching and managing instances running on Snow Family Devices</li>
+      <li>Monitor device metrics (storage capacity, active instances on your device)</li>
+      <li>Launch compatible AWS services on your devices (ex: Amazon EC2 instances, AWS DataSync, Netork File System (NFS))</li>
+    </ul>
+  </li>
+</ul>
+<br/>
+<div align="center">
+  <img src="https://media.amazonwebservices.com/blog/2020/oh_dash_1.png">
+</div>
+
+
+
 
 
