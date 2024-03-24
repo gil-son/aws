@@ -300,8 +300,8 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
   <tr align="center">
      <td>Migração e transferência</td>
      <td>Transferência de Dados</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/AWSSnowFamily.md">AWSSnowFamily</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/AWSSnowFamily.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/316ccf80948adeaa0b9fc5863fa2e5d0-041cc4f719216c8b7fab8dd1d41f41e0.svg" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSSnowFamily.md">AWSSnowFamily</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSSnowFamily.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/316ccf80948adeaa0b9fc5863fa2e5d0-041cc4f719216c8b7fab8dd1d41f41e0.svg" /></a></td>
      <td>As ferramentas temáticas da AWSSnowFamily facilitam o movimento e processamento de dados offline, garantindo entrega perfeita para gigantescos conjuntos de dados.</td>
  </tr> 
 </table>
