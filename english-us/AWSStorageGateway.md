@@ -38,3 +38,8 @@ So if you wanted summarize the storage options on AWS, the block storage would b
 
 The file store would be a network file system so Amazon EFS nnd object storage would be Amazon S3 or Glacier.
 
+<br/>
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/f7/45/7NyuhKAK_t.png">
+</div>
