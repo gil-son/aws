@@ -50,4 +50,29 @@ O RDS oferece recursos como backup e restauração, monitoramento, escalabilidad
 
 Essas boas práticas ajudarão a garantir que o seu banco de dados Amazon RDS esteja otimizado para a escalabilidade, a disponibilidade e a segurança, garantindo que seus aplicativos possam executar de forma eficaz e eficiente. 
 </details>
+
+<details><summary><h3>Vantagens de usar RDS em comparação com implantar um banco de dados no EC2</h3></summary>
+<ul>
+  <li> RDS é um serviço gerenciado:
+    <ul>
+      <li>Provisionamento automatizado, atualizações de patch de sistema operacional</li>
+      <li>Backups contínuos e restauração para um timestamp específico (Ponto no Tempo para Restauração)!</li>
+      <li>Painéis de monitoramento</li>
+      <li>Replicas de leitura para melhorar o desempenho de leitura</li>
+      <li>Janelas de manutenção para atualizações</li>
+      <li>Capacidade de dimensionamento (vertical e horizontal)</li>
+      <li>Armazenamento suportado pelo EBS</li>
+    </ul>
+  </li>
+  <li>MAS você não pode fazer SSH em suas instâncias</li>
+</ul>
+
+#### Arquitetura de Solução RDS
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/ac/c1/huoLe6f2_t.png">
+</div>
+
+
+</details>
   
