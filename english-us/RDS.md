@@ -47,3 +47,30 @@ RDS offers features such as backup and restore, monitoring, scalability, securit
 
 These best practices will help ensure that your Amazon RDS database is optimized for scalability, availability, and security, ensuring that your applications can run effectively and efficiently.
 </details>
+
+<details><summary> <h3>Advantage over using RDS versus deploying DB on EC2</h3></summary>
+<ul>
+  <li> RDS is a managed service:
+    <ul>
+      <li>Automated provisioning, OS patching</li>
+      <li>Continous backups and restore to specific timestamp (Point in Time to Restore)!</li>
+      <li>Monitoring dashboards</li>
+      <li>Read replicas for improved read performance</li>
+      <li>Maintenance windows for upgrades</li>
+      <li>Scaling capability (vertical and horizontal)</li>
+      <li>Storage backed by EBS</li>
+    </ul>
+  </li>
+  <li>BUT you can't SSH into your instances</li>
+</ul>
+
+#### RDS Solution Architecture 
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/ac/c1/huoLe6f2_t.png">
+</div>
+
+
+</details>
+
+
