@@ -36,7 +36,7 @@ AWS Storage Gateway acts as a vital bridge, connecting on-premise data infrastru
 
 So if you wanted summarize the storage options on AWS, the block storage would be EBS or an EC2 instance store. 
 
-The file store would be a network file system so Amazon EFS nnd object storage would be Amazon S3 or Glacier.
+The file store would be a network file system so Amazon EFS and object storage would be Amazon S3 or Glacier.
 
 <br/>
 
