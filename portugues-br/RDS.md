@@ -76,13 +76,13 @@ Essas boas práticas ajudarão a garantir que o seu banco de dados Amazon RDS es
 
 <details><summary><h3>Implantações RDS: Réplicas de Leitura, Multi-AZ</h3></summary>
 
-Então, o primeiro é usar Réplica de Leitura RDS. Vamos pegar o exemplo de uma aplicação, que lê de um banco de dados RDS principal. Mas digamos que agora você precise escalar as cargas de trabalho de leitura, temos cada vez mais aplicações que precisam ler cada vez mais dados do RDS. A maneira de fazer isso é criando uma Réplica de Leitura. Isso significa que haverá cópias, algumas réplicas do seu banco de dados RDS que serão criadas. E isso permitirá que suas aplicações leiam também dessa Réplica de Leitura. E, portanto, você está distribuindo as leituras para muitos bancos de dados RDS diferentes. Você pode criar até 15 Réplicas de Leitura. Como você pode ver, neste exemplo:
+  Para começar, existe uma aplicação, que lê de um banco de dados RDS principal. Mas digamos que essa aplicação precise escalar as cargas de trabalho de leitura, temos cada vez mais aplicações que precisam ler cada vez mais dados do RDS. A maneira de fazer isso é criando uma Réplica de Leitura. Isso significa que haverá cópias, algumas réplicas do seu banco de dados RDS que serão criadas. E isso permitirá que suas aplicações leiam também dessa Réplica de Leitura. E, portanto, você está distribuindo as leituras para muitos bancos de dados RDS diferentes. Você pode criar até 15 Réplicas de Leitura. Como você pode ver, neste exemplo:
 
 <div align="center">
   <img src="https://thumbs2.imgbox.com/9c/37/EmrqVv9D_t.png">
 </div>
 
-É possível ver as Réplicas de Leitura em cima do banco de dados RDS principal, e as aplicações podem ler de todas elas. Agora, quando se trata de escrever dados, a escrita é feita apenas no banco de dados principal, então a aplicação ainda precisa escrever apenas no único banco de dados RDS central.
+É possível ver as Réplicas de Leitura apontando para o banco de dados RDS principal, e as aplicações podem ler de todas elas. Agora, quando se trata de escrever dados, a escrita é feita apenas no banco de dados principal, então a aplicação ainda precisa escrever apenas no único banco de dados RDS central.
 
 <hr/>
 
@@ -92,7 +92,9 @@ Agora temos o Multi-AZ. E isso é útil quando você precisa ter failover em cas
   <img src="https://thumbs2.imgbox.com/1b/0a/fEbRtyaX_t.png">
 </div>
 
-O último tipo de implantação que você pode fazer é chamado de Multi-Região. Então, isso é para réplicas de leitura, mas desta vez, em vez de estarem na mesma região, elas estão em diferentes regiões. Para dar um exemplo, temos eu-west um para o banco de dados RDS, e vamos criar uma réplica de leitura em us-east dois. E assim, as aplicações em us-east dois podem ler localmente desta réplica de leitura. Mas sempre que esta aplicação precisa escrever dados, as gravações precisam acontecer através da região. E então precisamos escrever os dados para US um. O mesmo se você também tivesse outra região em ap-southeast dois, então na Austrália, você teria os mesmos conceitos. Então, por que você gostaria de ter um tipo de implantação multi-região? Bem, em primeiro lugar, porque você quer configurar uma estratégia de recuperação de desastres, em caso de problema na região. Então, se eu-west um estiver tendo um problema regional, então você tem um backup em ES-East dois, e é por isso que é uma estratégia de recuperação de desastres. E também, como você pode ver, nossas aplicações que estão em diferentes regiões têm melhor desempenho, porque elas lêem de um banco de dados local, então têm menos latência. Mas finalmente, quando você faz isso, você precisa entender que, como está replicando dados entre regiões, então haverá um custo de replicação associado às transferências de dados entre regiões:
+<hr/>
+
+O último tipo de implantação que você pode fazer é chamado de Multi-Região. Então, isso é para réplicas de leitura, mas desta vez, em vez de estarem na mesma região, elas estão em diferentes regiões. Para dar um exemplo, temos eu-west um para o banco de dados RDS, e vamos criar uma réplica de leitura em us-east-2. E assim, as aplicações em us-east dois podem ler localmente desta réplica de leitura. Mas sempre que esta aplicação precisa escrever dados, as gravações precisam acontecer através da região. E então precisamos escrever os dados para us-west-1. O mesmo se você também tivesse outra região em ap-southeast-2, então na Austrália, você teria os mesmos conceitos. Então, por que você gostaria de ter um tipo de implantação multi-região? Bem, em primeiro lugar, porque você quer configurar uma estratégia de recuperação de desastres, em caso de problema na região. Então, se eu-west-1 estiver tendo um problema regional, então você tem um backup em es-east-2, e é por isso que é uma estratégia de recuperação de desastres. E também, como você pode ver, nossas aplicações que estão em diferentes regiões têm melhor desempenho, porque elas lêem de um banco de dados local, então têm menos latência. Mas finalmente, quando você faz isso, você precisa entender que, como está replicando dados entre regiões, então haverá um custo de replicação associado às transferências de dados entre regiões:
 
 <div align="center">
   <img src="https://thumbs2.imgbox.com/1b/37/jjw8aAks_t.png">
