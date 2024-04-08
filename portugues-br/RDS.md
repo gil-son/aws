@@ -72,7 +72,31 @@ Essas boas práticas ajudarão a garantir que o seu banco de dados Amazon RDS es
 <div align="center">
   <img src="https://thumbs2.imgbox.com/ac/c1/huoLe6f2_t.png">
 </div>
+</details>
 
+<details><summary><h3>Implantações RDS: Réplicas de Leitura, Multi-AZ</h3></summary>
+
+Então, o primeiro é usar Réplica de Leitura RDS. Vamos pegar o exemplo de uma aplicação, que lê de um banco de dados RDS principal. Mas digamos que agora você precise escalar as cargas de trabalho de leitura, temos cada vez mais aplicações que precisam ler cada vez mais dados do RDS. A maneira de fazer isso é criando uma Réplica de Leitura. Isso significa que haverá cópias, algumas réplicas do seu banco de dados RDS que serão criadas. E isso permitirá que suas aplicações leiam também dessa Réplica de Leitura. E, portanto, você está distribuindo as leituras para muitos bancos de dados RDS diferentes. Você pode criar até 15 Réplicas de Leitura. Como você pode ver, neste exemplo:
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/9c/37/EmrqVv9D_t.png">
+</div>
+
+É possível ver as Réplicas de Leitura em cima do banco de dados RDS principal, e as aplicações podem ler de todas elas. Agora, quando se trata de escrever dados, a escrita é feita apenas no banco de dados principal, então a aplicação ainda precisa escrever apenas no único banco de dados RDS central.
+
+<hr/>
+
+Agora temos o Multi-AZ. E isso é útil quando você precisa ter failover em caso de uma falha na Zona de Disponibilidade (AZ). Então, caso a zona de disponibilidade falhe, e isso lhe dá alta disponibilidade. Neste exemplo, as aplicações leem e escrevem do mesmo banco de dados RDS principal. Mas vamos configurar uma replicação cross-AZ, em outra zona de disponibilidade diferente. E este será um banco de dados de failover, e é por isso que é chamado de Multi-AZ porque está em uma AZ diferente. Agora, caso o banco de dados RDS principal falhe, por qualquer motivo, porque talvez haja um problema com ele, ou talvez porque a AZ esteja tendo problemas, então o RDS acionará um failover. E então sua aplicação mudará para o banco de dados de desenvolvedor em uma AZ diferente. Neste caso, os dados são apenas lidos e gravados no banco de dados principal. O banco de dados de failover é passivo, não é acessível até que haja um problema com o banco de dados principal. E você só pode ter uma outra zona de AZ como uma zona de failover:
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/1b/0a/fEbRtyaX_t.png">
+</div>
+
+O último tipo de implantação que você pode fazer é chamado de Multi-Região. Então, isso é para réplicas de leitura, mas desta vez, em vez de estarem na mesma região, elas estão em diferentes regiões. Para dar um exemplo, temos eu-west um para o banco de dados RDS, e vamos criar uma réplica de leitura em us-east dois. E assim, as aplicações em us-east dois podem ler localmente desta réplica de leitura. Mas sempre que esta aplicação precisa escrever dados, as gravações precisam acontecer através da região. E então precisamos escrever os dados para US um. O mesmo se você também tivesse outra região em ap-southeast dois, então na Austrália, você teria os mesmos conceitos. Então, por que você gostaria de ter um tipo de implantação multi-região? Bem, em primeiro lugar, porque você quer configurar uma estratégia de recuperação de desastres, em caso de problema na região. Então, se eu-west um estiver tendo um problema regional, então você tem um backup em ES-East dois, e é por isso que é uma estratégia de recuperação de desastres. E também, como você pode ver, nossas aplicações que estão em diferentes regiões têm melhor desempenho, porque elas lêem de um banco de dados local, então têm menos latência. Mas finalmente, quando você faz isso, você precisa entender que, como está replicando dados entre regiões, então haverá um custo de replicação associado às transferências de dados entre regiões:
+
+<div align="center">
+  <img src="https://thumbs2.imgbox.com/1b/37/jjw8aAks_t.png">
+</div>
 
 </details>
   
