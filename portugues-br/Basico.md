@@ -255,6 +255,26 @@ Você não pode usar, facilitar ou permitir que outros usem os Serviços ou o Si
 
 </details>
 
+<details><summary><h4>Multi-AZ</h4></summary>
+<br>
+
+- Região: Região representa uma área geográfica na AWS. É uma coleção de duas ou mais zonas de disponibilidade. Cada região é totalmente independente uma da outra. Nós implantamos recursos na AWS em uma região específica usando o console da AWS.
+
+- Zona de Disponibilidade (conhecida como AZ): Zona de disponibilidade refere-se a um centro de dados. Cada região contém várias AZs que são isoladas uma da outra.
+  - Multi-AZ refere-se à prática de implantar recursos ou serviços em várias Zonas de Disponibilidade dentro de uma única região.
+  - Quando você configura um serviço ou recurso para ser Multi-AZ, o sistema replica automaticamente os dados e distribui os recursos entre essas AZs.
+  - Configurações Multi-AZ são comumente usadas para alcançar alta disponibilidade e tolerância a falhas. Se uma AZ se torna indisponível devido a uma falha de hardware, problema de rede ou outras razões, a carga de trabalho é transferida de forma transparente para recursos em outra AZ.
+  - Configurações Multi-AZ podem melhorar a resiliência e durabilidade de aplicativos e serviços, garantindo que permaneçam operacionais mesmo diante de falhas ou interrupções em uma AZ.
+      <br/>
+      <div align="center">
+        <img src="https://s33046.pcdn.co/wp-content/uploads/2019/10/aws-basic-terms-1.png" />
+     </div>
+
+
+
+
+</details>
+
 
 <details><summary><h4>Como os usuários podem acessar a AWS?</h4></summary>
 <br>
