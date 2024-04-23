@@ -73,23 +73,29 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
      <td>Elastic Beanstalk is an AWS-managed service that simplifies the deployment and scalability of web applications quickly and easily..</td>
  </tr>    
-   
- <tr align="center">
-     <td>IaaS</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
-     <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
- </tr>
 
- <tr align="center">
+<tr align="center">
      <td>FaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md">Lambda</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
      <td>AWS Lambda is a serverless service that allows for code execution in response to events, without the need for server management.</td>
  </tr>
+ 
+ <tr align="center">
+     <td rowspan="2">IaaS</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
+     <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
+ </tr>
+
+  <tr align="center">
+     <td rowspan="4" >Networking and Delivery</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/VPC.md">VPC</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
+     <td>A VPC (Virtual Private Cloud) is a virtual network environment in the cloud that provides isolated, private space for resources. It offers control over network configuration, including IP address ranges, subnets, and security settings, facilitating secure and scalable deployment of applications and services.</td>
+ </tr>
 
  <tr align="center">
-     <td rowspan="3" >Networking and Delivery</td>
      <td>API Management</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
@@ -227,23 +233,29 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
      <td>O Elastic Beanstalk é um serviço gerenciado pela AWS que facilita o deploy e a escalabilidade de aplicações web de forma rápida e simples.</td>
  </tr> 
-  
- <tr align="center">
-     <td>IaaS</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md">EC2</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
-     <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
- </tr>
 
- <tr align="center">
+  <tr align="center">
      <td>FaaS</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md">Lambda</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
      <td>AWS Lambda é um serviço serverless que permite a execução de código em resposta a eventos, sem a necessidade de gerenciamento de servidores.</td>
  </tr>
+  
+ <tr align="center">
+     <td rowspan="2">IaaS</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md">EC2</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
+     <td>O Amazon EC2 é um serviço de computação em nuvem que permite configurar e executar facilmente servidores virtuais na nuvem da Amazon, escalando verticalmente ou horizontalmente a capacidade de computação de acordo com as necessidades da sua aplicação, pagando apenas pelos recursos que você usa.</td>
+ </tr>
 
+  <tr align="center">
+     <td rowspan="4" >Rede e Entrega de Conteúdo</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md">VPC</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
+     <td>Um VPC (Virtual Private Cloud) é um ambiente de rede virtual na nuvem que fornece espaço isolado e privado para recursos. Ele oferece controle sobre a configuração da rede, incluindo intervalos de endereços IP, sub-redes e configurações de segurança, facilitando a implantação segura e escalável de aplicativos e serviços.</td>
+ </tr>
+ 
 <tr align="center">
-     <td rowspan="3">Rede e Entrega de Conteúdo</td>
      <td>Gerenciamento de API</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
