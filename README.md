@@ -160,8 +160,8 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
  <tr align="center">
      <td>Storage</td>
      <td>STaaS</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/StorageGateway.md">Storage Gateway</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/StorageGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSStorageGateway.md">AWSStorageGateway</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSStorageGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6e57963f170fcf163d7a0362ab3aa560-475c7af9547c560c673fa2266ae7f440.svg" /></a></td>
      <td>Proficient in implementing and managing Storage Gateway solutions to seamlessly integrate on-premises environments with cloud storage, optimizing data transfer and access. Skilled in configuring and troubleshooting Storage Gateway configurations for efficient and reliable data storage solutions.</td>
  </tr>  
 </table>
@@ -317,15 +317,15 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
      <td>Migração e transferência</td>
      <td>Transferência de Dados</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSSnowFamily.md">AWSSnowFamily</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSSnowFamily.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6e57963f170fcf163d7a0362ab3aa560-475c7af9547c560c673fa2266ae7f440.svg" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSSnowFamily.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/316ccf80948adeaa0b9fc5863fa2e5d0-041cc4f719216c8b7fab8dd1d41f41e0.svg" /></a></td>
      <td>As ferramentas temáticas da AWSSnowFamily facilitam o movimento e processamento de dados offline, garantindo entrega perfeita para gigantescos conjuntos de dados.</td>
  </tr>
 
  <tr align="center">
      <td>Armazenamento</td>
      <td>STaaS</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/StorageGateway.md">Storage Gateway</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/StorageGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6e57963f170fcf163d7a0362ab3aa560-475c7af9547c560c673fa2266ae7f440.svg" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSStorageGateway.md">AWSStorageGateway</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSStorageGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6e57963f170fcf163d7a0362ab3aa560-475c7af9547c560c673fa2266ae7f440.svg" /></a></td>
      <td>Proficiente na implementação e gestão de soluções do Gateway de Armazenamento para integrar de forma transparente ambientes locais com armazenamento em nuvem, otimizando a transferência e o acesso de dados. Habilidoso em configurar e solucionar problemas nas configurações do Gateway de Armazenamento para soluções eficientes e confiáveis de armazenamento de dados.</td>
  </tr>  
 </table>
