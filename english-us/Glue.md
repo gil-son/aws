@@ -109,16 +109,6 @@ Common use cases for AWS Glue include:
 - Data migration: Moving data between different storage systems or databases.  
 </details>
 
-<details><summary><h3>What else should I keep in mind when using AWS Glue?</h3></summary>
-Some additional considerations when using AWS Glue include:
-
-- Event-driven ETL: AWS Glue supports event-driven ETL workflows, allowing you to trigger ETL jobs based on events such as data arrival or changes.
-- AWS Glue Data Catalog: The Glue Data Catalog provides a unified view of metadata across various data sources, making it easier to manage and query data.
-- No-code ETL Jobs: AWS Glue offers a visual interface for creating ETL jobs without writing code, making it accessible to users with varying levels of technical expertise.
-- Manage and monitor data quality: AWS Glue provides tools for monitoring and managing data quality, including data profiling and anomaly detection features.
-- Data preparation: AWS Glue includes features for data preparation, such as data cleansing, normalization, and enrichment, to ensure data is ready for analysis.
-</details>
-
 
 
 
