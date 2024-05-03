@@ -167,8 +167,8 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 
 <tr align="center">
      <td>Analycts</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue">AWS Glue</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="55%" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md">AWS Glue</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="55%" /></a></td>
      <td>Fully managed ETL service. Simplifies data preparation, integration, and transformation. Enables seamless data loading for analytics in AWS ecosystem.</td>
  </tr>
 
@@ -340,8 +340,8 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
 
 <tr align="center">
      <td>Análise de dados</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue">AWS Glue</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="55%" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue.md">AWS Glue</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="55%" /></a></td>
      <td>Serviço totalmente gerenciado de ETL. Simplifica a preparação, integração e transformação de dados. Permite o carregamento contínuo de dados para análises no ecossistema da AWS.</td>
  </tr>
  </tr>  
