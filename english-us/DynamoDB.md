@@ -1,4 +1,4 @@
-# DynamoDB Best Practices
+# DynamoDB
 
 <div align="center">
   <img src="https://static-00.iconduck.com/assets.00/aws-dynamodb-icon-227x256-8rljy0a9.png" width="25%">
