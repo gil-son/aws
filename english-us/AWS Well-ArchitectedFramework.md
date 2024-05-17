@@ -13,51 +13,51 @@ The framework is built around six pillars: Operational Excellence, Security, Rel
 
 #### Operational Excellence
 
+<div align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/8166/8166342.png" width="25%">
+</div>
+
 Operational Excellence focuses on running and monitoring systems to deliver business value and continually improving processes and procedures. This pillar includes principles for organization, preparation, operation, and evolution to support the development and operations lifecycle.
+
+#### Security
 
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/4744/4744315.png" width="25%">
 </div>
 
-#### Security
-
 The Security pillar encompasses the ability to protect data, systems, and assets to take advantage of cloud technologies. It includes implementing a strong identity foundation, enabling traceability, automating security best practices, protecting data in transit and at rest, and preparing for security events.
 
-<div align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/8166/8166342.png" width="25%">
-</div>
-
 #### Reliability
-
-Reliability focuses on the ability of a system to recover from infrastructure or service failures, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues. Key design principles include testing recovery procedures, automatically recovering from failure, and scaling horizontally.
 
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/12376/12376658.png" width="25%">
 </div>
 
-#### Performance Efficiency
+Reliability focuses on the ability of a system to recover from infrastructure or service failures, dynamically acquire computing resources to meet demand, and mitigate disruptions such as misconfigurations or transient network issues. Key design principles include testing recovery procedures, automatically recovering from failure, and scaling horizontally.
 
-Performance Efficiency is the efficient use of computing resources to meet requirements and maintain that efficiency as demand changes and technologies evolve. Design principles include democratizing advanced technologies, using serverless architectures, experimenting more often, and considering mechanical sympathy.
+#### Performance Efficiency
 
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/9732/9732828.png" width="25%">
 </div>
 
-#### Cost Optimization
+Performance Efficiency is the efficient use of computing resources to meet requirements and maintain that efficiency as demand changes and technologies evolve. Design principles include democratizing advanced technologies, using serverless architectures, experimenting more often, and considering mechanical sympathy.
 
-Cost Optimization involves the ability to run systems to deliver business value at the lowest price point. Key principles include adopting a consumption model, measuring overall efficiency, stopping spending on undifferentiated heavy lifting, and analyzing and attributing expenditure.
+#### Cost Optimization
 
 <div align="center">
   <img src="http://cdn-icons-png.flaticon.com/512/6745/6745218.png" width="25%">
 </div>
 
-#### Sustainability
+Cost Optimization involves the ability to run systems to deliver business value at the lowest price point. Key principles include adopting a consumption model, measuring overall efficiency, stopping spending on undifferentiated heavy lifting, and analyzing and attributing expenditure.
 
-Sustainability focuses on environmental impacts, aiming to reduce energy consumption and waste. It involves considering the long-term impacts of architectural decisions, optimizing workloads, and selecting the right region and instance types to minimize carbon footprints.
+#### Sustainability
 
 <div align="center">
   <img src="https://cdn-icons-png.flaticon.com/512/3985/3985209.png" width="25%">
 </div>
+
+Sustainability focuses on environmental impacts, aiming to reduce energy consumption and waste. It involves considering the long-term impacts of architectural decisions, optimizing workloads, and selecting the right region and instance types to minimize carbon footprints.
 
 </details>
 
