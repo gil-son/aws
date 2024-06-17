@@ -270,7 +270,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
  </tr>
 
   <tr align="center">
-     <td rowspan="4" >Rede e Entrega de Conteúdo</td>
+     <td rowspan="5" >Rede e Entrega de Conteúdo</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md">VPC</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
      <td>Um VPC (Virtual Private Cloud) é um ambiente de rede virtual na nuvem que fornece espaço isolado e privado para recursos. Ele oferece controle sobre a configuração da rede, incluindo intervalos de endereços IP, sub-redes e configurações de segurança, facilitando a implantação segura e escalável de aplicativos e serviços.</td>
@@ -279,7 +279,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
  <tr align="center">
     <td>Entrega de Conteúdo</td>
     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md">CloudFront</a></td>
-    <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="14%"/></a></td>
+    <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="55%"/></a></td>
     <td>O AWS CloudFront é um serviço de rede de entrega de conteúdo (CDN) rápido que entrega dados, vídeos, aplicações e APIs globalmente com baixa latência e altas velocidades de transferência. Ele se integra perfeitamente com outros serviços da AWS para melhorar o desempenho e a segurança.</td>
 </tr>
 
