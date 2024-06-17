@@ -89,10 +89,17 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
  </tr>
 
   <tr align="center">
-     <td rowspan="4" >Networking and Delivery</td>
+     <td rowspan="5" >Networking and Delivery</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/VPC.md">VPC</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
      <td>A VPC (Virtual Private Cloud) is a virtual network environment in the cloud that provides isolated, private space for resources. It offers control over network configuration, including IP address ranges, subnets, and security settings, facilitating secure and scalable deployment of applications and services.</td>
+ </tr>
+
+ <tr align="center">
+     <td>Content Delivery</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md">CloudFront</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="50%"/></a></td>
+     <td>AWS CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs globally with low latency and high transfer speeds. It integrates seamlessly with other AWS services to enhance performance and security.</td>
  </tr>
 
  <tr align="center">
@@ -268,7 +275,14 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
      <td>Um VPC (Virtual Private Cloud) é um ambiente de rede virtual na nuvem que fornece espaço isolado e privado para recursos. Ele oferece controle sobre a configuração da rede, incluindo intervalos de endereços IP, sub-redes e configurações de segurança, facilitando a implantação segura e escalável de aplicativos e serviços.</td>
  </tr>
- 
+
+ <tr align="center">
+    <td>Entrega de Conteúdo</td>
+    <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md">CloudFront</a></td>
+    <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="13%"/></a></td>
+    <td>O AWS CloudFront é um serviço de rede de entrega de conteúdo (CDN) rápido que entrega dados, vídeos, aplicações e APIs globalmente com baixa latência e altas velocidades de transferência. Ele se integra perfeitamente com outros serviços da AWS para melhorar o desempenho e a segurança.</td>
+</tr>
+
 <tr align="center">
      <td>Gerenciamento de API</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
