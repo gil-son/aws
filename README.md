@@ -98,7 +98,7 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
  <tr align="center">
      <td>Content Delivery</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md">CloudFront</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="50%"/></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="55%"/></a></td>
      <td>AWS CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs globally with low latency and high transfer speeds. It integrates seamlessly with other AWS services to enhance performance and security.</td>
  </tr>
 
@@ -279,7 +279,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
  <tr align="center">
     <td>Entrega de Conteúdo</td>
     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md">CloudFront</a></td>
-    <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="13%"/></a></td>
+    <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="14%"/></a></td>
     <td>O AWS CloudFront é um serviço de rede de entrega de conteúdo (CDN) rápido que entrega dados, vídeos, aplicações e APIs globalmente com baixa latência e altas velocidades de transferência. Ele se integra perfeitamente com outros serviços da AWS para melhorar o desempenho e a segurança.</td>
 </tr>
 
