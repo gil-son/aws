@@ -179,7 +179,13 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
      <td>Fully managed ETL service. Simplifies data preparation, integration, and transformation. Enables seamless data loading for analytics in AWS ecosystem.</td>
  </tr>
 
-
+<tr align="center">
+     <td>Machine Learning</td>
+     <td>Data Security</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-br/Macie.md">Macie</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-br/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
+     <td>Amazon Macie is a fully managed data security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS, ensuring compliance and enhancing data security.</td>
+</tr>
  
 </table>
 
@@ -358,7 +364,15 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="60%" /></a></td>
      <td>Serviço totalmente gerenciado de ETL. Simplifica a preparação, integração e transformação de dados. Permite o carregamento contínuo de dados para análises no ecossistema da AWS.</td>
  </tr>
- </tr>  
+
+<tr align="center">
+     <td>Aprendizado de Máquina</td>
+     <td>Segurança dos dados</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Macie.md">Macie</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
+     <td>Amazon Macie é um serviço de segurança de dados totalmente gerenciado que usa aprendizado de máquina para descobrir, classificar e proteger automaticamente dados sensíveis na AWS, garantindo conformidade e aprimorando a segurança dos dados.</td>
+ </tr>
+ 
 </table>
 
 </details>
