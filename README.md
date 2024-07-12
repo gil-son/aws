@@ -180,13 +180,18 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
  </tr>
 
 <tr align="center">
-     <td>Machine Learning</td>
+     <td rowspan="2">Machine Learning</td>
      <td>Data Security</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-br/Macie.md">Macie</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-br/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Macie.md">Macie</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
      <td>Amazon Macie is a fully managed data security service that uses machine learning to automatically discover, classify, and protect sensitive data in AWS, ensuring compliance and enhancing data security.</td>
 </tr>
- 
+<tr align="center">
+     <td>Comunication</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Transcribe.md">Transcribe</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Transcribe.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/762bf9a0fc087fbb4ba021a3cee6edaf-2578b25de7cbb06633f39903ccc90d08.svg" /></a></td>
+     <td>AWS Transcribe is an automatic speech recognition (ASR) service that converts spoken language into text, enabling transcription of audio and video files for various applications. It supports real-time and batch processing with features like speaker identification and custom vocabulary.</td>
+</tr>
 </table>
 
 </details>
@@ -366,13 +371,18 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
  </tr>
 
 <tr align="center">
-     <td>Aprendizado de Máquina</td>
+     <td rowspan="2">Aprendizado de Máquina</td>
      <td>Segurança dos dados</td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Macie.md">Macie</a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
      <td>Amazon Macie é um serviço de segurança de dados totalmente gerenciado que usa aprendizado de máquina para descobrir, classificar e proteger automaticamente dados sensíveis na AWS, garantindo conformidade e aprimorando a segurança dos dados.</td>
  </tr>
- 
+<tr align="center">
+     <td>Comunicação</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Transcribe.md">Transcribe</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Transcribe.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/762bf9a0fc087fbb4ba021a3cee6edaf-2578b25de7cbb06633f39903ccc90d08.svg" /></a></td>
+     <td>AWS Transcribe é um serviço de reconhecimento automático de fala (ASR) que converte a linguagem falada em texto, permitindo a transcrição de arquivos de áudio e vídeo para diversas aplicações. Suporta processamento em tempo real e em lote, com recursos como identificação de locutores e vocabulário personalizado.</td>
+ </tr>
 </table>
 
 </details>
