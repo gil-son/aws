@@ -225,7 +225,48 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 </tr>
 </table>
 
+
+----------------------
+NEW SUMMARY - COMING SOON
+----------------------
+
+- Compute
+- Storage
+- Networking & Content Delivery
+- Database
+- Security, Identity, & Compliance
+- Analytics
+- Machine Learning
+- Management & Governance
+- Developer Tools
+- Application Integration
+- Front-end Web & Mobile
+- Containers
+- Migration & Transfer
+- Media Services
+- Internet of Things
+- End User Computing
+- Business Applications
+- Game Development
+- Blockchain
+- Cloud Financial Management
+- Customer Enablement
+- Satellite
+- Quantum Technologies
+
+
+
+
+
+
+
+
 </details>
+
+
+
+
+
 
 <hr/>
 
