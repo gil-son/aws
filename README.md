@@ -230,29 +230,29 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 NEW SUMMARY - COMING SOON
 ----------------------
 
-- Compute
-- Storage
-- Networking & Content Delivery
-- Database
-- Security, Identity, & Compliance
-- Analytics
-- Machine Learning
-- Management & Governance
-- Developer Tools
-- Application Integration
-- Front-end Web & Mobile
-- Containers
-- Migration & Transfer
-- Media Services
-- Internet of Things
-- End User Computing
-- Business Applications
-- Game Development
-- Blockchain
-- Cloud Financial Management
-- Customer Enablement
-- Satellite
-- Quantum Technologies
+- ![Compute](https://example.com/image1.png) Compute
+- ![Storage](https://example.com/image2.png) Storage
+- ![Networking & Content Delivery](https://example.com/image3.png) Networking & Content Delivery
+- ![Database](https://example.com/image4.png) Database
+- ![Security, Identity, & Compliance](https://example.com/image5.png) Security, Identity, & Compliance
+- ![Analytics](https://example.com/image6.png) Analytics
+- ![Machine Learning](https://example.com/image7.png) Machine Learning
+- ![Management & Governance](https://example.com/image8.png) Management & Governance
+- ![Developer Tools](https://example.com/image9.png) Developer Tools
+- ![Application Integration](https://example.com/image10.png) Application Integration
+- ![Front-end Web & Mobile](https://example.com/image11.png) Front-end Web & Mobile
+- ![Containers](https://example.com/image12.png) Containers
+- ![Migration & Transfer](https://example.com/image13.png) Migration & Transfer
+- ![Media Services](https://example.com/image14.png) Media Services
+- ![Internet of Things](https://example.com/image15.png) Internet of Things
+- ![End User Computing](https://example.com/image16.png) End User Computing
+- ![Business Applications](https://example.com/image17.png) Business Applications
+- ![Game Development](https://example.com/image18.png) Game Development
+- ![Blockchain](https://example.com/image19.png) Blockchain
+- ![Cloud Financial Management](https://example.com/image20.png) Cloud Financial Management
+- ![Customer Enablement](https://example.com/image21.png) Customer Enablement
+- ![Satellite](https://example.com/image22.png) Satellite
+- ![Quantum Technologies](https://example.com/image23.png) Quantum Technologies
 
 
 
