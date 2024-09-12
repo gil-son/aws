@@ -230,7 +230,7 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 NEW SUMMARY - COMING SOON
 ----------------------
 
-- ![Compute](https://example.com/image1.png) Compute
+- <img src="https://thumbs2.imgbox.com/95/7a/hpxsWpqt_t.png" alt="Compute" width="40" height="40"> Compute
 - ![Storage](https://example.com/image2.png) Storage
 - ![Networking & Content Delivery](https://example.com/image3.png) Networking & Content Delivery
 - ![Database](https://example.com/image4.png) Database
