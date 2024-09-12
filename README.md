@@ -231,8 +231,8 @@ NEW SUMMARY - COMING SOON
 ----------------------
 
 - <img src="https://thumbs2.imgbox.com/95/7a/hpxsWpqt_t.png" alt="Compute" width="40" height="40"> Compute
-- ![Storage](https://example.com/image2.png) Storage
-- ![Networking & Content Delivery](https://example.com/image3.png) Networking & Content Delivery
+- <img src="https://thumbs2.imgbox.com/47/60/PNaM3eXz_t.png" alt="Compute" width="40" height="40"> Storage
+- <img src="https://thumbs2.imgbox.com/1b/15/XwlZ3v2v_t.png" alt="Compute" width="40" height="40"> Networking & Content Delivery
 - ![Database](https://example.com/image4.png) Database
 - ![Security, Identity, & Compliance](https://example.com/image5.png) Security, Identity, & Compliance
 - ![Analytics](https://example.com/image6.png) Analytics
