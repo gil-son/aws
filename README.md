@@ -244,8 +244,8 @@ NEW SUMMARY - COMING SOON
 - <img src="https://thumbs2.imgbox.com/1b/7a/pE5Ap4nv_t.png" alt="Compute" width="40" height="40"> Containers
 - <img src="https://thumbs2.imgbox.com/af/16/N9EvPFcD_t.png" alt="Compute" width="40" height="40"> Migration & Transfer
 - <img src="https://thumbs2.imgbox.com/c8/d6/lIXRbROX_t.png" alt="Compute" width="40" height="40"> Media Services
-- ![Internet of Things](https://example.com/image15.png) Internet of Things
-- ![End User Computing](https://example.com/image16.png) End User Computing
+- <img src="https://thumbs2.imgbox.com/01/f6/mhwKvqjN_t.png" alt="Compute" width="40" height="40"> Internet of Things
+- <img src="https://thumbs2.imgbox.com/7e/24/aEOHuYEa_t.png" alt="Compute" width="40" height="40"> End User Computing
 - ![Business Applications](https://example.com/image17.png) Business Applications
 - ![Game Development](https://example.com/image18.png) Game Development
 - ![Blockchain](https://example.com/image19.png) Blockchain
