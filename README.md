@@ -241,9 +241,9 @@ NEW SUMMARY - COMING SOON
 - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Compute" width="40" height="40"> Developer Tools
 - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Compute" width="40" height="40"> Application Integration
 - <img src="https://thumbs2.imgbox.com/27/97/8m67EJTG_t.png" alt="Compute" width="40" height="40"> Front-end Web & Mobile
-- ![Containers](https://example.com/image12.png) Containers
-- ![Migration & Transfer](https://example.com/image13.png) Migration & Transfer
-- ![Media Services](https://example.com/image14.png) Media Services
+- <img src="https://thumbs2.imgbox.com/1b/7a/pE5Ap4nv_t.png" alt="Compute" width="40" height="40"> Containers
+- <img src="https://thumbs2.imgbox.com/af/16/N9EvPFcD_t.png" alt="Compute" width="40" height="40"> Migration & Transfer
+- <img src="https://thumbs2.imgbox.com/c8/d6/lIXRbROX_t.png" alt="Compute" width="40" height="40"> Media Services
 - ![Internet of Things](https://example.com/image15.png) Internet of Things
 - ![End User Computing](https://example.com/image16.png) End User Computing
 - ![Business Applications](https://example.com/image17.png) Business Applications
