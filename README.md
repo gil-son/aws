@@ -246,8 +246,8 @@ NEW SUMMARY - COMING SOON
 - <img src="https://thumbs2.imgbox.com/c8/d6/lIXRbROX_t.png" alt="Compute" width="40" height="40"> Media Services
 - <img src="https://thumbs2.imgbox.com/01/f6/mhwKvqjN_t.png" alt="Compute" width="40" height="40"> Internet of Things
 - <img src="https://thumbs2.imgbox.com/7e/24/aEOHuYEa_t.png" alt="Compute" width="40" height="40"> End User Computing
-- ![Business Applications](https://example.com/image17.png) Business Applications
-- ![Game Development](https://example.com/image18.png) Game Development
+- <img src="https://thumbs2.imgbox.com/e9/3a/DnMVdCdL_t.png" alt="Compute" width="40" height="40"> Business Applications
+- <img src="https://thumbs2.imgbox.com/ce/99/HIiBQBDO_t.png" alt="Compute" width="40" height="40"> Game Development
 - ![Blockchain](https://example.com/image19.png) Blockchain
 - ![Cloud Financial Management](https://example.com/image20.png) Cloud Financial Management
 - ![Customer Enablement](https://example.com/image21.png) Customer Enablement
