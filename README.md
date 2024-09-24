@@ -250,9 +250,9 @@ NEW SUMMARY - COMING SOON
 - <img src="https://thumbs2.imgbox.com/ce/99/HIiBQBDO_t.png" alt="Compute" width="40" height="40"> Game Development
 - <img src="https://thumbs2.imgbox.com/4d/21/BYfIWXid_t.png" alt="Compute" width="40" height="40"> Blockchain
 - <img src="https://thumbs2.imgbox.com/00/5d/0dmC6jMp_t.png" alt="Compute" width="40" height="40"> Cloud Financial Management
-- ![Customer Enablement](https://example.com/image21.png) Customer Enablement
-- ![Satellite](https://example.com/image22.png) Satellite
-- ![Quantum Technologies](https://example.com/image23.png) Quantum Technologies
+- <img src="https://thumbs2.imgbox.com/54/c6/XyPgFynS_t.png" alt="Compute" width="40" height="40"> Customer Enablement
+- <img src="https://thumbs2.imgbox.com/fa/08/5hLOyOHh_t.png" alt="Compute" width="40" height="40"> Satellite
+- <img src="https://thumbs2.imgbox.com/03/c7/4wEaTpkr_t.png" alt="Compute" width="40" height="40"> Quantum Technologies
 
 
 
