@@ -230,29 +230,53 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 NEW SUMMARY - COMING SOON
 ----------------------
 
-- <img src="https://thumbs2.imgbox.com/95/7a/hpxsWpqt_t.png" alt="Compute" width="40" height="40"> Compute (0/11)
-- <img src="https://thumbs2.imgbox.com/47/60/PNaM3eXz_t.png" alt="Compute" width="40" height="40"> Storage (0/7)
-- <img src="https://thumbs2.imgbox.com/1b/15/XwlZ3v2v_t.png" alt="Compute" width="40" height="40"> Networking & Content Delivery (0/10)
-- <img src="https://thumbs2.imgbox.com/01/20/rXpLIkB8_t.png" alt="Compute" width="40" height="40"> Database (0/9)
-- <img src="https://thumbs2.imgbox.com/43/82/jLNe9Jbm_t.png" alt="Compute" width="40" height="40"> Security, Identity, & Compliance (0/23)
-- <img src="https://thumbs2.imgbox.com/c9/28/i8xe96iT_t.png" alt="Compute" width="40" height="40"> Analytics (0/19)
-- <img src="https://thumbs2.imgbox.com/16/5c/Irs3F10Z_t.png" alt="Compute" width="40" height="40"> Machine Learning (0/29)
-- <img src="https://thumbs2.imgbox.com/56/87/tWtOvjHB_t.png" alt="Compute" width="40" height="40"> Management & Governance (0/27)
-- <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Compute" width="40" height="40"> Developer Tools (0/14)
-- <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Compute" width="40" height="40"> Application Integration (0/9)
-- <img src="https://thumbs2.imgbox.com/27/97/8m67EJTG_t.png" alt="Compute" width="40" height="40"> Front-end Web & Mobile (0/4)
-- <img src="https://thumbs2.imgbox.com/1b/7a/pE5Ap4nv_t.png" alt="Compute" width="40" height="40"> Containers (0/4)
-- <img src="https://thumbs2.imgbox.com/af/16/N9EvPFcD_t.png" alt="Compute" width="40" height="40"> Migration & Transfer (0/8)
-- <img src="https://thumbs2.imgbox.com/c8/d6/lIXRbROX_t.png" alt="Compute" width="40" height="40"> Media Services (0/12)
-- <img src="https://thumbs2.imgbox.com/01/f6/mhwKvqjN_t.png" alt="Compute" width="40" height="40"> Internet of Things (0/9)
-- <img src="https://thumbs2.imgbox.com/7e/24/aEOHuYEa_t.png" alt="Compute" width="40" height="40"> End User Computing (0/4)
-- <img src="https://thumbs2.imgbox.com/e9/3a/DnMVdCdL_t.png" alt="Compute" width="40" height="40"> Business Applications (0/12)
-- <img src="https://thumbs2.imgbox.com/ce/99/HIiBQBDO_t.png" alt="Compute" width="40" height="40"> Game Development (0/1)
-- <img src="https://thumbs2.imgbox.com/4d/21/BYfIWXid_t.png" alt="Compute" width="40" height="40"> Blockchain (0/1)
-- <img src="https://thumbs2.imgbox.com/00/5d/0dmC6jMp_t.png" alt="Compute" width="40" height="40"> Cloud Financial Management (0/3)
-- <img src="https://thumbs2.imgbox.com/54/c6/XyPgFynS_t.png" alt="Compute" width="40" height="40"> Customer Enablement (0/5)
-- <img src="https://thumbs2.imgbox.com/fa/08/5hLOyOHh_t.png" alt="Compute" width="40" height="40"> Satellite (0/1)
-- <img src="https://thumbs2.imgbox.com/03/c7/4wEaTpkr_t.png" alt="Compute" width="40" height="40"> Quantum Technologies (0/1)
+- <img src="https://thumbs2.imgbox.com/95/7a/hpxsWpqt_t.png" alt="Compute" width="40" height="40"> Compute (1/11)
+  - EC2
+  - Lambda
+  - ElasticBeanstalk
+- <img src="https://thumbs2.imgbox.com/47/60/PNaM3eXz_t.png" alt="Storage" width="40" height="40"> Storage (3/7)
+  - S3
+  - AWS SnowFamily
+  - AWS StorageGateway
+- <img src="https://thumbs2.imgbox.com/1b/15/XwlZ3v2v_t.png" alt="Networking & Content Delivery" width="40" height="40"> Networking & Content Delivery (4/10)
+  - VPC
+  - CloudFront
+  - Route 53
+  - Load Balancer
+- <img src="https://thumbs2.imgbox.com/01/20/rXpLIkB8_t.png" alt="Database" width="40" height="40"> Database (2/9)
+  - DynamoDB
+  - RDS
+- <img src="https://thumbs2.imgbox.com/43/82/jLNe9Jbm_t.png" alt="Security, Identity, & Compliance" width="40" height="40"> Security, Identity, & Compliance (2/23)
+  - IAM
+  - Macie
+- <img src="https://thumbs2.imgbox.com/c9/28/i8xe96iT_t.png" alt="Analytics" width="40" height="40"> Analytics (1/19)
+  - AWS Glue
+- <img src="https://thumbs2.imgbox.com/16/5c/Irs3F10Z_t.png" alt="Machine Learning" width="40" height="40"> Machine Learning (7/29)
+  - Transcribe
+  - Polly
+  - Comprehend
+  - Kendra
+  - Textract
+  - Translate
+  - Lex
+- <img src="https://thumbs2.imgbox.com/56/87/tWtOvjHB_t.png" alt="Management & Governance" width="40" height="40"> Management & Governance (1/27)
+  - CloudWatch
+- <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (0/14)
+- <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Application Integration" width="40" height="40"> Application Integration (1/9)
+  - API Gateway
+- <img src="https://thumbs2.imgbox.com/27/97/8m67EJTG_t.png" alt="Front-end Web & Mobile" width="40" height="40"> Front-end Web & Mobile (0/4)
+- <img src="https://thumbs2.imgbox.com/1b/7a/pE5Ap4nv_t.png" alt="Containers" width="40" height="40"> Containers (0/4)
+- <img src="https://thumbs2.imgbox.com/af/16/N9EvPFcD_t.png" alt="Migration & Transfer" width="40" height="40"> Migration & Transfer (0/8)
+- <img src="https://thumbs2.imgbox.com/c8/d6/lIXRbROX_t.png" alt="Media Services" width="40" height="40"> Media Services (0/12)
+- <img src="https://thumbs2.imgbox.com/01/f6/mhwKvqjN_t.png" alt="Internet of Things" width="40" height="40"> Internet of Things (0/9)
+- <img src="https://thumbs2.imgbox.com/7e/24/aEOHuYEa_t.png" alt="End User Computing" width="40" height="40"> End User Computing (0/4)
+- <img src="https://thumbs2.imgbox.com/e9/3a/DnMVdCdL_t.png" alt="Business Applications" width="40" height="40"> Business Applications (0/12)
+- <img src="https://thumbs2.imgbox.com/ce/99/HIiBQBDO_t.png" alt="Game Development" width="40" height="40"> Game Development (0/1)
+- <img src="https://thumbs2.imgbox.com/4d/21/BYfIWXid_t.png" alt="Blockchain" width="40" height="40"> Blockchain (0/1)
+- <img src="https://thumbs2.imgbox.com/00/5d/0dmC6jMp_t.png" alt="Cloud Financial Management" width="40" height="40"> Cloud Financial Management (0/3)
+- <img src="https://thumbs2.imgbox.com/54/c6/XyPgFynS_t.png" alt="Customer Enablement" width="40" height="40"> Customer Enablement (0/5)
+- <img src="https://thumbs2.imgbox.com/fa/08/5hLOyOHh_t.png" alt="Satellite" width="40" height="40"> Satellite (0/1)
+- <img src="https://thumbs2.imgbox.com/03/c7/4wEaTpkr_t.png" alt="Quantum Technologies" width="40" height="40"> Quantum Technologies (0/1)
 
 
 
