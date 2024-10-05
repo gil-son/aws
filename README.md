@@ -280,10 +280,34 @@ NEW SUMMARY - COMING SOON
    </tr>
     <table/>
 - <img src="https://thumbs2.imgbox.com/1b/15/XwlZ3v2v_t.png" alt="Networking & Content Delivery" width="40" height="40"> Networking & Content Delivery (4/10)
-  - VPC
-  - CloudFront
-  - Route 53
-  - Load Balancer
+  <hr>
+    <table>
+       <tr align="center">
+           <td>Resource</td>
+           <td>img</td>
+           <td>Info</td>
+      <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/VPC.md">VPC</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
+         <td>A VPC (Virtual Private Cloud) is a virtual network environment in the cloud that provides isolated, private space for resources. It offers control over network configuration, including IP address ranges, subnets, and security settings, facilitating secure and scalable deployment of applications and services.</td>
+     </tr>
+     <tr align="center">
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md">CloudFront</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="55%"/></a></td>
+       <td>AWS CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, applications, and APIs globally with low latency and high transfer speeds. It integrates seamlessly with other AWS services to enhance performance and security.</td>
+     </tr>
+      <tr align="center">
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Route53.md">Route 53</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Route53.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg" /></a></td>
+       <td>The Amazon Route 53 is AWS's domain name system (DNS) and content delivery network (CDN) service, providing domain registration, DNS resolution, and traffic routing to optimize availability and performance for applications on the internet.
+      </td>
+     </tr>
+    <tr align="center">
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/LoadBalancer.md">Load Balancer</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/LoadBalancer.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/7177e919b32ad97825f95e902595014b-1594766d92813b5baeb706c453f91de0.svg" /></a>  </td>
+       <td>Load balancing optimizes resource distribution, ensuring efficient and reliable performance by distributing incoming network traffic across multiple servers or resources.</td>
+     </tr>
+  <table/>
 - <img src="https://thumbs2.imgbox.com/01/20/rXpLIkB8_t.png" alt="Database" width="40" height="40"> Database (2/9)
   - DynamoDB
   - RDS
