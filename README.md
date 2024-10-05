@@ -231,34 +231,54 @@ NEW SUMMARY - COMING SOON
 ----------------------
 
 - <img src="https://thumbs2.imgbox.com/95/7a/hpxsWpqt_t.png" alt="Compute" width="40" height="40"> Compute (3/11)
+    <hr>
+    <table/>
+       <tr align="center">
+           <td>Resource</td>
+           <td>img</td>
+           <td>Info</td>
+      </tr>
+      <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
+           <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
+      </tr>
+      <tr align="center">
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md">Lambda</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
+       <td>AWS Lambda is a serverless service that allows for code execution in response to events, without the need for server management.</td>
+     </tr>
+      <tr align="center">
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
+       <td>Elastic Beanstalk is an AWS-managed service that simplifies the deployment and scalability of web applications quickly and easily.</td>
+     </tr>
+   </table>
+
+- <img src="https://thumbs2.imgbox.com/47/60/PNaM3eXz_t.png" alt="Storage" width="40" height="40"> Storage (3/7)
   <hr>
-  <table/>
+  <table>
      <tr align="center">
          <td>Resource</td>
          <td>img</td>
          <td>Info</td>
-    </tr>
+    </tr> 
     <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md">EC2</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/EC2.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d88319dfa5d204f019b4284149886c59-7d586ea82f792b61a8c87de60565133d.svg" /></a></td>
-         <td>Amazon EC2 is a cloud computing service that allows easy configuration and running of virtual servers in the Amazon cloud, scaling compute capacity vertically or horizontally based on your application needs, and paying only for the resources you use.</td>
-    </tr>
-    <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md">Lambda</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lambda.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/945f3fc449518a73b9f5f32868db466c-926961f91b072604c42b7f39ce2eaf1c.svg" /></a></td>
-     <td>AWS Lambda is a serverless service that allows for code execution in response to events, without the need for server management.</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md">S3</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/S3.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/c0828e0381730befd1f7a025057c74fb-43acc0496e64afba82dbc9ab774dc622.svg" /></a></td>
+     <td>Amazon S3 is a highly scalable and durable object storage service from AWS, designed to store and retrieve massive amounts of data from anywhere on the web.</td>
    </tr>
     <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md">ElasticBeanstalk</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/ElasticBeanstalk.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/d43b67a293d39d11b046bd1813c804cb-4bc0ce71c93950e1ad695b25a4f1d4b5.svg" /></a></td>
-     <td>Elastic Beanstalk is an AWS-managed service that simplifies the deployment and scalability of web applications quickly and easily.</td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSSnowFamily.md">AWS SnowFamily</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSSnowFamily.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/316ccf80948adeaa0b9fc5863fa2e5d0-041cc4f719216c8b7fab8dd1d41f41e0.svg" /></a>      </td>
+     <td>The tools in the AWSSnowFamily theme facilitate offline data movement and processing, ensuring seamless delivery for massive datasets.</td>
    </tr>
- </table>
-
-- <img src="https://thumbs2.imgbox.com/47/60/PNaM3eXz_t.png" alt="Storage" width="40" height="40"> Storage (3/7)
-  - S3
-  - AWS SnowFamily
-  - AWS StorageGateway
+   <tr align="center">
+      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSStorageGateway.md">AWS StorageGateway</a></td>
+      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSStorageGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6e57963f170fcf163d7a0362ab3aa560-475c7af9547c560c673fa2266ae7f440.svg" /></a></td>
+       <td>Proficient in implementing and managing Storage Gateway solutions to seamlessly integrate on-premises environments with cloud storage, optimizing data transfer and access. Skilled in configuring and troubleshooting Storage Gateway configurations for efficient and reliable data storage solutions.</td>
+   </tr>
+    <table/>
 - <img src="https://thumbs2.imgbox.com/1b/15/XwlZ3v2v_t.png" alt="Networking & Content Delivery" width="40" height="40"> Networking & Content Delivery (4/10)
   - VPC
   - CloudFront
