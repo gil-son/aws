@@ -174,7 +174,7 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
 
 <tr align="center">
      <td>Analycts</td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md">AWS Glue</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md"></a></td>
      <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="60%" /></a></td>
      <td>Fully managed ETL service. Simplifies data preparation, integration, and transformation. Enables seamless data loading for analytics in AWS ecosystem.</td>
  </tr>
@@ -346,7 +346,19 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
         </tr>
       </table>
   - <img src="https://thumbs2.imgbox.com/c9/28/i8xe96iT_t.png" alt="Analytics" width="40" height="40"> Analytics (1/19)
-    - AWS Glue
+     <hr>
+      <table>
+        <tr align="center">
+            <td>Resource</td>
+            <td>img</td>
+            <td>Info</td>
+        </tr>
+        <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md">AWS Glue</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="25%" /></a></td>
+         <td>Fully managed ETL service. Simplifies data preparation, integration, and transformation. Enables seamless data loading for analytics in AWS ecosystem.</td>
+       </tr>
+    </table>
   - <img src="https://thumbs2.imgbox.com/16/5c/Irs3F10Z_t.png" alt="Machine Learning" width="40" height="40"> Machine Learning (7/29)
     - Transcribe
     - Polly
