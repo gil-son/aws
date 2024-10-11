@@ -360,13 +360,49 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
        </tr>
     </table>
   - <img src="https://thumbs2.imgbox.com/16/5c/Irs3F10Z_t.png" alt="Machine Learning" width="40" height="40"> Machine Learning (7/29)
-    - Transcribe
-    - Polly
-    - Comprehend
-    - Kendra
-    - Textract
-    - Translate
-    - Lex
+     <hr>
+      <table>
+        <tr align="center">
+            <td>Resource</td>
+            <td>img</td>
+            <td>Info</td>
+        </tr>
+       <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Transcribe.md">Transcribe</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Transcribe.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/762bf9a0fc087fbb4ba021a3cee6edaf-2578b25de7cbb06633f39903ccc90d08.svg" /></a></td>
+           <td>AWS Transcribe is an automatic speech recognition (ASR) service that converts spoken language into text, enabling transcription of audio and video files for various applications. It supports real-time and batch processing with features like speaker identification and custom vocabulary.</td>
+        </tr>
+        <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Polly.md">Polly</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Polly.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8ca4245f09e5a6ecf058c15cca9ac9b6-4a6ec5b037b363b8f33064d09d4f40ab.svg" /></a></td>
+           <td>Amazon Polly is a text-to-speech service that uses advanced deep learning technologies to convert written text into natural-sounding speech, supporting multiple languages and voices for various use cases like application accessibility and media content.</td>
+       </tr>
+       <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Comprehend.md">Comprehend</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Comprehend.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/482863db6bbcbe5d42b2c38fc881497d-595c830f25109d745525de43d97fe7a9.svg" /></a></td>
+           <td>Amazon Comprehend is a natural language processing (NLP) service that uses machine learning to extract insights from text, such as entity recognition, sentiment analysis, and topic classification. It helps analyze large volumes of textual data to improve decision-making and operational efficiency.</td>
+       </tr>
+       <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Kendra.md">Kendra</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Kendra.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/a9ab7ffabee2fd02cfeb90fa2c01a7fd-721a0b96fe52c46786b1ff711999c730.svg" /></a></td>
+           <td>Amazon Kendra is an AWS service that offers intelligent search capabilities for enterprise data. It uses machine learning to deliver highly accurate and relevant search results across various data sources and formats.</td>
+       </tr> 
+      <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Textract.md">Textract</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Textract.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0121e707af85a4b5d571de33104d5ac1-b655f8b189e18898d77c2e95627a589b.svg" /></a></td>
+           <td>AWS Textract is a machine learning service that automatically extracts text and data from documents, going beyond OCR by capturing structured data like tables and forms. It helps organizations streamline document processing, reduce manual data entry, and improve accuracy in extracting valuable information from complex documents.</td>
+     </tr>
+      <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Translate.md">Translate</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Translate.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fc46e26a907870744758b76166150f62-76c22bfd03882310f44da5a6a9590864.svg" /></a></td>
+           <td>A fully managed neural machine translation service that provides fast, high-quality, and affordable language translation for a wide variety of content types. Ideal for applications requiring real-time or batch translation, supporting multiple languages and enabling localization of content.</td>
+       </tr>
+       <tr align="center">
+        <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lex.md">Lex</a></td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Lex.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/16660b27a03cc547adc54a269bc4a69e-7d762d8739de54214018a7d757540c79.svg" /></a></td>
+        <td>AWS Lex is a service for building conversational interfaces using voice and text, powered by the same technology as Amazon Alexa, enabling developers to create chatbots and virtual assistants.</td>
+      </tr>
+    </table>
   - <img src="https://thumbs2.imgbox.com/56/87/tWtOvjHB_t.png" alt="Management & Governance" width="40" height="40"> Management & Governance (1/27)
     - CloudWatch
   - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (0/14)
