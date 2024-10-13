@@ -404,7 +404,19 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
       </tr>
     </table>
   - <img src="https://thumbs2.imgbox.com/56/87/tWtOvjHB_t.png" alt="Management & Governance" width="40" height="40"> Management & Governance (1/27)
-    - CloudWatch
+     <hr>
+      <table>
+        <tr align="center">
+            <td>Resource</td>
+            <td>img</td>
+            <td>Info</td>
+        </tr>
+        <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md">CloudWatch</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
+         <td>CloudWatch is an AWS monitoring and observability service that allows you to collect, store, visualize, and alert on real-time log and metric data for cloud resources.</td>
+       </tr>
+    </table>
   - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (0/14)
   - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Application Integration" width="40" height="40"> Application Integration (1/9)
     - API Gateway
