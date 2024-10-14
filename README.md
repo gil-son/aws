@@ -419,7 +419,19 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
     </table>
   - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (0/14)
   - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Application Integration" width="40" height="40"> Application Integration (1/9)
-    - API Gateway
+    <hr>
+    <table>
+       <tr align="center">
+           <td>Resource</td>
+           <td>img</td>
+           <td>Info</td>
+      </tr> 
+    <tr align="center">
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md">API Gateway</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/english-us/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
+     <td>Amazon API Gateway is a powerful AWS tool that enables developers to securely and scalably create, publish, monitor, and manage APIs, facilitating integration between different services and applications.</td>
+     </tr>
+    </table>
   - <img src="https://thumbs2.imgbox.com/27/97/8m67EJTG_t.png" alt="Front-end Web & Mobile" width="40" height="40"> Front-end Web & Mobile (0/4)
   - <img src="https://thumbs2.imgbox.com/1b/7a/pE5Ap4nv_t.png" alt="Containers" width="40" height="40"> Containers (0/4)
   - <img src="https://thumbs2.imgbox.com/af/16/N9EvPFcD_t.png" alt="Migration & Transfer" width="40" height="40"> Migration & Transfer (0/8)
