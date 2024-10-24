@@ -375,23 +375,23 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
              <td>img</td>
              <td>Info</td>
         <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/VPC.md">VPC</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md">VPC</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/VPC.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/74f8d03e857091589308684a506ba915-4d9c246d4283a8c3150cf0aa442dec10.svg" /></a></td>
            <td>A VPC (Virtual Private Cloud) é um ambiente de rede virtual na nuvem que fornece espaço isolado e privado para recursos. Oferece controle sobre a configuração da rede, incluindo faixas de endereços IP, sub-redes e configurações de segurança, facilitando a implantação segura e escalável de aplicações e serviços.</td>
        </tr>
        <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/AmazonCloudFront.md">CloudFront</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="55%"/></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md">CloudFront</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AmazonCloudFront.md"><img src="https://thumbs2.imgbox.com/23/62/A66Gl0Cp_t.png" width="55%"/></a></td>
          <td>A AWS CloudFront é um serviço rápido de rede de entrega de conteúdo (CDN) que entrega dados, vídeos, aplicações e APIs de forma segura em todo o mundo com baixa latência e altas velocidades de transferência. Integra-se perfeitamente com outros serviços da AWS para melhorar o desempenho e a segurança.</td>
        </tr>
         <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Route53.md">Route 53</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Route53.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg" /></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Route53.md">Route 53</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Route53.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f5d2c00d40914bff4f82f29f9ef768bc-53a84099cf556710383a52b4612a8612.svg" /></a></td>
          <td>O Amazon Route 53 é o sistema de nomes de domínio (DNS) e serviço de rede de entrega de conteúdo (CDN) da AWS, fornecendo registro de domínio, resolução de DNS e roteamento de tráfego para otimizar a disponibilidade e o desempenho de aplicações na internet.</td>
        </tr>
       <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/LoadBalancer.md">Balanceador de Carga</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/LoadBalancer.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/7177e919b32ad97825f95e902595014b-1594766d92813b5baeb706c453f91de0.svg" /></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/LoadBalancer.md">Balanceador de Carga</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/LoadBalancer.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/7177e919b32ad97825f95e902595014b-1594766d92813b5baeb706c453f91de0.svg" /></a></td>
          <td>O balanceamento de carga otimiza a distribuição de recursos, garantindo desempenho eficiente e confiável ao distribuir o tráfego de rede de entrada entre vários servidores ou recursos.</td>
        </tr>
     <table/>
@@ -404,13 +404,13 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
             <td>Info</td>
         </tr>
         <tr align="center">
-       <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/DynamoDB.md">DynamoDB</a></td>
-       <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md">DynamoDB</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/DynamoDB.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/6f419a45e63123b4c16bd679549610f6-87862c68693445999110bbd6a467ce88.svg" /></a></td>
        <td>O DynamoDB é um serviço de banco de dados NoSQL totalmente gerenciado, altamente escalável, flexível e de alto desempenho.</td>
       </tr>
       <tr align="center">
-       <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/RDS.md">RDS</a></td>
-       <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/RDS.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg" /></a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/RDS.md">RDS</a></td>
+       <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/RDS.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1d374ed2a6bcf601d7bfd4fc3dfd3b5d-c9f69416d978016b3191175f35e59226.svg" /></a></td>
        <td>O Amazon RDS é um serviço de banco de dados em nuvem gerenciado que facilita a configuração, operação e escalabilidade de bancos de dados relacionais, como MySQL, PostgreSQL, Oracle, SQL Server, entre outros.</td>
      </tr>
   </table>
@@ -423,13 +423,13 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
             <td>Info</td>
         </tr>
         <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/IAM.md">IAM</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md">IAM</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/IAM.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0ebc580ae6450fce8762fad1bff32e7b-0841c1f0e7c5788b88d07a7dbcaceb6e.svg" /></a></td>
          <td>O AWS IAM é um serviço de gerenciamento de identidade e acesso que permite controlar o acesso aos recursos da AWS por usuários e aplicações.</td>
         </tr>
         <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Macie.md">Macie</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Macie.md">Macie</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Macie.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/433463d9b34c9b0b655eb325d5f0ebce-bb33021b98aec6dc842de83ef649969e.svg" /></a></td>
          <td>O Amazon Macie é um serviço de segurança de dados totalmente gerenciado que usa machine learning para descobrir, classificar e proteger automaticamente dados sensíveis na AWS, garantindo conformidade e aumentando a segurança dos dados.</td>
         </tr>
       </table>
@@ -443,8 +443,8 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
             <td>Info</td>
         </tr>
         <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/AWSGlue.md">AWS Glue</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="25%" /></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue.md">AWS Glue</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/AWSGlue.md"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFVmyCvjYqwBE1Od0HzgD-Us60WPPpWHfAU8SVxm-HaQ&s" width="25%" /></a></td>
          <td>Serviço de ETL totalmente gerenciado. Simplifica a preparação, integração e transformação de dados. Permite carregamento de dados contínuo para análises no ecossistema AWS.</td>
        </tr>
     </table>
@@ -457,38 +457,38 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
             <td>Info</td>
         </tr>
        <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Transcribe.md">Transcribe</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Transcribe.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/762bf9a0fc087fbb4ba021a3cee6edaf-2578b25de7cbb06633f39903ccc90d08.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Transcribe.md">Transcribe</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Transcribe.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/762bf9a0fc087fbb4ba021a3cee6edaf-2578b25de7cbb06633f39903ccc90d08.svg" /></a></td>
            <td>O AWS Transcribe é um serviço de reconhecimento automático de fala (ASR) que converte linguagem falada em texto, permitindo a transcrição de arquivos de áudio e vídeo para diversas aplicações. Suporta processamento em tempo real e por lote, com recursos como identificação de locutor e vocabulário personalizado.</td>
         </tr>
         <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Polly.md">Polly</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Polly.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8ca4245f09e5a6ecf058c15cca9ac9b6-4a6ec5b037b363b8f33064d09d4f40ab.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Polly.md">Polly</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Polly.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8ca4245f09e5a6ecf058c15cca9ac9b6-4a6ec5b037b363b8f33064d09d4f40ab.svg" /></a></td>
            <td>O Amazon Polly é um serviço de conversão de texto em fala que usa tecnologias avançadas de deep learning para converter texto escrito em fala natural, suportando vários idiomas e vozes para diferentes casos de uso, como acessibilidade de aplicativos e conteúdo de mídia.</td>
        </tr>
        <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Comprehend.md">Comprehend</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Comprehend.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/482863db6bbcbe5d42b2c38fc881497d-595c830f25109d745525de43d97fe7a9.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Comprehend.md">Comprehend</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Comprehend.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/482863db6bbcbe5d42b2c38fc881497d-595c830f25109d745525de43d97fe7a9.svg" /></a></td>
            <td>O Amazon Comprehend é um serviço de processamento de linguagem natural (NLP) que usa machine learning para extrair insights de textos, como reconhecimento de entidades, análise de sentimentos e classificação de tópicos. Ele ajuda a analisar grandes volumes de dados textuais para melhorar a tomada de decisões e a eficiência operacional.</td>
        </tr>
        <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Kendra.md">Kendra</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Kendra.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/a9ab7ffabee2fd02cfeb90fa2c01a7fd-721a0b96fe52c46786b1ff711999c730.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Kendra.md">Kendra</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Kendra.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/a9ab7ffabee2fd02cfeb90fa2c01a7fd-721a0b96fe52c46786b1ff711999c730.svg" /></a></td>
            <td>O Amazon Kendra é um serviço da AWS que oferece capacidades de busca inteligente para dados empresariais. Utiliza machine learning para fornecer resultados de busca altamente precisos e relevantes em várias fontes e formatos de dados.</td>
        </tr> 
       <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Textract.md">Textract</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Textract.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0121e707af85a4b5d571de33104d5ac1-b655f8b189e18898d77c2e95627a589b.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Textract.md">Textract</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Textract.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/0121e707af85a4b5d571de33104d5ac1-b655f8b189e18898d77c2e95627a589b.svg" /></a></td>
            <td>O AWS Textract é um serviço de machine learning que extrai automaticamente texto e dados de documentos, indo além do OCR ao capturar dados estruturados como tabelas e formulários. Ajuda as organizações a simplificar o processamento de documentos, reduzir a entrada manual de dados e melhorar a precisão na extração de informações valiosas de documentos complexos.</td>
      </tr>
       <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Translate.md">Translate</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Translate.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fc46e26a907870744758b76166150f62-76c22bfd03882310f44da5a6a9590864.svg" /></a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Translate.md">Translate</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Translate.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fc46e26a907870744758b76166150f62-76c22bfd03882310f44da5a6a9590864.svg" /></a></td>
            <td>Um serviço de tradução automática neural totalmente gerenciado que oferece tradução de idiomas rápida, de alta qualidade e acessível para uma ampla variedade de tipos de conteúdo. Ideal para aplicações que exigem tradução em tempo real ou por lote, suportando vários idiomas e permitindo a localização de conteúdo.</td>
        </tr>
        <tr align="center">
-        <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Lex.md">Lex</a></td>
-        <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/Lex.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/16660b27a03cc547adc54a269bc4a69e-7d762d8739de54214018a7d757540c79.svg" /></a></td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lex.md">Lex</a></td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Lex.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/16660b27a03cc547adc54a269bc4a69e-7d762d8739de54214018a7d757540c79.svg" /></a></td>
         <td>O AWS Lex é um serviço para construir interfaces conversacionais usando voz e texto, alimentado pela mesma tecnologia da Amazon Alexa, permitindo que desenvolvedores criem chatbots e assistentes virtuais.</td>
       </tr>
     </table>
@@ -501,8 +501,8 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
             <td>Info</td>
         </tr>
         <tr align="center">
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/CloudWatch.md">CloudWatch</a></td>
-         <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudWatch.md">CloudWatch</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudWatch.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/8f57ebd825a828e205b2dde223ba17e4-6af63a22dc297f8041286760ee8cd2c9.svg" /></a></td>
          <td>O CloudWatch é um serviço de monitoramento e observabilidade da AWS que permite coletar, armazenar, visualizar e criar alertas em tempo real com dados de logs e métricas de recursos em nuvem.</td>
        </tr>
     </table>
@@ -516,8 +516,8 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
            <td>Info</td>
       </tr> 
     <tr align="center">
-     <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/APIGateway.md">API Gateway</a></td>
-     <td><a href="https://github.com/gil-son/aws/blob/main/portuguese-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md">API Gateway</a></td>
+     <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/APIGateway.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/fb0cde6228b21d89ec222b45efec54e7-0856e92285f4e7ed254b2588d1fe1829.svg" /></a></td>
      <td>O Amazon API Gateway é uma poderosa ferramenta da AWS que permite aos desenvolvedores criar, publicar, monitorar e gerenciar APIs de maneira segura e escalável, facilitando a integração entre diferentes serviços e aplicações.</td>
      </tr>
     </table>
