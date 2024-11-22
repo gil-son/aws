@@ -240,6 +240,21 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
        </tr>
     </table>
   - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (0/14)
+   <hr>
+      <table>
+        <tr align="center">
+            <td>Resource</td>
+            <td>img</td>
+            <td>Info</td>
+        </tr>
+        <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeCommit.md">CodeCommit</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeCommit.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f302aa78eafe713bb278e61ef3f29ef9-1901ceb3d0fa4648fa6ac2e2aa8559ed.svg" /></a></td>
+         <td>AWS CodeCommit is a fully managed source control service that hosts secure Git repositories, enabling teams to store, manage, and collaborate on code. It integrates seamlessly with AWS services, supports automation, and ensures high availability with encryption for secure access.</td>
+       </tr>
+    </table>
+
+  
   - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Application Integration" width="40" height="40"> Application Integration (1/9)
     <hr>
     <table>
@@ -507,6 +522,20 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
        </tr>
     </table>
 - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Ferramentas para Desenvolvedores" width="40" height="40"> Ferramentas para Desenvolvedores (0/14)
+   <hr>
+      <table>
+        <tr align="center">
+            <td>Resource</td>
+            <td>img</td>
+            <td>Info</td>
+        </tr>
+        <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeCommit.md">CodeCommit</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeCommit.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f302aa78eafe713bb278e61ef3f29ef9-1901ceb3d0fa4648fa6ac2e2aa8559ed.svg" /></a></td>
+         <td>O AWS CodeCommit é um serviço de controle de versão totalmente gerenciado que hospeda repositórios Git seguros, permitindo que equipes armazenem, gerenciem e colaborem em código. Ele se integra perfeitamente aos serviços da AWS, oferece suporte à automação e garante alta disponibilidade com criptografia para acesso seguro.</td>
+       </tr>
+    </table>
+
 - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Integração de Aplicações" width="40" height="40"> Integração de Aplicações (1/9)
     <hr>
     <table>
