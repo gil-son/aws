@@ -252,6 +252,11 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeCommit.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f302aa78eafe713bb278e61ef3f29ef9-1901ceb3d0fa4648fa6ac2e2aa8559ed.svg" /></a></td>
          <td>AWS CodeCommit is a fully managed source control service that hosts secure Git repositories, enabling teams to store, manage, and collaborate on code. It integrates seamlessly with AWS services, supports automation, and ensures high availability with encryption for secure access.</td>
        </tr>
+       <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeBuild.md">CodeBuild</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeBuild.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/13ee531096ccb4384d55f6b7cc66572b-9f8463d77a472721923c47b01f973d59.svg" /></a></td>
+         <td>AWS CodeBuild is a fully managed CI/CD service that compiles source code, runs tests, and produces software packages, scaling automatically without needing to manage servers. It integrates seamlessly with AWS tools and supports popular build environments.</td>
+       </tr>
     </table>
 
   
@@ -533,6 +538,11 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeCommit.md">CodeCommit</a></td>
          <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeCommit.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/f302aa78eafe713bb278e61ef3f29ef9-1901ceb3d0fa4648fa6ac2e2aa8559ed.svg" /></a></td>
          <td>O AWS CodeCommit é um serviço de controle de versão totalmente gerenciado que hospeda repositórios Git seguros, permitindo que equipes armazenem, gerenciem e colaborem em código. Ele se integra perfeitamente aos serviços da AWS, oferece suporte à automação e garante alta disponibilidade com criptografia para acesso seguro.</td>
+       </tr>
+       <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeBuild.md">CodeBuild</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeBuild.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/13ee531096ccb4384d55f6b7cc66572b-9f8463d77a472721923c47b01f973d59.svg" /></a></td>
+         <td>O AWS CodeBuild é um serviço de CI/CD totalmente gerenciado que compila código-fonte, executa testes e gera pacotes de software, escalando automaticamente sem necessidade de gerenciar servidores. Ele se integra facilmente com ferramentas da AWS e suporta ambientes de build populares.</td>
        </tr>
     </table>
 
