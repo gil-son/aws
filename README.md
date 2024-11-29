@@ -589,6 +589,6 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
 </details>
 
 <div align="center">
-  <img src="https://svgshare.com/i/13cG.svg" width="25%">
+  <img src="https://pouch.jumpshare.com/preview/7bwPmfk2J8bvdko4KfK7L85DRaLc6FT6PZrDGKYsyI6G02M-Uxp44yYw8hOM9wVJoeFZ5on3XF6XMkxdZ3mXB6Jb-hIV6y1Y1x5x2F2vxAA">
 </div>
 
