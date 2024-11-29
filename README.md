@@ -239,7 +239,7 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td>CloudWatch is an AWS monitoring and observability service that allows you to collect, store, visualize, and alert on real-time log and metric data for cloud resources.</td>
        </tr>
     </table>
-  - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (0/14)
+  - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (3/14)
    <hr>
       <table>
         <tr align="center">
@@ -256,6 +256,11 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeBuild.md">CodeBuild</a></td>
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeBuild.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/13ee531096ccb4384d55f6b7cc66572b-9f8463d77a472721923c47b01f973d59.svg" /></a></td>
          <td>AWS CodeBuild is a fully managed CI/CD service that compiles source code, runs tests, and produces software packages, scaling automatically without needing to manage servers. It integrates seamlessly with AWS tools and supports popular build environments.</td>
+       </tr>
+      <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodePipeline.md">CodePipeline</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodePipeline.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/59874d8b5a9e702e16641126cc15e561-8137f94920dd8639de205d20e8e72ad6.svg" /></a></td>
+         <td>AWS CodePipeline is a fully managed CI/CD service that automates build, test, and deployment workflows for rapid and reliable application updates. It integrates with various AWS services and third-party tools for seamless delivery pipelines.</td>
        </tr>
     </table>
 
@@ -526,7 +531,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td>O CloudWatch é um serviço de monitoramento e observabilidade da AWS que permite coletar, armazenar, visualizar e criar alertas em tempo real com dados de logs e métricas de recursos em nuvem.</td>
        </tr>
     </table>
-- <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Ferramentas para Desenvolvedores" width="40" height="40"> Ferramentas para Desenvolvedores (0/14)
+- <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Ferramentas para Desenvolvedores" width="40" height="40"> Ferramentas para Desenvolvedores (3/14)
    <hr>
       <table>
         <tr align="center">
@@ -544,8 +549,12 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeBuild.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/13ee531096ccb4384d55f6b7cc66572b-9f8463d77a472721923c47b01f973d59.svg" /></a></td>
          <td>O AWS CodeBuild é um serviço de CI/CD totalmente gerenciado que compila código-fonte, executa testes e gera pacotes de software, escalando automaticamente sem necessidade de gerenciar servidores. Ele se integra facilmente com ferramentas da AWS e suporta ambientes de build populares.</td>
        </tr>
+      <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodePipeline.md">CodePipeline</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodePipeline.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/59874d8b5a9e702e16641126cc15e561-8137f94920dd8639de205d20e8e72ad6.svg" /></a></td>
+         <td>O AWS CodePipeline é um serviço gerenciado de CI/CD que automatiza fluxos de trabalho de build, teste e implantação para atualizações rápidas e confiáveis de aplicações. Ele se integra a diversos serviços da AWS e ferramentas de terceiros para pipelines de entrega contínua.</td>
+       </tr>
     </table>
-
 - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Integração de Aplicações" width="40" height="40"> Integração de Aplicações (1/9)
     <hr>
     <table>
