@@ -267,6 +267,11 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/Cloud9.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1a4ec26b6d36503c5b00ae9769d17687-647b27ff27670c1627a1e146f9c557ab.svg" /></a></td>
          <td>AWS Cloud9 is a cloud-based integrated development environment (IDE) that supports multiple programming languages. It provides tools for coding, debugging, and running applications directly from a browser, integrated with AWS services.</td>
        </tr>
+      <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudShell.md">CloudShell</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudShell.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/eb41a287e2011f27d4764844cec7067d-4af6e7aafabe7dd06d94ca592d94ee35.svg" /></a></td>
+         <td>AWS CloudShell is a browser-based shell environment for managing AWS resources using the AWS CLI, scripting, and automation tools. It provides 1 GB persistent storage per region, pre-installed CLI tools, and secure access without needing local configuration.</td>
+      </tr>
     </table>
 
   
@@ -563,6 +568,11 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Cloud9.md">Cloud9</a></td>
          <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/Cloud9.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/1a4ec26b6d36503c5b00ae9769d17687-647b27ff27670c1627a1e146f9c557ab.svg" /></a></td>
          <td>O AWS Cloud9 é um ambiente de desenvolvimento integrado (IDE) baseado em nuvem que suporta várias linguagens de programação. Ele fornece ferramentas para codificação, depuração e execução de aplicações diretamente de um navegador, integrado com os serviços da AWS.</td>
+       </tr>
+       <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudShell.md">CloudShell</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudShell.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/eb41a287e2011f27d4764844cec7067d-4af6e7aafabe7dd06d94ca592d94ee35.svg" /></a></td>
+         <td>AWS CloudShell é um ambiente de terminal baseado em navegador para gerenciar recursos da AWS usando o AWS CLI, scripts e ferramentas de automação. Ele oferece 1 GB de armazenamento persistente por região, ferramentas de CLI pré-instaladas e acesso seguro sem necessidade de configuração local.</td>
        </tr>
     </table>
 - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Integração de Aplicações" width="40" height="40"> Integração de Aplicações (1/9)
