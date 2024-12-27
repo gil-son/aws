@@ -272,6 +272,11 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CloudShell.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/eb41a287e2011f27d4764844cec7067d-4af6e7aafabe7dd06d94ca592d94ee35.svg" /></a></td>
          <td>AWS CloudShell is a browser-based shell environment for managing AWS resources using the AWS CLI, scripting, and automation tools. It provides 1 GB persistent storage per region, pre-installed CLI tools, and secure access without needing local configuration.</td>
       </tr>
+      <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/X-Ray.md">X-Ray</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/X-Ray.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/32599e5387251a477e16894dca7417bf-86e0d8e9d79a1de9db3d29757776e420.svg" /></a></td>
+         <td>AWS X-Ray is a service that provides end-to-end tracing and analysis of distributed applications, allowing you to monitor performance, identify bottlenecks, and troubleshoot issues. It collects data from services, visualizes the request flow, and helps optimize app performance.</td>
+      </tr>
     </table>
 
   
@@ -574,6 +579,11 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CloudShell.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/eb41a287e2011f27d4764844cec7067d-4af6e7aafabe7dd06d94ca592d94ee35.svg" /></a></td>
          <td>AWS CloudShell é um ambiente de terminal baseado em navegador para gerenciar recursos da AWS usando o AWS CLI, scripts e ferramentas de automação. Ele oferece 1 GB de armazenamento persistente por região, ferramentas de CLI pré-instaladas e acesso seguro sem necessidade de configuração local.</td>
        </tr>
+      <tr align="center">
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/X-Ray.md">X-Ray</a></td>
+           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/X-Ray.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/32599e5387251a477e16894dca7417bf-86e0d8e9d79a1de9db3d29757776e420.svg" /></a></td>
+           <td>AWS X-Ray é um serviço que oferece rastreamento de ponta a ponta e análise de aplicações distribuídas, permitindo monitorar o desempenho, identificar gargalos e solucionar problemas. Ele coleta dados de serviços, visualiza o fluxo de solicitações e ajuda a otimizar o desempenho das aplicações.</td>
+      </tr>
     </table>
 - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Integração de Aplicações" width="40" height="40"> Integração de Aplicações (1/9)
     <hr>
