@@ -239,7 +239,7 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td>CloudWatch is an AWS monitoring and observability service that allows you to collect, store, visualize, and alert on real-time log and metric data for cloud resources.</td>
        </tr>
     </table>
-  - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (3/14)
+  - <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Developer Tools" width="40" height="40"> Developer Tools (7/14)
    <hr>
       <table>
         <tr align="center">
@@ -276,6 +276,11 @@ In summary, AWS is like "a cloud tool store", where you rent only what you need 
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/X-Ray.md">X-Ray</a></td>
          <td><a href="https://github.com/gil-son/aws/blob/main/english-us/X-Ray.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/32599e5387251a477e16894dca7417bf-86e0d8e9d79a1de9db3d29757776e420.svg" /></a></td>
          <td>AWS X-Ray is a service that provides end-to-end tracing and analysis of distributed applications, allowing you to monitor performance, identify bottlenecks, and troubleshoot issues. It collects data from services, visualizes the request flow, and helps optimize app performance.</td>
+      </tr>
+      <tr align="center">
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeArtifact.md">CodeArtifact</a></td>
+         <td><a href="https://github.com/gil-son/aws/blob/main/english-us/CodeArtifact.md"><img src="https://a.b.cdn.console.awsstatic.com/a/v1/QSLQYHWNNMF6SQGGU3Q3YXCUZX6I3IONUYL55VXOSIV3POBNGFEQ/icon/b291609a77359753e9634a9886941d16-c66ffca8d44a017992d0b670866fc14f.svg" /></a></td>
+         <td>AWS CodeArtifact is a fully managed artifact repository service that simplifies storing, publishing, and sharing software packages securely. It supports multiple package formats, integrates with AWS services, and streamlines dependency management for development teams.</td>
       </tr>
     </table>
 
@@ -546,7 +551,7 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td>O CloudWatch é um serviço de monitoramento e observabilidade da AWS que permite coletar, armazenar, visualizar e criar alertas em tempo real com dados de logs e métricas de recursos em nuvem.</td>
        </tr>
     </table>
-- <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Ferramentas para Desenvolvedores" width="40" height="40"> Ferramentas para Desenvolvedores (3/14)
+- <img src="https://thumbs2.imgbox.com/47/b6/NVGD2zwy_t.png" alt="Ferramentas para Desenvolvedores" width="40" height="40"> Ferramentas para Desenvolvedores (7/14)
    <hr>
       <table>
         <tr align="center">
@@ -580,11 +585,16 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
          <td>AWS CloudShell é um ambiente de terminal baseado em navegador para gerenciar recursos da AWS usando o AWS CLI, scripts e ferramentas de automação. Ele oferece 1 GB de armazenamento persistente por região, ferramentas de CLI pré-instaladas e acesso seguro sem necessidade de configuração local.</td>
        </tr>
       <tr align="center">
-           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/X-Ray.md">X-Ray</a></td>
-           <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/X-Ray.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/32599e5387251a477e16894dca7417bf-86e0d8e9d79a1de9db3d29757776e420.svg" /></a></td>
-           <td>AWS X-Ray é um serviço que oferece rastreamento de ponta a ponta e análise de aplicações distribuídas, permitindo monitorar o desempenho, identificar gargalos e solucionar problemas. Ele coleta dados de serviços, visualiza o fluxo de solicitações e ajuda a otimizar o desempenho das aplicações.</td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/X-Ray.md">X-Ray</a></td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/X-Ray.md"><img src="https://d2q66yyjeovezo.cloudfront.net/icon/32599e5387251a477e16894dca7417bf-86e0d8e9d79a1de9db3d29757776e420.svg" /></a></td>
+        <td>AWS X-Ray é um serviço que oferece rastreamento de ponta a ponta e análise de aplicações distribuídas, permitindo monitorar o desempenho, identificar gargalos e solucionar problemas. Ele coleta dados de serviços, visualiza o fluxo de solicitações e ajuda a otimizar o desempenho das aplicações.</td>
       </tr>
-    </table>
+      <tr align="center">
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-b/CodeArtifact.md">CodeArtifact</a></td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-b/CodeArtifact.md"><img src="https://a.b.cdn.console.awsstatic.com/a/v1/QSLQYHWNNMF6SQGGU3Q3YXCUZX6I3IONUYL55VXOSIV3POBNGFEQ/icon/b291609a77359753e9634a9886941d16-c66ffca8d44a017992d0b670866fc14f.svg" /></a></td>
+        <td>O AWS CodeArtifact é um serviço de repositório de artefatos totalmente gerenciado que simplifica o armazenamento, publicação e compartilhamento seguro de pacotes de software. Ele suporta vários formatos de pacotes, integra-se com serviços da AWS e otimiza o gerenciamento de dependências para equipes de desenvolvimento.</td>
+    </tr>
+  </table>
 - <img src="https://thumbs2.imgbox.com/d8/3c/eEzI8xpZ_t.png" alt="Integração de Aplicações" width="40" height="40"> Integração de Aplicações (1/9)
     <hr>
     <table>
