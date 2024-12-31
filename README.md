@@ -590,8 +590,8 @@ Resumindo, a AWS é como "uma loja de ferramentas na nuvem", onde você aluga ap
         <td>AWS X-Ray é um serviço que oferece rastreamento de ponta a ponta e análise de aplicações distribuídas, permitindo monitorar o desempenho, identificar gargalos e solucionar problemas. Ele coleta dados de serviços, visualiza o fluxo de solicitações e ajuda a otimizar o desempenho das aplicações.</td>
       </tr>
       <tr align="center">
-        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-b/CodeArtifact.md">CodeArtifact</a></td>
-        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-b/CodeArtifact.md"><img src="https://a.b.cdn.console.awsstatic.com/a/v1/QSLQYHWNNMF6SQGGU3Q3YXCUZX6I3IONUYL55VXOSIV3POBNGFEQ/icon/b291609a77359753e9634a9886941d16-c66ffca8d44a017992d0b670866fc14f.svg" /></a></td>
+        <td><a href="">CodeArtifact</a></td>
+        <td><a href="https://github.com/gil-son/aws/blob/main/portugues-br/CodeArtifact.md"><img src="https://a.b.cdn.console.awsstatic.com/a/v1/QSLQYHWNNMF6SQGGU3Q3YXCUZX6I3IONUYL55VXOSIV3POBNGFEQ/icon/b291609a77359753e9634a9886941d16-c66ffca8d44a017992d0b670866fc14f.svg" /></a></td>
         <td>O AWS CodeArtifact é um serviço de repositório de artefatos totalmente gerenciado que simplifica o armazenamento, publicação e compartilhamento seguro de pacotes de software. Ele suporta vários formatos de pacotes, integra-se com serviços da AWS e otimiza o gerenciamento de dependências para equipes de desenvolvimento.</td>
     </tr>
   </table>
