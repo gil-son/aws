@@ -609,3 +609,16 @@ Isso consiste principalmente na capacidade de:
 <hr/>
 </details>
 
+<details><summary><h3>Videos</h3></summary>
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=D7WOpmqZ8qA" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/D7WOpmqZ8qA/hqdefault.jpg" alt="Watch Video"/>
+  </a>
+  <hr/>
+  <a href="https://www.youtube.com/watch?v=tKrwfHn9QrA" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi_webp/tKrwfHn9QrA/maxresdefault.webp" alt="Watch Video"/>
+  </a>
+</div>
+</details>
+
