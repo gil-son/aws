@@ -1,6 +1,6 @@
 Lambda
 <div align="center">
-  <img src="https://spiraldatagroup.com.au/wp-content/uploads/2019/04/aws-lambda-logo-png-transparent.png" width="25%">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*Kx0MunAnmkGYN-4AdXF2HQ.png" width="50%">
 </div>
 
 AWS Lambda is a serverless computing service that allows you to run code without the need to provision or manage servers. It enables you to create functions that respond to events, such as file uploads in S3, changes in Kinesis streams, or API requests from Amazon API Gateway. Lambda is scalable, reliable, and can be used for a variety of use cases, from real-time data processing to creating microservices for web applications.
@@ -36,4 +36,12 @@ Some best practices for using AWS Lambda include:
   <li>Use monitoring resources, such as CloudWatch Metrics and CloudWatch Logs, to monitor and analyze the performance and efficiency of Lambda functions</li>
   <li>Test and validate Lambda functions before deploying them to production</li>
 </ul>
+</details>
+
+<details><summary><h3>Video</h3></summary>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=3Ar1ABlD_Vs" target="_blank">
+      <img width="640" height="360" src="https://i.ytimg.com/vi/3Ar1ABlD_Vs/maxresdefault.jpg" alt="Watch Video" />
+  </a>
+</div>
 </details>
