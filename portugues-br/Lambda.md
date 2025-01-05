@@ -1,6 +1,6 @@
 Lambda
 <div align="center">
-  <img src="https://spiraldatagroup.com.au/wp-content/uploads/2019/04/aws-lambda-logo-png-transparent.png" width="25%">
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*Kx0MunAnmkGYN-4AdXF2HQ.png" width="50%">
 </div>
 
 O AWS Lambda é um serviço de computação serverless que permite executar código sem a necessidade de provisionar ou gerenciar servidores. Ele permite que você crie funções que respondem a eventos, como upload de arquivos no S3, alterações em streams do Kinesis ou solicitações de API do Gateway da API do Amazon. O Lambda é escalável, confiável e pode ser usado para uma variedade de casos de uso, desde processamento de dados em tempo real até a criação de microservices para aplicativos web.
@@ -37,4 +37,19 @@ Algumas boas práticas para o uso do AWS Lambda incluem:
   <li>Usar os recursos de monitoramento, como CloudWatch Metrics e CloudWatch Logs, para monitorar e analisar o desempenho e a eficiência da função Lambda</li>
   <li>Testar e validar as funções Lambda antes de implantá-las em produção</li>
 </ul>
+</details>
+
+
+<details><summary><h3>Videos</h3></summary>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=INHw_T8BMbc" target="_blank">
+      <img width="320" height="180" src="https://i.ytimg.com/vi/INHw_T8BMbc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAVh1TC3bRWqVYXmyWE0mFoszH8AA" alt="Watch Video" />
+  </a>
+</div>
+<hr/>
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=4Gu-jELbALA" target="_blank">
+      <img width="320" height="180" src="https://i.ytimg.com/vi/4Gu-jELbALA/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhK0C-NHnMTs73VcK-dk5_8IsezQ" alt="Watch Video" />
+  </a>
+</div>
 </details>
