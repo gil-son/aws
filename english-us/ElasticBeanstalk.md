@@ -41,3 +41,11 @@ Elastic Beanstalk allows you to upload your application's source code or artifac
   <li><b>Performance Optimization:</b> Perform performance tuning and optimization on your application and Elastic Beanstalk environment to ensure a fast and responsive user experience.</li>
 </ul>
 </details>
+
+<details><summary><h3>Video</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=2BoVhej0QVI" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi_webp/2BoVhej0QVI/maxresdefault.webp" alt="Watch Video" />
+    </a>
+ </div>
+</details>
