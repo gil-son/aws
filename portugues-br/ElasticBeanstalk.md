@@ -43,3 +43,12 @@ O Elastic Beanstalk permite que você faça o upload do código-fonte ou do arte
   <li><b>Otimização de desempenho:</b> Realize ajustes e otimizações de desempenho no seu aplicativo e ambiente Elastic Beanstalk para garantir uma experiência de usuário rápida e responsiva.</li>
 </ul>
 </details>
+
+<details><summary><h3>Video</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=tummFsxn5Tk" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi_webp/tummFsxn5Tk/maxresdefault.webp" alt="Watch Video" />
+    </a>
+ </div>
+</details>
+
