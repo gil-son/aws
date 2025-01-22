@@ -110,7 +110,13 @@ Common use cases for AWS Glue include:
 </details>
 
 
-
+<details><summary><h3>Video</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=dQnRP6X8QAU" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi_webp/dQnRP6X8QAU/maxresdefault.webp" alt="Watch Video" />
+    </a>
+  </div>
+</details>
 
 
 
