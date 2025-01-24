@@ -106,3 +106,17 @@ Casos de uso comuns para o AWS Glue incluem:
 - Análises em tempo real: Processamento e análise de dados em streaming em tempo real para obter insights.
 - Migração de dados: Movimentação de dados entre diferentes sistemas de armazenamento ou bancos de dados.  
 </details>
+
+<details><summary><h3>Videos</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=HlVOQ5eMUf8" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi/HlVOQ5eMUf8/maxresdefault.jpg" alt="Watch Video" />
+    </a>
+  </div>
+  <hr/>
+    <div align="center">
+    <a href="https://www.youtube.com/watch?v=eDzUaGyVoyI" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi_webp/eDzUaGyVoyI/maxresdefault.webp" alt="Watch Video" />
+    </a>
+  </div>
+</details>
