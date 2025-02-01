@@ -121,3 +121,11 @@ Common use cases for DynamoDB include:
 - Real-time analytics: Storing and analyzing high-velocity data streams.
 
 </details>
+
+<details><summary><h3>Video</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=2k2GINpO308" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi/2k2GINpO308/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAqnYKujXxN3z9i4KR1A8_OOkuuxw" alt="Watch Video" />
+    </a>
+  </div>
+</details>
