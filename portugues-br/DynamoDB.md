@@ -123,3 +123,15 @@ Os casos de uso comuns para o DynamoDB incluem:
 - Análises em tempo real: Armazenamento e análise de fluxos de dados de alta velocidade.
 
 </details>
+
+
+</details>
+<details><summary><h3>Video</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=NCOySd9B6bI" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi/NCOySd9B6bI/hq720.jpg" alt="Watch Video" />
+    </a>
+  </div>
+</details>
+
+
