@@ -76,3 +76,11 @@
   <li>Maintain clear documentation of your VPC configuration and network resources to facilitate management and issue resolution.</li>
 </ul>
 </details>
+
+<details><summary><h3>Video</h3></summary>
+  <div align="center">
+    <a href="https://www.youtube.com/watch?v=7_NNlnH7sAg" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi/7_NNlnH7sAg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA_vr6R2m8qWBZhJj3s_w92oqy6Uw" alt="Watch Video" />
+    </a>
+  </div>
+</details>
