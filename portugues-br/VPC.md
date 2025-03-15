@@ -77,3 +77,11 @@
   <li>Manter uma documentação clara da configuração de sua VPC e seus recursos de rede para facilitar a gestão e solução de problemas.</li>
 </ul>
 </details>
+
+<details><summary><h3>Video</h3></summary>  
+<div align="center">
+    <a href="https://www.youtube.com/watch?v=WMsADIgy4ms&t" target="_blank">
+        <img width="640" height="360" src="https://i.ytimg.com/vi/WMsADIgy4ms/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDOy7ru2eFrjPOCXaIThHDhjHpehA" alt="Watch Video" />
+    </a>
+  </div>
+</details>
